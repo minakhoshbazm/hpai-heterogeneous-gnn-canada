@@ -42,6 +42,16 @@ venv.bak/
 /models/
 /runs/
 *.log
+*.err
+*.out
+
+# Binary / Model artifacts
+*.pt
+*.pth
+*.pkl
+*.joblib
+*.sqlite
+*.db
 
 # Private QA Maps
 *private*
@@ -62,3 +72,7 @@ Thumbs.db
 
 # Config local overrides
 configs/local_override.yaml
+
+# Added for repository hygiene
+scratch/
+inspect_poultry.py
