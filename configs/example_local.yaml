@@ -1,0 +1,42 @@
+# Configuration for a local smoke test run
+# Uses subsetted data and runs on CPU
+
+project_name: "hpai_poultry_risk_local"
+random_seed: 42
+device: "cpu"
+
+paths:
+  raw_data_dir: "data/raw"
+  processed_data_dir: "data/processed"
+  output_dir: "outputs/local_test"
+  model_checkpoint_dir: "models/checkpoints"
+
+spatial:
+  # Unit choice: "census_division", "census_agricultural_region", or "province"
+  spatial_unit: "census_division" 
+  boundaries_path: "data/raw/boundaries/lcd_000b21a_e.shp"
+
+temporal:
+  start_year: 2021
+  end_year: 2022
+  prediction_lead_months: 1
+
+data_sources:
+  cfia_outbreaks: "data/raw/cfia_poultry_outbreaks.csv"
+  ebird_abundance: "data/raw/ebird_abundances_subset.csv"
+  road_network: "data/raw/roads/canadian_roads_subset.shp"
+  environmental: "data/raw/env_anomalies_subset.csv"
+
+model:
+  type: "hetero_gnn_lstm"  # Options: "tabular_xgboost", "spatial_gcn", "hetero_gnn", "hetero_gnn_lstm"
+  embedding_dim: 16
+  hidden_dim: 32
+  num_layers: 2
+  dropout: 0.1
+
+training:
+  epochs: 2
+  batch_size: 4
+  learning_rate: 0.005
+  weight_decay: 0.0001
+  early_stopping_patience: 2

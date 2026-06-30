@@ -1,0 +1,29 @@
+# Configuration for Phase 4: Stage 2 Homogeneous Spatial GNNs (GCN, GraphSAGE, GAT)
+# Fits models to forecast next-month outbreak risk using spatial contiguity.
+
+project_name: "hpai_spatial_gnn_stage2"
+random_seed: 42
+device: "cpu" # Options: "cpu" or "cuda"
+
+paths:
+  processed_data_dir: "data/processed"
+  output_dir: "outputs/gnn_baselines"
+
+spatial:
+  spatial_unit: "census_division"
+  boundaries_gpkg: "data/processed/boundaries/census_divisions_epsg3347.gpkg"
+  graph_type: "queen"
+  use_inverse_distance_weights: true
+
+model:
+  type: "SAGE" # Options: "GCN", "SAGE", "GAT"
+  hidden_channels: 32
+  num_layers: 2
+  dropout: 0.2
+  heads: 2 # Only used for GAT
+
+training:
+  epochs: 150
+  learning_rate: 0.005
+  weight_decay: 0.0005
+  early_stopping_patience: 20

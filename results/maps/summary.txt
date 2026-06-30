@@ -1,0 +1,7 @@
+Boundary Summary:
+Number of CD polygons: 293
+CRS: EPSG:4326
+Province column: province_name
+CD ID column: cd_uid
+CD Name column: cd_name
+Geometry validity count: 291 / 293

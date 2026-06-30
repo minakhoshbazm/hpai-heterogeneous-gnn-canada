@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data & Models (Local placeholders/downloads at root only)
+/data/
+/outputs/
+/models/
+/runs/
+*.log
+
+# Private QA Maps
+*private*
+*PRIVATE*
+
+# Credentials & Environment
+.env
+*.pem
+*.key
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Config local overrides
+configs/local_override.yaml

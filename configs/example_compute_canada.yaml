@@ -1,0 +1,58 @@
+# Configuration for a production-scale run on Compute Canada clusters
+# Employs full datasets and runs on CUDA GPUs
+
+project_name: "hpai_poultry_risk_compute_canada"
+random_seed: 42
+device: "cuda"
+
+paths:
+  # Using cluster scratch space for scratch outputs
+  raw_data_dir: "/scratch/mkhoshba/hpai/raw"
+  processed_data_dir: "/scratch/mkhoshba/hpai/processed"
+  output_dir: "/scratch/mkhoshba/hpai/outputs"
+  model_checkpoint_dir: "/project/6007518/mkhoshba/hpai/models"
+
+spatial:
+  # Primary target is Census Division
+  spatial_unit: "census_division" 
+  boundaries_path: "/scratch/mkhoshba/hpai/raw/boundaries/lcd_000b21a_e.shp"
+
+temporal:
+  start_year: 2015
+  end_year: 2026
+  prediction_lead_months: 1
+
+data_sources:
+  cfia_outbreaks: "/scratch/mkhoshba/hpai/raw/cfia_poultry_outbreaks_full.csv"
+  ebird_abundance: "/scratch/mkhoshba/hpai/raw/ebird/ebird_abundances_canada.parquet"
+  road_network: "/scratch/mkhoshba/hpai/raw/roads/canadian_road_network.gpkg"
+  environmental: "/scratch/mkhoshba/hpai/raw/gee/environmental_covariates.parquet"
+  cwhc_wild_surveillance: "/scratch/mkhoshba/hpai/raw/cwhc_wild_bird_hpai.csv"
+
+model:
+  type: "hetero_gnn_lstm"
+  embedding_dim: 64
+  hidden_dim: 128
+  num_layers: 3
+  dropout: 0.3
+  # Species nodes configuration
+  selected_species:
+    - "Mallard"
+    - "Canada Goose"
+    - "Snow Goose"
+    - "American Black Duck"
+    - "Northern Pintail"
+    - "Green-winged Teal"
+    - "Blue-winged Teal"
+    - "Tundra Swan"
+    - "Greater Scaup"
+    - "Lesser Scaup"
+    - "Northern Shoveler"
+
+training:
+  epochs: 100
+  batch_size: 32
+  learning_rate: 0.001
+  weight_decay: 0.0005
+  early_stopping_patience: 15
+  num_workers: 4

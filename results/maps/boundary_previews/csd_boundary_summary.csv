@@ -1,0 +1,20 @@
+Metric,Value
+Total CSD Polygons,5161
+CRS Used,EPSG:3347
+Valid Geometries Count,5107 / 5161
+Available ID Columns,CSDUID; DGUID
+Available Name Columns,CSDNAME; CSDTYPE
+Available Province Columns,PRUID
+CSD Count - Alberta,423
+CSD Count - British Columbia,751
+CSD Count - Manitoba,239
+CSD Count - New Brunswick,266
+CSD Count - Newfoundland and Labrador,372
+CSD Count - Northwest Territories,41
+CSD Count - Nova Scotia,95
+CSD Count - Nunavut,31
+CSD Count - Ontario,577
+CSD Count - Prince Edward Island,98
+CSD Count - Quebec,1282
+CSD Count - Saskatchewan,951
+CSD Count - Yukon,35
