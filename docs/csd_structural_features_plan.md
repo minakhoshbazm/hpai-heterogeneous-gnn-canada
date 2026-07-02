@@ -78,3 +78,18 @@ This document summarizes the accepted structural feature foundation for the HPAI
   * `source_province` / `target_province` (2-digit province codes)
   * `cross_province_edge` (boolean, `true` if edges cross provincial borders)
   * `adjacency_method` (`"spatial_contiguity"` or `"nearest_centroid"`)
+
+## 9. Static Node Feature Assembly
+* **Consolidation Goal:** Combine structural boundary metadata, parent-CCS agricultural poultry proxies, zonal GLW poultry densities, and NRN road/transport metrics into a single static node feature dataset (`csd_static_structural_features.csv`).
+* **Exclusions Policy:** To protect data privacy and model hygiene, the static feature table strictly excludes:
+  * Outbreak event labels or dates.
+  * Latitude/longitude coordinate fields.
+  * Raw shape geometries (only land area and lengths are preserved).
+  * Downstream model outputs or embeddings.
+* **Final Node Feature Schema (`csd_static_structural_features.csv`):**
+  * **Identifiers:** `csd_uid` (string, Primary Key), `csd_name`
+  * **Geographic Hierarchy:** `province_uid`, `province_name`, `ccs_uid`, `ccs_name`
+  * **Agricultural Proxies (CCS level):** `ccs_broilers_roasters_cornish_production_kg`, `ccs_broilers_roasters_cornish_farms_reporting`, `ccs_turkey_production_kg`, `ccs_turkey_farms_reporting`
+  * **GLW Zonal Density (birds/km²):** `glw2020_chicken_density_mean`, `glw2020_chicken_density_max`, `glw2020_chicken_density_p95`, `glw2015_duck_density_mean`, `glw2015_duck_density_max`, `glw2015_duck_density_p95`
+  * **Road & Transport Exposure (CSD level):** `csd_area_km2`, `all_road_length_km`, `all_road_density_km_per_km2`, `major_road_length_km`, `major_road_density_km_per_km2`, `highway_length_km`, `highway_density_km_per_km2`, `distance_to_nearest_major_road_km`, `distance_to_nearest_highway_km`, `major_road_proportion`, `highway_proportion`
+  * **QA Flags:** `glw2020_chicken_extraction_method`, `glw2020_chicken_valid_pixel_count`, `glw2015_duck_extraction_method`, `glw2015_duck_valid_pixel_count`, `road_data_coverage`, `small_area_flag`
