@@ -62,3 +62,19 @@ This document summarizes the accepted structural feature foundation for the HPAI
 ## 7. Data Privacy and Repository Integrity
 * **No Commits:** Do not commit raw CFIA data, exact coordinates, private coordinate-based mapping quality assurance charts, model weight checkpoints, or large raw datasets.
 * **Git Configuration:** Raw datasets remain explicitly ignored via `.gitignore`.
+
+## 8. CSD Spatial Adjacency Graph
+* **Necessity for Graph Models:** Spatial adjacency is required to construct edge indices for graph GNN models (e.g., Graph Convolutional Networks or Graph Attention Networks). Adjacency allows node features (poultry density, road density) to propagate via message passing across bordering subdivisions. Downstream graph loaders should duplicate undirected edges into both directions if required by the GNN library.
+* **Edge Definitions:**
+  * **Rook Adjacency:** CSDs share a boundary length $> 0$ meters.
+  * **Queen Adjacency:** CSDs touch at a point or boundary (shared boundary length $\ge 0$ meters).
+  * **Nearest Centroid Fallback:** Some individual island, coastal, or remote CSD polygons have no rook/queen contiguity neighbors in the boundary layer. These isolated CSDs are linked to the nearest CSD centroid using a flagged fallback edge. Nearest-centroid fallback edges are not equivalent to land-border adjacency. They are included only to avoid isolated graph nodes and must be identifiable through `edge_type='nearest_neighbor_fallback'` and `adjacency_method='nearest_centroid'`. The maximum fallback centroid distance is approximately 169.5 km, occurring in Nunavut, so fallback edges should be treated as weak/optional spatial links. Sensitivity analyses should compare models with and without fallback edges.
+* **Edge List Schema (`csd_adjacency_edges.csv`):**
+  * `source_csd_uid` (7-digit unique identifier of the source CSD)
+  * `target_csd_uid` (7-digit unique identifier of the target CSD)
+  * `edge_type` (`"rook"`, `"queen"`, or `"nearest_neighbor_fallback"`)
+  * `shared_boundary_length_m` (Shared boundary in meters, 0.0 if queen or fallback)
+  * `centroid_distance_km` (Distance in km between CSD centroids in `EPSG:3347`)
+  * `source_province` / `target_province` (2-digit province codes)
+  * `cross_province_edge` (boolean, `true` if edges cross provincial borders)
+  * `adjacency_method` (`"spatial_contiguity"` or `"nearest_centroid"`)
