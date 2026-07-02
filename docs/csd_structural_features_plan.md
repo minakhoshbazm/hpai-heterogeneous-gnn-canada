@@ -14,20 +14,26 @@ This document summarizes the accepted structural feature foundation for the HPAI
 * **Current Status:** All downstream modeling remains paused until structural and environmental feature layers are complete.
 
 ## 3. Road Network Features
-* **NRN Data Coverage:** National Road Network (NRN) ZIP files are downloaded and verified for all outbreak-affected provinces:
-  * British Columbia (BC)
-  * Alberta (AB)
-  * Ontario (ON)
-  * Quebec (QC)
-  * Saskatchewan (SK)
-  * Manitoba (MB)
-  * Nova Scotia (NS)
-  * Newfoundland & Labrador (NL)
-  * New Brunswick (NB)
-  * Prince Edward Island (PEI)
-* **Layer Availability:** The `ROADSEG` layer exists in each province's dataset.
-* **Attribute Schema:** The key columns `ROADCLASS` and `TRAFFICDIR` are available.
-* **Feature Extraction:** Road density and network features will be extracted geometrically using the projected Statistics Canada coordinate system **`EPSG:3347`** at a later stage.
+* **NRN Data Coverage:** National Road Network (NRN) ZIP files are downloaded, verified, and successfully processed for all outbreak-affected provinces (BC, AB, SK, MB, ON, QC, NB, NS, PEI, NL). Territory road ZIPs (Yukon (60), NWT (61), Nunavut (62)) were not processed. Territory CSDs are present in the output, but their road lengths/densities are set to `0.0` and centroid distances are `NaN`.
+* **Feature Extraction Methodology:**
+  * **Lengths:** Computed by intersecting (splitting) the `ROADSEG` line geometries with CSD polygons in the projected Statistics Canada coordinate system **`EPSG:3347`**.
+  * **Distances:** Shortest distance from the CSD centroid to the nearest major road or highway segment in the province, computed using spatial indexing in **`EPSG:3347`**.
+  * **Area Sensitivity Flag:** Very small CSDs (e.g., land area < 1.0 km²) can produce extremely high road-density ratios. These are flagged with `small_area_flag` so they can be considered in sensitivity analysis.
+* **Output Schema (`csd_road_features.csv`):**
+  * `csd_uid` (Primary Key, e.g., `"3520005"`)
+  * `csd_area_km2` (CSD land area in km² computed from `EPSG:3347`)
+  * `all_road_length_km` (Total length in km of all roads in the CSD)
+  * `all_road_density_km_per_km2` (Ratio of total road length to CSD area)
+  * `major_road_length_km` (Total length in km of major roads)
+  * `major_road_density_km_per_km2` (Ratio of major road length to CSD area)
+  * `highway_length_km` (Total length in km of highways)
+  * `highway_density_km_per_km2` (Ratio of highway road length to CSD area)
+  * `distance_to_nearest_major_road_km` (Shortest distance from CSD centroid to the nearest major road segment in the province)
+  * `distance_to_nearest_highway_km` (Shortest distance from CSD centroid to the nearest highway segment in the province)
+  * `major_road_proportion` (Ratio of major road length to total road length)
+  * `highway_proportion` (Ratio of highway length to total road length)
+  * `road_data_coverage` (QA Column: `"processed"` for target provinces, `"not_processed_territory"` for Yukon, NWT, Nunavut)
+  * `small_area_flag` (QA Column: boolean, `true` if `csd_area_km2 < 1.0` else `false`)
 
 ## 4. Poultry Exposure (Census of Agriculture)
 * **StatCan Table:** Statistics Canada Table 32-10-0375-01 has been downloaded and inspected.
