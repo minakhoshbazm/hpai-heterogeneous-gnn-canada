@@ -120,5 +120,30 @@ class TestPrepareCsdBoundaryAsset(unittest.TestCase):
             )
         self.assertIn("Missing required source columns", str(cm.exception))
 
-if __name__ == "__main__":
-    unittest.main()
+    def test_missing_optional_prname_succeeds(self):
+        """When PRNAME is absent, script should still succeed and create empty province_name."""
+        polys = [Polygon([(0, 0), (1, 0), (1, 1), (0, 1)])]
+        data = {
+            "CSDUID": ["001"],
+            "CSDNAME": ["A"],
+            "PRUID": ["01"],
+            # PRNAME intentionally omitted
+            "FORBIDDEN": [1],
+            "geometry": polys,
+        }
+        gdf = gpd.GeoDataFrame(data, crs="EPSG:4326")
+        gdf.to_file(self.input_shp)
+        prepare_csd_boundary_asset(
+            input_shp=self.input_shp,
+            output_geojson=self.output_geojson,
+            expected_rows=1,
+        )
+        out_gdf = gpd.read_file(self.output_geojson)
+        self.assertIn("province_name", out_gdf.columns)
+        self.assertEqual(out_gdf["province_name"].iloc[0], "")
+        # Verify required columns are present
+        expected_cols = {"csd_uid", "csd_name", "province_uid", "province_name", "geometry"}
+        self.assertEqual(set(out_gdf.columns), expected_cols)
+
+
+

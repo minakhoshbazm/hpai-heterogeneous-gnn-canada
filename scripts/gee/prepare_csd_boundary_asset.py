@@ -41,22 +41,30 @@ def prepare_csd_boundary_asset(
     # ----------------------------------------------------------------------
     # 3. Keep only required columns and rename them
     # ----------------------------------------------------------------------
-    # Validate required source columns are present
-    required_src = ["CSDUID", "CSDNAME", "PRUID", "PRNAME"]
+    # Validate required source columns (PRNAME is optional)
+    required_src = ["CSDUID", "CSDNAME", "PRUID"]
     missing_src = [c for c in required_src if c not in gdf.columns]
     if missing_src:
         sys.exit(f"Missing required source columns: {missing_src}")
-    
+
+    # Build rename map for required fields
     rename_map = {
         "CSDUID": "csd_uid",
         "CSDNAME": "csd_name",
         "PRUID": "province_uid",
-        "PRNAME": "province_name",
     }
+    # Optionally rename PRNAME if it exists
+    if "PRNAME" in gdf.columns:
+        rename_map["PRNAME"] = "province_name"
 
-    # Select columns that exist in the source plus geometry
+    # Select columns that exist in the source plus geometry and rename them
     existing = [c for c in rename_map if c in gdf.columns]
     gdf = gdf[existing + ["geometry"]].rename(columns=rename_map)
+
+    # Ensure province_name column exists (empty if PRNAME was absent)
+    if "province_name" not in gdf.columns:
+        gdf["province_name"] = ""
+
 
     # ----------------------------------------------------------------------
     # 4. Ensure csd_uid is a string (preserve leading zeros)
@@ -97,6 +105,7 @@ def prepare_csd_boundary_asset(
     # 6. Write output GeoJSON (creates parent directories if needed)
     # ----------------------------------------------------------------------
     output_geojson.parent.mkdir(parents=True, exist_ok=True)
+    gdf = gdf[["csd_uid", "csd_name", "province_uid", "province_name", "geometry"]]
     gdf.to_file(output_geojson, driver="GeoJSON")
 
     # ----------------------------------------------------------------------
