@@ -44,6 +44,20 @@
      - Columns include `csd_uid`, `year`, `month`, and the climate variables (`climate_tmean_c`, `climate_tmin_c`, `climate_tmax_c`, `climate_precip_mm`, `climate_snow_depth_cm`).
      - Values are within plausible ranges (e.g., temperature between -50 and 50, precipitation non-negative).
 
+## Current Smoke-Test Finding
+- **Boundary asset test**: Passed (the uploaded CSD asset loaded correctly, preserved `csd_uid`, and returned the expected CSD count).
+- **Temperature smoke test**: Passed. For CSD 1001101, January 2022, ERA5-Land hourly temperature features looked plausible:
+  - tmean: about -0.64 C
+  - tmin: about -10.29 C
+  - tmax: about 10.37 C
+- **Precipitation aggregation**: Unresolved. Precipitation using simple hourly sum produced:
+  - precip_sum_mm: about 3166.5 mm
+  - A diagnostic showed: `precip_min_mm = 0`, `precip_mean_mm` about 4.26, `precip_max_mm` about 41.2, `precip_sum_mm` about 3166.5.
+- **Conclusion**: Do not use simple sum of `total_precipitation` from the hourly ERA5-Land GEE collection for monthly precipitation until the accumulation semantics are verified.
+- **Action / Recommendations**:
+  1. Verify/use ERA5-Land monthly aggregated collection if available,
+  2. Verify correct accumulated precipitation differencing method,
+  3. Or exclude precipitation from V1 smoke extraction until corrected.
 ## What NOT to do
 - Do not upload any private outbreak coordinate data to GEE or Google Drive.
 - Do not modify any processed data files in the repository.
@@ -57,3 +71,4 @@
 
 ---
 *This document is intended as a quick guide for running the ERA5-Land GEE smoke test. No code execution occurs on the local machine; all processing happens within Google Earth Engine.*
+
