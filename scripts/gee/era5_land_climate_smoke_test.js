@@ -66,7 +66,19 @@ var reduced = climateImage.reduceRegions({
   scale: ERA5_SCALE_METERS,
 });
 var withYearMonth = reduced.map(function(f) {
-  return f.set('year', TEST_YEAR).set('month', TEST_MONTH);
+  var withTime = f.set('year', TEST_YEAR).set('month', TEST_MONTH);
+  return ee.Feature(null, withTime.toDictionary([
+    'csd_uid',
+    'csd_name',
+    'province_u',
+    'province_n',
+    'year',
+    'month',
+    'climate_tmean_c',
+    'climate_tmin_c',
+    'climate_tmax_c',
+    'climate_precip_mm'
+  ]));
 });
 print('Output preview', withYearMonth.first());
 
