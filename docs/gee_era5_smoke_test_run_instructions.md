@@ -23,8 +23,8 @@
    - `TEST_CSD_UIDS`: replace the placeholder strings with the `csd_uid` values of 5-10 CSDs you want to test (keep them as quoted strings in the array).
    - `TEST_YEAR` and `TEST_MONTH`: set the year and month you wish to test (e.g., `2022` and `1` for January 2022).
    - `EXPORT_DESCRIPTION` and `EXPORT_FOLDER`: optionally change if you want a different description or Google Drive folder.
-   - Verify the ERA5-Land collection ID. The template uses `ECMWF/ERA5_LAND/HOURLY`; confirm that this collection exists in GEE before running.
-   - Verify band names (`temperature_2m`, `total_precipitation`, `snow_depth`). If a band is missing, comment out the corresponding section of the script.
+   - Verify the ERA5-Land collection ID. The next script revision should use `ECMWF/ERA5_LAND/MONTHLY_AGGR` for monthly climate aggregation.
+   - Verify band names (`temperature_2m`, `temperature_2m_min`, `temperature_2m_max`, `total_precipitation_sum`). If a band is missing, comment out the corresponding section of the script.
 
 5. **Run the script**
    - Click **Run** (or press Ctrl+Enter).
@@ -50,14 +50,15 @@
   - tmean: about -0.64 C
   - tmin: about -10.29 C
   - tmax: about 10.37 C
-- **Precipitation aggregation**: Unresolved. Precipitation using simple hourly sum produced:
-  - precip_sum_mm: about 3166.5 mm
-  - A diagnostic showed: `precip_min_mm = 0`, `precip_mean_mm` about 4.26, `precip_max_mm` about 41.2, `precip_sum_mm` about 3166.5.
-- **Conclusion**: Do not use simple sum of `total_precipitation` from the hourly ERA5-Land GEE collection for monthly precipitation until the accumulation semantics are verified.
-- **Action / Recommendations**:
-  1. Verify/use ERA5-Land monthly aggregated collection if available,
-  2. Verify correct accumulated precipitation differencing method,
-  3. Or exclude precipitation from V1 smoke extraction until corrected.
+- **Precipitation aggregation**: Resolved via comparison test (CSD 1001101, January 2022):
+  - Method A (Monthly total_precipitation_sum): 254.55 mm
+  - Method B (Hourly total_precipitation_hourly monthly sum): 254.55 mm
+  - Method C (Incorrect Hourly total_precipitation simple sum): 3156.53 mm (anomalous double-counting bug)
+- **Conclusion**:
+  - Use ECMWF/ERA5_LAND/MONTHLY_AGGR for V1 climate extraction.
+  - Do not use raw hourly total_precipitation simple sum.
+  - total_precipitation_hourly is valid but more computationally expensive; keep as fallback or validation method.
+
 ## What NOT to do
 - Do not upload any private outbreak coordinate data to GEE or Google Drive.
 - Do not modify any processed data files in the repository.
@@ -71,4 +72,3 @@
 
 ---
 *This document is intended as a quick guide for running the ERA5-Land GEE smoke test. No code execution occurs on the local machine; all processing happens within Google Earth Engine.*
-

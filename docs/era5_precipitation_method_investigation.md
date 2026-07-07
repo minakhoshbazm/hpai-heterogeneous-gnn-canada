@@ -3,7 +3,7 @@
 ## 1. Background
 During the initial ERA5-Land climate feature smoke test for Census Subdivision (CSD) 1001101 (Division No. 1, Subd. V, NL, Canada) for January 2022, the temperature features were successfully extracted and validated. However, the precipitation feature precip_sum_mm yielded an anomalous total of 3166.5 mm. 
 
-This document investigates the root cause, explores the aggregation mechanics of ERA5-Land in Google Earth Engine (GEE), evaluates alternative approaches, and recommends a verification path.
+This document investigates the root cause, explores the aggregation mechanics of ERA5-Land in Google Earth Engine (GEE), presents the results of the comparison test, and defines the final extraction method.
 
 ---
 
@@ -43,45 +43,38 @@ In the hourly collection (ECMWF/ERA5_LAND/HOURLY), GEE provides two separate pre
 * total_precipitation: The raw accumulated field resetting daily at 00:00 UTC.
 * total_precipitation_hourly: A band described by GEE as disaggregated from the original cumulative values into actual hourly values (representing the amount that fell during that specific hour).
 
-This hourly band represents a strong alternative candidate for precipitation extraction, as a simple sum of total_precipitation_hourly over the month should theoretically yield the correct monthly total.
-
 ---
 
-## 4. Evaluation of Options
+## 4. GEE Comparison Test Results (January 2022, CSD 1001101)
+To verify the correct method, a comparison test was conducted for CSD 1001101 in January 2022:
 
-### Option A: Use Monthly Aggregated Product (ECMWF/ERA5_LAND/MONTHLY_AGGR)
-* Description: Transition the feature extraction pipeline to the pre-calculated monthly collection.
-* Pros:
-  - Simplest and safest: Aggregation logic is pre-computed and verified. No risk of daily accumulation reset errors or timezone boundary bugs.
-  - Performance: Substantially reduces GEE computation overhead, avoiding potential out-of-memory or timeout errors during multi-year national extractions.
-  - Contains pre-calculated monthly minimum and maximum temperature bands.
-* Cons:
-  - Latency: Consolidated monthly data typically has a latency of 2-3 months (acceptable for historical modeling).
+* **Method A (Monthly Collection):** `ECMWF/ERA5_LAND/MONTHLY_AGGR` using the `total_precipitation_sum` band:
+  - Result: **254.55 mm** (calculated as 0.25455 meters * 1000)
+* **Method B (Hourly Collection, Correct Disaggregation):** `ECMWF/ERA5_LAND/HOURLY` using the `total_precipitation_hourly` band summed over the month:
+  - Result: **254.55 mm**
+* **Method C (Old/Incorrect Method):** `ECMWF/ERA5_LAND/HOURLY` using the raw accumulated `total_precipitation` band summed over all hourly images:
+  - Result: **3156.53 mm** (approx. 3166.5 mm in the initial unrounded smoke test)
 
-### Option B: Use Hourly Collection with total_precipitation_hourly
-* Description: Retrieve hourly data from ECMWF/ERA5_LAND/HOURLY, select total_precipitation_hourly, and sum it over the month.
-* Pros:
-  - Near-real-time updates (lower latency).
-  - Keeps the codebase on a single (hourly) collection if preferred.
-* Cons:
-  - High computation cost: Reducing hourly data for all CSDs over a multi-year period in GEE can trigger memory limit exceptions compared to pre-aggregated monthly collections.
-
-### Option C: Temporarily Exclude Precipitation from V1 Feature Set
-* Description: Proceed with climate_tmean_c, climate_tmin_c, and climate_tmax_c only, setting precipitation to null or excluding it.
-* Pros: Unblocks immediate downstream pipeline development.
-* Cons: Precipitation is a key driver of environmental factors relevant to avian influenza vectors.
+### Key Conclusions:
+1. **Method A and Method B are identical** in their final values (254.55 mm), confirming both correctly represent the true monthly accumulated precipitation.
+2. **Method C is highly inflated** (~12.4x too high) due to summing the raw daily accumulations hour-by-hour.
+3. **Choice of Collection:** Both Option A (Monthly Collection) and Option B (Hourly with `total_precipitation_hourly`) are valid. However, Option A is significantly more computationally efficient for long-term national-scale GEE extractions since it avoids summing 744 hourly scenes per month.
 
 ---
 
 ## 5. Recommendation and Next Steps
 
-1. Prioritize Option A (Monthly Collection): Because our target timeline is historical and does not require real-time forecasts, the 2-3 month latency of ECMWF/ERA5_LAND/MONTHLY_AGGR is not a bottleneck. We should use it to obtain temperature_2m (mean), temperature_2m_min, temperature_2m_max, and total_precipitation_sum.
-2. Execute a Single-CSD / Single-Month Comparison Test:
-   Before updating the main pipeline scripts, run a focused test for CSD 1001101 for January 2022 comparing three methods:
-   - Method A: ECMWF/ERA5_LAND/MONTHLY_AGGR using total_precipitation_sum (converted to mm by multiplying by 1000).
-   - Method B: ECMWF/ERA5_LAND/HOURLY using total_precipitation_hourly summed over the month (converted to mm by multiplying by 1000).
-   - Method C (Old/Incorrect): total_precipitation simple sum over hourly images (converted to mm).
-3. Select the best method: Use the monthly collection (Option A) first if the one-CSD comparison is plausible, and fallback to Option B if necessary.
+1. **Use Option A (Monthly Collection) for V1 Climate Extraction:**
+   The extraction pipeline will use `ECMWF/ERA5_LAND/MONTHLY_AGGR` to extract all V1 climate features (both temperature and precipitation).
+   * **Planned Bands & Variables:**
+     - `temperature_2m` -> `climate_tmean_c` (mean temperature, Kelvin to Celsius)
+     - `temperature_2m_min` -> `climate_tmin_c` (minimum temperature, Kelvin to Celsius)
+     - `temperature_2m_max` -> `climate_tmax_c` (maximum temperature, Kelvin to Celsius)
+     - `total_precipitation_sum` -> `climate_precip_mm` (sum of precipitation, meters to mm)
+2. **Keep Option B as a Fallback/Validation Method:**
+   Keep the hourly `total_precipitation_hourly` summation logic as a validation fallback in case sub-monthly granularity is required in a future iteration.
+3. **Do Not Use Method C:**
+   Never use raw hourly `total_precipitation` simple sum.
 
 ---
 
