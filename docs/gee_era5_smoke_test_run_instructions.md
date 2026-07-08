@@ -50,10 +50,18 @@
   - The 10-CSD smoke test using `ECMWF/ERA5_LAND/MONTHLY_AGGR` ran successfully and produced exactly 10 rows.
   - Climate fields were present: `climate_tmean_c`, `climate_tmin_c`, `climate_tmax_c`, and `climate_precip_mm`.
   - The GEE CSV output still included a `.geo` column with empty MultiPoint geometry and a `system:index` column. These should be dropped during local post-processing.
-- **Coastal/Island CSD Missing Values**:
+- **Coastal/Island CSD Missing Values & Fallback Diagnostic**:
   - One coastal/island CSD, Les Iles-de-la-Madeleine (`csd_uid` 2401023), returned missing (null) values for all climate variables.
+  - Diagnostic test results for `csd_uid` 2401023 (January 2022):
+    - Polygon mean: missing
+    - Centroid sample: missing
+    - 10 km, 25 km, and 50 km centroid buffers: missing
+    - 100 km centroid buffer: valid values (precip_mm about 212.67, tmean_c about -3.51, tmin_c about -11.81, tmax_c about 7.38)
+    - 200 km centroid buffer: valid values (precip_mm about 208.38, tmean_c about -4.84, tmin_c about -16.75, tmax_c about 7.41)
   - This may be caused by the small/coastal geometry, ERA5-Land grid placement, masking, or reducer scale behavior; the exact cause needs a targeted fallback test.
-  - This indicates the full pipeline needs a missing-value fallback strategy for small/coastal/island CSDs, such as centroid sampling or buffered geometry fallback.
+  - Fallback Strategy Conclusion: Use polygon mean first, then a 100 km centroid-buffer mean fallback if polygon mean is missing (100 km was the smallest tested buffer returning valid values). Always flag fallback-derived rows.
+  - Planned QA columns to track fallback: `climate_extraction_method`, `climate_buffer_fallback_km`, and `climate_missing_flag`.
+  - Do not scale to full extraction until this fallback is implemented and smoke-tested.
 - **Precipitation aggregation**: Resolved via comparison test (CSD 1001101, January 2022):
   - Method A (Monthly total_precipitation_sum): 254.55 mm
   - Method B (Hourly total_precipitation_hourly monthly sum): 254.55 mm

@@ -60,6 +60,9 @@ data/processed/features/csd_monthly_climate_features.csv
 - climate_precip_mm
 - climate_snow_depth_cm (optional)
 - climate_freeze_thaw_days (optional)
+- climate_extraction_method
+- climate_buffer_fallback_km
+- climate_missing_flag
 
 ## 7. QA and Validation Checks
 - Row count equals 5,161 CSDs x number of months.
@@ -99,12 +102,20 @@ data/processed/features/csd_monthly_climate_features.csv
   - Method A (Monthly `total_precipitation_sum`): 254.55 mm
   - Method B (Hourly `total_precipitation_hourly` monthly sum): 254.55 mm
   - Method C (Incorrect Hourly `total_precipitation` simple sum): 3156.53 mm (anomalous double-counting bug)
-- **10-CSD Monthly Aggregate Smoke Test**:
+- **10-CSD Monthly Aggregate Smoke Test & Fallback Diagnostic**:
   - A 10-CSD smoke test using `ECMWF/ERA5_LAND/MONTHLY_AGGR` ran successfully, producing exactly 10 rows.
   - Climate fields (`climate_tmean_c`, `climate_tmin_c`, `climate_tmax_c`, `climate_precip_mm`) were present.
   - The GEE CSV output still included `.geo` with empty MultiPoint geometry and `system:index`, which should be dropped during local post-processing.
-  - One coastal/island CSD, Les Iles-de-la-Madeleine (`csd_uid` 2401023), returned missing climate values.
-  - This indicates the full pipeline needs a missing-value fallback strategy for small/coastal/island CSDs, likely centroid sampling or buffered geometry fallback.
+  - One coastal/island CSD, Les Iles-de-la-Madeleine (`csd_uid` 2401023), returned missing climate values due to grid masking/reducer scale constraints.
+  - Diagnostic test results for CSD 2401023 (January 2022):
+    - Polygon mean: missing
+    - Centroid sample: missing
+    - 10 km, 25 km, and 50 km centroid buffers: missing
+    - 100 km centroid buffer: valid values (precip_mm about 212.67, tmean_c about -3.51, tmin_c about -11.81, tmax_c about 7.38)
+    - 200 km centroid buffer: valid values (precip_mm about 208.38, tmean_c about -4.84, tmin_c about -16.75, tmax_c about 7.41)
+  - Fallback Strategy Conclusion: Use polygon mean first, then a 100 km centroid-buffer mean fallback if polygon mean is missing. Buffer size of 100 km is chosen as it is the smallest tested radius returning valid values.
+  - Planned QA columns to track fallback: `climate_extraction_method`, `climate_buffer_fallback_km`, and `climate_missing_flag`.
+  - Do not scale to full national extraction until this fallback is implemented and smoke-tested.
 - **Conclusion**:
   - Use `ECMWF/ERA5_LAND/MONTHLY_AGGR` for V1 climate extraction.
   - Do not use raw hourly `total_precipitation` simple sum.
