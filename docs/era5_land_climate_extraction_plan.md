@@ -99,7 +99,14 @@ data/processed/features/csd_monthly_climate_features.csv
   - Method A (Monthly `total_precipitation_sum`): 254.55 mm
   - Method B (Hourly `total_precipitation_hourly` monthly sum): 254.55 mm
   - Method C (Incorrect Hourly `total_precipitation` simple sum): 3156.53 mm (anomalous double-counting bug)
+- **10-CSD Monthly Aggregate Smoke Test**:
+  - A 10-CSD smoke test using `ECMWF/ERA5_LAND/MONTHLY_AGGR` ran successfully, producing exactly 10 rows.
+  - Climate fields (`climate_tmean_c`, `climate_tmin_c`, `climate_tmax_c`, `climate_precip_mm`) were present.
+  - The GEE CSV output still included `.geo` with empty MultiPoint geometry and `system:index`, which should be dropped during local post-processing.
+  - One coastal/island CSD, Les Iles-de-la-Madeleine (`csd_uid` 2401023), returned missing climate values.
+  - This indicates the full pipeline needs a missing-value fallback strategy for small/coastal/island CSDs, likely centroid sampling or buffered geometry fallback.
 - **Conclusion**:
   - Use `ECMWF/ERA5_LAND/MONTHLY_AGGR` for V1 climate extraction.
   - Do not use raw hourly `total_precipitation` simple sum.
   - `total_precipitation_hourly` is valid but more computationally expensive; keep as fallback or validation method.
+  - Do not scale to full national extraction until the coastal/island missing-value fallback handling is designed and smoke-tested.

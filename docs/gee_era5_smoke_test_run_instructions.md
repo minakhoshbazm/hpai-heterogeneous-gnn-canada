@@ -44,20 +44,24 @@
      - Columns include `csd_uid`, `year`, `month`, and the climate variables (`climate_tmean_c`, `climate_tmin_c`, `climate_tmax_c`, `climate_precip_mm`, `climate_snow_depth_cm`).
      - Values are within plausible ranges (e.g., temperature between -50 and 50, precipitation non-negative).
 
-## Current Smoke-Test Finding
+## Current Smoke-Test Findings
 - **Boundary asset test**: Passed (the uploaded CSD asset loaded correctly, preserved `csd_uid`, and returned the expected CSD count).
-- **Temperature smoke test**: Passed. For CSD 1001101, January 2022, ERA5-Land hourly temperature features looked plausible:
-  - tmean: about -0.64 C
-  - tmin: about -10.29 C
-  - tmax: about 10.37 C
+- **Temperature & Precipitation Smoke Test**:
+  - The 10-CSD smoke test using `ECMWF/ERA5_LAND/MONTHLY_AGGR` ran successfully and produced exactly 10 rows.
+  - Climate fields were present: `climate_tmean_c`, `climate_tmin_c`, `climate_tmax_c`, and `climate_precip_mm`.
+  - The GEE CSV output still included a `.geo` column with empty MultiPoint geometry and a `system:index` column. These should be dropped during local post-processing.
+- **Coastal/Island CSD Missing Values**:
+  - One coastal/island CSD, Les Iles-de-la-Madeleine (`csd_uid` 2401023), returned missing (null) values for all climate variables.
+  - This may be caused by the small/coastal geometry, ERA5-Land grid placement, masking, or reducer scale behavior; the exact cause needs a targeted fallback test.
+  - This indicates the full pipeline needs a missing-value fallback strategy for small/coastal/island CSDs, such as centroid sampling or buffered geometry fallback.
 - **Precipitation aggregation**: Resolved via comparison test (CSD 1001101, January 2022):
   - Method A (Monthly total_precipitation_sum): 254.55 mm
   - Method B (Hourly total_precipitation_hourly monthly sum): 254.55 mm
   - Method C (Incorrect Hourly total_precipitation simple sum): 3156.53 mm (anomalous double-counting bug)
 - **Conclusion**:
-  - Use ECMWF/ERA5_LAND/MONTHLY_AGGR for V1 climate extraction.
+  - Use `ECMWF/ERA5_LAND/MONTHLY_AGGR` for V1 climate extraction.
   - Do not use raw hourly total_precipitation simple sum.
-  - total_precipitation_hourly is valid but more computationally expensive; keep as fallback or validation method.
+  - Do not scale to full national extraction until the coastal/island missing-value fallback handling is designed and smoke-tested.
 
 ## What NOT to do
 - Do not upload any private outbreak coordinate data to GEE or Google Drive.
