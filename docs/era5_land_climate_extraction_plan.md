@@ -121,3 +121,9 @@ data/processed/features/csd_monthly_climate_features.csv
   - Do not use raw hourly `total_precipitation` simple sum.
   - `total_precipitation_hourly` is valid but more computationally expensive; keep as fallback or validation method.
   - Do not scale to full national extraction until the coastal/island missing-value fallback handling is designed and smoke-tested.
+
+## 11. Pilot Result and Next Step
+- The 10-CSD pilot (year 2022, 12 months) passed basic QA checks: exactly 120 rows were exported, temperature ordering was valid, and precipitation values were non-negative.
+- The pilot revealed one fully missing coastal CSD (Les Iles-de-la-Madeleine, `csd_uid` 2401023), confirming the need for a fallback strategy.
+- Downstream joins must rely strictly on `csd_uid` rather than CSD names to avoid character encoding issues for CSDs with accents.
+- Fallback design and implementation remains a later task. The immediate next step is to create local post-processing scripts to clean GEE outputs and evaluate a larger national-scale pilot.
