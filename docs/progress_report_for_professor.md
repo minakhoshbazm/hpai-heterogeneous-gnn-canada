@@ -1,78 +1,137 @@
-# Progress Report: CSD-Based Spatiotemporal Graph Foundation for HPAI Risk Modeling in Canada
+# Progress Report: CSD-Level Static Graph Foundation for HPAI Risk Modeling in Canada
 
 ## Executive Summary
-- Moved from province‑level to Census Subdivision (CSD)‑level graph nodes.
-- Mapped CFIA poultry outbreak labels to CSD‑month observations.
-- Built static CSD node features from StatCan poultry proxy, GLW density, and road transport data.
-- Constructed a spatial adjacency graph (rook, queen, nearest‑neighbor fallback edges).
-- Project is now ready for dynamic monthly environmental feature integration and model training.
+- Selected Census Subdivisions (CSDs) as the primary spatial resolution because they provide finer local detail than provinces and suit spatial risk modeling.
+- Treated each CSD as a single graph node; the graph contains 5,161 nodes.
+- CFIA poultry outbreak records were aggregated to CSD‑month labels, preserving privacy while enabling temporal modeling.
+- Built static node features from a poultry production proxy, GLW density rasters, road/transport metrics, and geographic QA flags.
+- Constructed spatial adjacency edges (rook, queen, nearest‑neighbor fallback) to form the graph backbone for future GNN work.
 
-## 1. Project Goal
-The aim is to create a reproducible machine‑learning pipeline that predicts, one month ahead, the risk of Highly Pathogenic Avian Influenza (HPAI) outbreaks in Canadian poultry.  The approach uses a graph where each node corresponds to a Census Subdivision (CSD).  Monthly environmental, land‑cover, and wild‑bird variables will later be added as dynamic node features.
+## 1. Why I Chose CSD Resolution
+- Province‑level modeling is too coarse to capture local outbreak drivers.
+- CSDs are an official Statistics Canada unit that balances spatial detail with data availability.
+- They are small enough to reflect local risk variation yet can be aggregated to provinces or Census Divisions when needed.
+- Existing agricultural, road, and environmental datasets align naturally with CSD boundaries.
 
-## 2. Why Census Subdivisions?
-- **Finer granularity** than provinces, allowing more local risk patterns to be captured.
-- **Standard geographic unit** from Statistics Canada, with well‑defined boundaries.
-- Enables aggregation to province or health‑district levels when needed while keeping a detailed base layer.
-- Currently, CSD is the primary node scale for the graph.
+## 2. What a Node Means
+- **One node = one Census Subdivision** (5,161 nodes total).
+- Each node will later hold monthly environmental features and a monthly target label (outbreak presence/absence).
+- For now we have assembled the *static* part of the node feature table.
 
-## 3. What Has Been Completed
-- CSD boundary shapefile prepared and normalised to EPSG:3347.
-- CFIA poultry outbreak records linked to CSD‑month labels.
-- Lookup table linking each CSD to its parent Census Consolidated Subdivision (CCS) built.
-- StatCan poultry production proxy (broiler & turkey) aggregated from CCS to CSD.
-- Global Livestock Watch (GLW) poultry density (chicken 2020, duck 2015 fallback) summarised for each CSD.
-- NRN road network metrics (total length, density, centroid‑to‑road distance) extracted for each CSD.
-- Spatial adjacency graph constructed using rook and queen contiguity plus nearest‑neighbor fallback edges for isolated polygons.
-- Unified static node feature table created (`csd_static_structural_features.csv`).
-- Full dataset inventory documented and committed.
+![Node concept](file:///C:/Users/mkhos/.gemini/antigravity-ide/brain/482f25ab-1c90-49dc-ad78-3792b25d1c65/node_concept_1783026483322.png)
+*Figure: CSD polygon → graph node → static features + monthly label*
 
-## 4. Current Data Products
-| Data product | Location | Rows | Columns / Details |
-|--------------|----------|------|-------------------|
-| Static structural feature table | `data/processed/features/csd_static_structural_features.csv` | 5,161 | 33 columns – metadata, poultry proxy, GLW density, road features, QA flags |
-| Spatial adjacency edges | `data/processed/graph/csd_adjacency_edges.csv` | 10,662 (undirected) | Rook = 10,254, Queen = 378, Nearest‑Neighbor fallback = 30 |
-| CCS‑level poultry proxy | `data/processed/poultry/ccs_poultry_proxy.csv` | 1,757 (CCS) | Production weights, farm counts |
-| GLW poultry density | `data/processed/glw/csd_glw_poultry_density.csv` | 5,161 | Mean, max, 95th percentile for chicken & duck |
-| Road transport features | `data/processed/roads/csd_road_features.csv` | 5,161 | Length, density, distance metrics for all/major/highway roads |
-| CSD‑to‑CCS lookup | `data/processed/lookups/csd_to_ccs_lookup.csv` | 5,161 | Maps each CSD to its parent CCS |
+## 3. Mapping CFIA Outbreaks to CSDs
+- Outbreak records were linked to the containing CSD using their location metadata.
+- Events were then aggregated into **CSD‑month** binary labels (outbreak present or not).
+- This mirrors public‑health dashboards that report counts by administrative area, avoiding any exposure of exact farm coordinates.
+- The aggregated label set forms the target variable for future prediction models.
 
-## 5. Figures
-### Figure 1 – Canada CSD overview
-![Figure 1](file:///C:/Users/mkhos/.gemini/antigravity-ide/brain/482f25ab-1c90-49dc-ad78-3792b25d1c65/figure1_csd_map_1783025933141.png)
-*Light‑gray CSD boundaries across Canada.*
+![CFIA mapping concept](file:///C:/Users/mkhos/.gemini/antigravity-ide/brain/482f25ab-1c90-49dc-ad78-3792b25d1c65/cfia_mapping_concept_1783026492857.png)
+*Figure: Privacy‑safe aggregation of outbreak points to CSD‑month labels*
 
-### Figure 2 – Static feature schema
-![Figure 2](file:///C:/Users/mkhos/.gemini/antigravity-ide/brain/482f25ab-1c90-49dc-ad78-3792b25d1c65/figure2_static_feature_schema_1783025946046.png)
-*Each CSD node aggregates metadata, poultry proxy, GLW density, road features and QA flags; edges connect neighbouring nodes.*
+## 4. Static Features Extracted So Far
+### 4.1 Statistics Canada Poultry Production Proxy
+- Obtained from the Census of Agriculture (CCS level).
+- Values (broiler, turkey, farm counts) are assigned to each CSD via the CSD‑to‑CCS lookup.
+- Provides a proxy for poultry production intensity without revealing exact farm locations.
 
-### Figure 3 – Edge type counts
-![Figure 3](file:///C:/Users/mkhos/.gemini/antigravity-ide/brain/482f25ab-1c90-49dc-ad78-3792b25d1c65/figure3_edge_counts_1783025957550.png)
-*Bar chart of rook, queen and nearest‑neighbor fallback edges.*
+### 4.2 GLW Poultry Density Features
+- Global Livestock Watch (GLW) raster data summarized within each CSD.
+- Chicken density (2020) and duck density (2015 fallback) are expressed as mean, max, and 95th percentile values.
+- Captures spatial intensity of poultry presence at a fine resolution.
 
-## 6. Scientific Interpretation
-The current work provides a **static graph foundation**.  All spatial relationships and structural covariates are in place, but temporal covariates (monthly climate, land‑cover, water indices, vegetation, and wild‑bird abundance) are not yet added.  This foundation is essential because the graph topology and static features define how future dynamic variables will be propagated through a spatiotemporal Graph Neural Network.
+### 4.3 Road and Transport Features
+- National Road Network (NRN) processed for all outbreak‑affected provinces.
+- Metrics include total road length, road density, and distance to the nearest major road/highway.
+- Territories (Yukon, NWT, Nunavut) are flagged as not processed.
 
-## 7. Data Privacy and Reproducibility
-- Raw CFIA point data are excluded from the repository; only aggregated CSD‑month labels are stored.
-- No exact outbreak coordinates appear in any figure or table.
-- All processing scripts are version‑controlled; outputs are deterministic given the same inputs.
-- The repository `.gitignore` prevents accidental inclusion of raw or proprietary data.
+### 4.4 Geography and QA Features
+- Area (km2), province identifier, CCS membership, extraction method flags, pixel count validity, road‑coverage flag, and a small‑area flag.
+- These allow quality checks and prevent misuse of unreliable data.
 
-## 8. Next Steps
-1. Generate monthly environmental layers (temperature, precipitation, vegetation indices).
-2. Incorporate land‑cover and water‑body masks.
-3. Add wild‑bird migration and abundance estimates.
-4. Create temporal training/validation/test splits at the CSD‑month level.
-5. Train baseline statistical models (e.g., logistic regression) for benchmarking.
-6. Train and evaluate spatiotemporal GNN models using the static graph and dynamic features.
+![Static feature groups](file:///C:/Users/mkhos/.gemini/antigravity-ide/brain/482f25ab-1c90-49dc-ad78-3792b25d1c65/static_feature_groups_1783026501491.png)
+*Figure: Four feature groups feeding into the CSD static node feature table*
 
-## 9. References & Resources
-- Statistics Canada Census Subdivision (CSD) boundaries.
-- CFIA HPAI outbreak reports (aggregated to CSD‑month).
-- Global Livestock Watch (GLW) poultry density rasters.
-- National Road Network (NRN) shapefiles.
-- Python libraries: pandas, geopandas, networkx, PyG.
+## 5. How Graph Edges Were Defined
+- **Rook adjacency**: two CSDs share a non‑zero boundary segment.
+- **Queen adjacency**: two CSDs touch at a single corner point.
+- **Nearest‑neighbor fallback**: isolated CSDs are linked to the geographically nearest CSD centroid to avoid disconnected nodes. These edges are flagged (`edge_type='nearest_neighbor_fallback'`) and treated as weaker connections.
+- The edge list contains 10,662 undirected edges (10,254 rook, 378 queen, 30 fallback).
+
+![Edge types concept](file:///C:/Users/mkhos/.gemini/antigravity-ide/brain/482f25ab-1c90-49dc-ad78-3792b25d1c65/edge_types_concept_1783026511099.png)
+*Figure: Rook, queen, and nearest‑neighbor fallback edge types*
+
+## 6. What Is Completed
+- CSD boundary layer and node definition.
+- CFIA outbreak aggregation to CSD‑month labels.
+- Static node feature table (5,161 rows, 33 columns).
+- Spatial adjacency edge list with three edge types.
+- Documentation, version control checkpoints, and a PDF progress report.
+
+## 7. What Is Next
+1. Generate monthly climate, land‑cover, water, and vegetation layers.
+2. Add wild‑bird abundance and migration covariates.
+3. Build temporal train/validation/test splits at the CSD‑month level.
+4. Train baseline statistical models (e.g., logistic regression) for comparison.
+5. Train and evaluate spatiotemporal GNN models using the full dynamic graph.
+
+## First Baseline Modeling Results
+
+1. **Modeling table**:
+   - V1 environment-only train-ready table created
+   - 237,538 CSD-month rows
+   - 5,054 provincial CSDs
+   - 381 positive next-month outbreak targets
+   - no missing numeric modeling features
+   - severe class imbalance: positive rate 0.1604%, imbalance about 622:1
+
+2. **Environment-only ML baselines**:
+   - **Logistic Regression**:
+     - PR-AUC: 0.0457
+     - ROC-AUC: 0.9004
+     - Precision@50: 0.060
+     - Recall@50: 0.038
+   - **Random Forest**:
+     - PR-AUC: 0.0204
+     - ROC-AUC: 0.9107
+     - Precision@50: 0.100
+     - Recall@50: 0.063
+
+3. **Time-persistence baseline**:
+   - Uses historical outbreak recurrence from 2022-2024 to predict 2025 risk
+   - Does not use environmental features
+   - Results:
+     - PR-AUC: 0.0405
+     - ROC-AUC: 0.7311
+     - Precision@50: 0.200
+     - Recall@50: 0.127
+     - Precision@200: 0.075
+     - Recall@200: 0.190
+
+4. **Interpretation**:
+   - Logistic Regression has the best PR-AUC among tested models.
+   - Time-persistence baseline has the strongest top-50 precision.
+   - This suggests historical outbreak recurrence/location is highly informative.
+   - Future models should compare against this baseline and may include carefully designed lag/history features without leakage.
+   - Accuracy is not meaningful because of extreme imbalance.
 
 ---
-*Prepared by the project development team. All content is ASCII‑only and complies with data‑privacy constraints.*
+### Lag-history Baseline Results
+
+**Logistic Regression (with lag/history features)**
+- PR-AUC: 0.0635
+- ROC-AUC: 0.9003
+- Precision@50: 0.12  Recall@50: 0.0759
+- Precision@100: 0.07  Recall@100: 0.0886
+- Precision@200: 0.055  Recall@200: 0.1392
+
+**Random Forest (with lag/history features)**
+- PR-AUC: 0.0308
+- ROC-AUC: 0.9376
+- Precision@50: 0.06  Recall@50: 0.0380
+- Precision@100: 0.05  Recall@100: 0.0633
+- Precision@200: 0.040  Recall@200: 0.1013
+
+---
+*Prepared by the project development team. All content is ASCII‑only and respects data‑privacy constraints.*
