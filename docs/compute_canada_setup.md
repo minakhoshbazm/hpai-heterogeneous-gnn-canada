@@ -52,7 +52,7 @@ pip install -e .
 
 Use the appropriate directory depending on file access frequency and size:
 * **`/home/mkhoshba/`**: Personal configurations, small scripts, code files. (Quota: 50GB, backed up).
-* **`/project/<ALLOCATION>/`**: Long-term research storage, project outputs, and final model weights. Use an allocation actually assigned to `mkhoshba`; do not assume `def-mkhoshba` is valid.
+* **`/project/def-drozita/`** (verify the mounted directory name on Fir): Long-term research storage, project outputs, and final model weights.
 * **`/scratch/mkhoshba/`**: Heavy temporary storage, raw spatial datasets (e.g., eBird raster geotiffs, Sentinel/ERA5 environmental parquet files). (Quota: 20TB, **purged regularly**, not backed up).
 
 ---
@@ -65,7 +65,8 @@ Jobs must be scheduled using the Slurm workload manager. Do not run heavy proces
 
 Below is a reference for configuring job resources. Use these placeholders when setting up script scripts.
 
-* **Account allocation:** `--account=<ACCOUNT_NAME>`. Discover a valid value on Fir with `sacctmgr show associations where user=$USER format=Account,Cluster` or check the Alliance portal.
+* **CPU account allocation:** `--account=def-drozita_cpu`
+* **GPU account allocation:** `--account=def-drozita_gpu`
 * **Time limit:** `--time=<WALL_TIME>` (e.g., `03:00:00` for 3 hours, or `24:00:00` for 1 day)
 * **CPUs:** `--cpus-per-task=<NUM_CPUS>` (e.g., `8` for preprocessing, `4` for GNN training)
 * **Memory:** `--mem=<MEMORY>` (e.g., `32G` or `64G` depending on graph scale)

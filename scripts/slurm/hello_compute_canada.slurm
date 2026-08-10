@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --account=REPLACE_WITH_ALLOCATION
+#SBATCH --account=def-drozita_gpu
 #SBATCH --job-name=hello_hpai_gnn
 #SBATCH --output=logs/hello_%j.out
 #SBATCH --error=logs/hello_%j.err
