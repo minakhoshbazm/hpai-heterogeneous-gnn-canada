@@ -4,13 +4,35 @@ This document explains how to work with the **Antigravity** coding assistant to 
 
 ---
 
-## 1. Remote Development Workflow (Recommended)
+## 1. Install Antigravity CLI on Fir
+
+Connect from a local terminal (password/MFA prompts are interactive):
+
+```bash
+ssh mkhoshba@fir.alliancecan.ca
+```
+
+Clone this repository if needed, then use its installer:
+
+```bash
+mkdir -p ~/projects
+cd ~/projects
+git clone https://github.com/minakhoshbazm/hpai-heterogeneous-gnn-canada.git
+cd hpai-heterogeneous-gnn-canada
+bash scripts/cluster/install_antigravity.sh
+```
+
+Start it with `agy`. Over SSH, it prints an authorization URL to open in the
+browser on your personal computer. Never save authentication credentials in
+the repository or paste them into chat.
+
+## 2. Remote Development Workflow (Recommended)
 
 When you open this repository directly on `fir` using **VS Code Remote - SSH**, the workflow is simplified because we run in the same workspace.
 
 ### Step-by-Step Cycle
 1. **Open Remote Workspace:** Connect to `fir` in VS Code and open your cloned repository folder `/project/def-mkhoshba/hpai-heterogeneous-gnn-canada`.
-2. **Develop with Antigravity:** Ask me to write code, design models, or write script files. I will save files directly on the cluster filesystem.
+2. **Develop with Antigravity:** Run `agy` in the repository and use it to edit code and Slurm job scripts.
 3. **Execute Job Scripts:** Ask me to launch testing scripts. I can run Slurm jobs using terminal execution:
    ```bash
    sbatch scripts/slurm/hello_compute_canada.slurm
@@ -23,7 +45,11 @@ When you open this repository directly on `fir` using **VS Code Remote - SSH**, 
 
 ---
 
-## 2. Local-Remote Hybrid Workflow (Fallback)
+Antigravity is only a lightweight controller on the login node. Training,
+large preprocessing, and memory-intensive commands must be submitted with
+`sbatch` or run in an interactive allocation obtained with `salloc`/`srun`.
+
+## 3. Local-Remote Hybrid Workflow (Fallback)
 
 If you prefer to edit files locally on your laptop, the workflow requires manual synchronization using Git.
 
