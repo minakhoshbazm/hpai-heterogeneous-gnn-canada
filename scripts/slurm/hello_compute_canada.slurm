@@ -13,6 +13,9 @@
 # Exit immediately if a command exits with a non-zero status
 set -e
 
+module load python/3.10.13
+source /home/mkhoshba/projects/def-drozita/mkhoshba/venvs/hpai_gnn/bin/activate
+
 echo "=========================================================="
 echo "      COMPUTE CANADA / ALLIANCE CANADA DIAGNOSTIC REPORT"
 echo "=========================================================="
@@ -28,7 +31,7 @@ if command -v python3 &>/dev/null; then
     python3 --version
 else
     echo "python3 could not be found. Loading default python module..."
-    module load python/3.10
+    module load python/3.10.13
     python3 --version
 fi
 
