@@ -8,7 +8,7 @@
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=1              # Request 1 CPU (placeholder)
 #SBATCH --mem=4G                       # Request 4GB memory (placeholder)
-#SBATCH --gres=gpu:1                   # Request 1 GPU (placeholder)
+#SBATCH --gres=gpu:h100:1              # Fir H100 GPU
 
 # Exit immediately if a command exits with a non-zero status
 set -e
