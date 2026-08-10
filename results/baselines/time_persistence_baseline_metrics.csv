@@ -1,0 +1,13 @@
+,value
+train_rows,181944.0
+test_rows,55594.0
+train_positives,302.0
+test_positives,79.0
+average_precision,0.0404832579805899
+roc_auc,0.7311169178816992
+precision_at_50,0.2
+recall_at_50,0.12658227848101267
+precision_at_100,0.1
+recall_at_100,0.12658227848101267
+precision_at_200,0.075
+recall_at_200,0.189873417721519

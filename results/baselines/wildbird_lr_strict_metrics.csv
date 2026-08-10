@@ -1,0 +1,2 @@
+model_name,feature_set,pr_auc,roc_auc,precision_at_50,recall_at_50,precision_at_100,recall_at_100,precision_at_200,recall_at_200
+Logistic Regression (Wild-bird Enhanced),Strict 50 Env+Lag + 12 Wild-bird (62 Total),0.07304240035491485,0.9136055143039228,0.14,0.088607594,0.08,0.101265825,0.085,0.21518987

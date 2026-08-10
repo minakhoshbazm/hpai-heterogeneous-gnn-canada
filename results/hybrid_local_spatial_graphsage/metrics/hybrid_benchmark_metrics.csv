@@ -1,0 +1,16 @@
+Cohort,Model,Rows,Outbreaks,Prevalence,AP (Rank Score),ROC-AUC,AP Lift vs Random,Macro Monthly P@10,Macro Monthly R@50,Raw Brier Score,Platt Calibrated Brier,Brier Skill Score (BSS)
+Full National Cohort,standalone_mlp,55594,79,0.001421,0.07422,0.925875,52.23,0.0636,0.1599,0.088841,0.001441,-0.015394
+Full National Cohort,standalone_graphsage,55594,79,0.001421,0.090275,0.910913,63.53,0.0727,0.2001,0.075905,0.001408,0.008014
+Full National Cohort,hybrid_concatenation,55594,79,0.001421,0.047849,0.927088,33.67,0.0636,0.185,0.076748,0.001402,0.011739
+Full National Cohort,hybrid_gated_residual,55594,79,0.001421,0.083053,0.919808,58.45,0.0545,0.2132,0.072557,0.001413,0.004198
+Full National Cohort,hybrid_shuffled_edge_control,55594,79,0.001421,0.075623,0.928657,53.22,0.0545,0.1665,0.061414,0.001403,0.011145
+GLW Poultry Presence Cohort,standalone_mlp,49181,79,0.001606,0.074251,0.918393,46.22,0.0636,0.1599,0.098532,0.001629,-0.01558
+GLW Poultry Presence Cohort,standalone_graphsage,49181,79,0.001606,0.090322,0.903098,56.23,0.0727,0.2001,0.084289,0.001591,0.007835
+GLW Poultry Presence Cohort,hybrid_concatenation,49181,79,0.001606,0.047869,0.919281,29.8,0.0636,0.185,0.085508,0.001585,0.011559
+GLW Poultry Presence Cohort,hybrid_gated_residual,49181,79,0.001606,0.083079,0.912175,51.72,0.0545,0.2132,0.080673,0.001597,0.004017
+GLW Poultry Presence Cohort,hybrid_shuffled_edge_control,49181,79,0.001606,0.075653,0.921094,47.1,0.0545,0.1665,0.068871,0.001586,0.010964
+Primary Commercial Cohort,standalone_mlp,24442,45,0.001841,0.088162,0.911628,47.89,0.0727,0.271,0.115069,0.001842,-0.002191
+Primary Commercial Cohort,standalone_graphsage,24442,45,0.001841,0.098515,0.882626,53.51,0.0727,0.3011,0.098359,0.00186,-0.011993
+Primary Commercial Cohort,hybrid_concatenation,24442,45,0.001841,0.046197,0.903133,25.09,0.0545,0.2837,0.098602,0.001828,0.005346
+Primary Commercial Cohort,hybrid_gated_residual,24442,45,0.001841,0.097087,0.889812,52.73,0.0727,0.3102,0.09343,0.00184,-0.001038
+Primary Commercial Cohort,hybrid_shuffled_edge_control,24442,45,0.001841,0.072923,0.911734,39.61,0.0364,0.24,0.082061,0.001859,-0.011829

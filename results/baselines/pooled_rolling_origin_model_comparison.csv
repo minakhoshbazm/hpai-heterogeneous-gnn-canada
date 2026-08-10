@@ -1,0 +1,17 @@
+model_name,scope,test_rows,test_positives,pr_auc,roc_auc,precision_50,recall_50,precision_100,recall_100,precision_200,recall_200
+Strict Environment + Lag Logistic Regression,POOLED (2023-2025),176890,191,0.0519,0.8986,0.26,0.0681,0.14,0.0733,0.09,0.0942
+Strict Environment + Lag Logistic Regression,Fold 1 (2023 Test),60648,72,0.0649,0.8731,0.14,0.0972,0.09,0.125,0.06,0.1667
+Strict Environment + Lag Logistic Regression,Fold 2 (2024 Test),60648,40,0.0925,0.9197,0.08,0.1,0.05,0.125,0.05,0.25
+Strict Environment + Lag Logistic Regression,Fold 3 (2025 Test),55594,79,0.0657,0.9158,0.12,0.0759,0.07,0.0886,0.065,0.1646
+Strict MLP (No Graph),POOLED (2023-2025),176890,191,0.0568,0.8828,0.24,0.0628,0.15,0.0785,0.115,0.1204
+Strict MLP (No Graph),Fold 1 (2023 Test),60648,72,0.0564,0.8945,0.16,0.1111,0.12,0.1667,0.065,0.1806
+Strict MLP (No Graph),Fold 2 (2024 Test),60648,40,0.1373,0.9017,0.14,0.175,0.11,0.275,0.055,0.275
+Strict MLP (No Graph),Fold 3 (2025 Test),55594,79,0.0513,0.9073,0.14,0.0886,0.09,0.1139,0.05,0.1266
+kNN-3 GraphSAGE Ensemble,POOLED (2023-2025),176890,191,0.0558,0.913,0.2,0.0524,0.14,0.0733,0.09,0.0942
+kNN-3 GraphSAGE Ensemble,Fold 1 (2023 Test),60648,72,0.0475,0.9068,0.06,0.0417,0.06,0.0833,0.045,0.125
+kNN-3 GraphSAGE Ensemble,Fold 2 (2024 Test),60648,40,0.1635,0.9375,0.14,0.175,0.09,0.225,0.065,0.325
+kNN-3 GraphSAGE Ensemble,Fold 3 (2025 Test),55594,79,0.0791,0.9263,0.16,0.1013,0.13,0.1646,0.09,0.2278
+Time-Safe Relational GNN Ensemble,POOLED (2023-2025),176890,191,0.0552,0.9079,0.22,0.0576,0.12,0.0628,0.095,0.0995
+Time-Safe Relational GNN Ensemble,Fold 1 (2023 Test),60648,72,0.0515,0.9157,0.12,0.0833,0.09,0.125,0.06,0.1667
+Time-Safe Relational GNN Ensemble,Fold 2 (2024 Test),60648,40,0.1486,0.9418,0.16,0.2,0.1,0.25,0.06,0.3
+Time-Safe Relational GNN Ensemble,Fold 3 (2025 Test),55594,79,0.0698,0.9126,0.16,0.1013,0.11,0.1392,0.095,0.2405

@@ -1,0 +1,2 @@
+comparator,pooled_graphsage_pr_auc,pooled_lr_pr_auc,observed_pooled_diff,bootstrap_mean_diff,ci_lower_95,ci_upper_95,win_rate_pct,decision
+Wild-Bird Logistic Regression Baseline,0.06279609410099181,0.053978746157227704,0.008817347943764105,0.008285373453201392,0.0006164739790772574,0.017637371789138614,98.5,statistically better

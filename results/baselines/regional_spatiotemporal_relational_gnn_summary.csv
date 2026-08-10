@@ -1,0 +1,5 @@
+regional_block,province_codes,train_rows,train_positives,test_rows,test_positives,test_prevalence,pr_auc_mean,pr_auc_std,pr_auc_lift_mean,roc_auc_mean,roc_auc_std,precision_50_mean,recall_50_mean,small_sample_warning
+Atlantic,"[10, 11, 12, 13]",152028,292,9141,5,0.000547,0.0065,0.0009,11.96,0.7868,0.0318,0.0,0.0,WARNING: Test positive count (5) is very small (< 10); metrics may be unstable.
+Quebec_Ontario,"[24, 35]",115020,215,20449,16,0.000782,0.0096,0.0029,12.28,0.8786,0.005,0.0,0.0,
+Prairies,"[46, 47, 48]",123876,168,17743,41,0.002311,0.0275,0.0065,11.91,0.8438,0.0126,0.0533,0.065,
+British_Columbia,[59],154908,231,8261,17,0.002058,0.175,0.0125,85.03,0.8937,0.0169,0.1333,0.3922,

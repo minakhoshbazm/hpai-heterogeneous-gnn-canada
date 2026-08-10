@@ -1,0 +1,8 @@
+model_name,model_type,pr_auc,pr_auc_std,roc_auc,precision_50,recall_50,validity_status,notes
+kNN-3 GraphSAGE (3-Seed Ensemble),Spatial Graph GNN,0.0791,0.0,0.9168,0.2,0.1266,VALID PRIMARY GRAPH BASELINE,Selected spatial graph baseline on 2025 test set.
+Relational GNN (3-Seed Ensemble),Multi-Relation Biologically Informed RGCN,0.0698,0.0,0.9126,0.16,0.1013,VALID PRIMARY RELATIONAL RESULT,Snapshot-specific time-safe water habitat edges (expanding window <= M).
+Strict Environment + Lag Logistic Regression,Tabular Linear Baseline,0.0654,0.0,0.9084,0.12,0.0759,VALID LINEAR BASELINE,Strict 50-feature set (43 env + 7 approved lag features).
+Relational GNN (Multiseed Mean),Multi-Relation Biologically Informed RGCN,0.0648,0.0084,0.9076,0.14,0.0886,VALID RELATIONAL MEAN,"Mean performance across seeds [11, 22, 33]."
+Strict MLP (No Graph),Tabular Neural Network,0.0601,0.0209,0.9048,0.12,0.0759,VALID NON-GRAPH NEURAL NET,Multilayer perceptron on strict 50-feature set.
+Border-Only GraphSAGE,Spatial Contiguity Graph GNN,0.057,0.0084,0.9038,0.1,0.0633,VALID SPATIAL BASELINE,Adjacency graph of physically bordering CSDs.
+Superseded Relational GNN (Static Aggregate Graph),Multi-Relation RGCN,0.0838,0.0,0.9174,0.2,0.1266,SUPERSEDED FOR FORECASTING,Static water-habitat graph used future 2022-2024 Dynamic World features; preserved for sensitivity only.

@@ -1,0 +1,6 @@
+Sampling Configuration,Sampling Ratio,2024 Val PR-AUC (Selection Metric),2024 Val Decision,Frozen 2025 Retrospective AP,Frozen 2025 Retrospective ROC-AUC
+all_weighted,All Negatives,0.0038,Candidate,0.035666,0.638391
+ratio_3,1:3,0.0435,Candidate,0.010064,0.752783
+ratio_10,1:10,0.1439,High Candidate,0.024894,0.73985
+ratio_25,1:25,0.1216,SELECTED,0.045183,0.663647
+ratio_50,1:50,0.0807,Candidate,0.041717,0.719248

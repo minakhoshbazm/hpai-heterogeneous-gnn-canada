@@ -1,0 +1,4 @@
+Paired Comparison,Full-Sample Observed AP Diff,95% Bootstrap CI,Bootstrap Win Rate,Statistical Decision
+Graph-Augmented LightGBM vs Tabular-Only LightGBM,0.003171,"[-0.0296, +0.0165]",61.8%,Comparable (CI includes 0)
+Graph-Augmented MLP vs Tabular-Only MLP,0.008804,"[-0.0103, +0.0298]",76.9%,Comparable (CI includes 0)
+Standalone GraphSAGE vs Graph-Augmented LightGBM,0.020178,"[-0.0197, +0.0582]",80.2%,Comparable (CI includes 0)

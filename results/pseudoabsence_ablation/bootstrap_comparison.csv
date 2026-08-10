@@ -1,0 +1,5 @@
+config,vs,observed_diff,ci_lower_95,ci_upper_95,win_rate,decision
+ratio_3,all_weighted,-0.025602,-0.082966,0.002622,0.331,"comparable, not proven better"
+ratio_10,all_weighted,-0.010772,-0.025291,0.009507,0.34,"comparable, not proven better"
+ratio_25,all_weighted,0.009517,-0.000125,0.027448,0.965,"comparable, not proven better"
+ratio_50,all_weighted,0.006051,-0.005881,0.030466,0.892,"comparable, not proven better"

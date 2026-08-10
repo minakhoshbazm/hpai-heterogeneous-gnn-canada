@@ -1,0 +1,37 @@
+species_code,common_name,scientific_name,gbif_taxon_key,year,total_records,records_with_coordinates,records_with_event_date,usable_records_both,usable_percentage
+mallar3,Mallard,Anas platyrhynchos,9761484,2022,431978,431977,431978,431977,99.99976850672951
+mallar3,Mallard,Anas platyrhynchos,9761484,2023,448139,448138,448139,448138,99.99977685494902
+mallar3,Mallard,Anas platyrhynchos,9761484,2024,474419,474419,474419,474419,100.0
+mallar3,Mallard,Anas platyrhynchos,9761484,2025,18392,18392,18392,18392,100.0
+ambduc,American Black Duck,Anas rubripes,9581438,2022,87760,87760,87760,87760,100.0
+ambduc,American Black Duck,Anas rubripes,9581438,2023,91047,91047,91047,91047,100.0
+ambduc,American Black Duck,Anas rubripes,9581438,2024,94822,94822,94822,94822,100.0
+ambduc,American Black Duck,Anas rubripes,9581438,2025,1551,1551,1551,1551,100.0
+norpin,Northern Pintail,Anas acuta,2498112,2022,42576,42576,42576,42576,100.0
+norpin,Northern Pintail,Anas acuta,2498112,2023,45298,45298,45298,45298,100.0
+norpin,Northern Pintail,Anas acuta,2498112,2024,48395,48395,48395,48395,100.0
+norpin,Northern Pintail,Anas acuta,2498112,2025,1177,1177,1177,1177,100.0
+gnwtea,Green-winged Teal,Anas crecca,8214667,2022,77418,77418,77418,77418,100.0
+gnwtea,Green-winged Teal,Anas crecca,8214667,2023,79994,79994,79994,79994,100.0
+gnwtea,Green-winged Teal,Anas crecca,8214667,2024,90397,90397,90397,90397,100.0
+gnwtea,Green-winged Teal,Anas crecca,8214667,2025,1774,1774,1774,1774,100.0
+buwtea,Blue-winged Teal,Spatula discors,9422220,2022,45928,45928,45928,45928,100.0
+buwtea,Blue-winged Teal,Spatula discors,9422220,2023,42037,42037,42037,42037,100.0
+buwtea,Blue-winged Teal,Spatula discors,9422220,2024,43960,43960,43960,43960,100.0
+buwtea,Blue-winged Teal,Spatula discors,9422220,2025,1189,1189,1189,1189,100.0
+snogoo,Snow Goose,Anser caerulescens,2498167,2022,34470,34470,34470,34470,100.0
+snogoo,Snow Goose,Anser caerulescens,2498167,2023,30232,30232,30232,30232,100.0
+snogoo,Snow Goose,Anser caerulescens,2498167,2024,31015,31015,31015,31015,100.0
+snogoo,Snow Goose,Anser caerulescens,2498167,2025,909,909,909,909,100.0
+cangoo,Canada Goose,Branta canadensis,5232437,2022,440189,440188,440189,440188,99.99977282485479
+cangoo,Canada Goose,Branta canadensis,5232437,2023,449856,449856,449856,449856,100.0
+cangoo,Canada Goose,Branta canadensis,5232437,2024,481786,481786,481786,481786,100.0
+cangoo,Canada Goose,Branta canadensis,5232437,2025,14636,14636,14636,14636,100.0
+canvas,Canvasback,Aythya valisineria,2498256,2022,15946,15897,15897,15897,99.69271290605795
+canvas,Canvasback,Aythya valisineria,2498256,2023,16189,16189,16189,16189,100.0
+canvas,Canvasback,Aythya valisineria,2498256,2024,17451,17451,17451,17451,100.0
+canvas,Canvasback,Aythya valisineria,2498256,2025,576,576,576,576,100.0
+redhea,Redhead,Aythya americana,2498263,2022,31358,31309,31309,31309,99.84374003444097
+redhea,Redhead,Aythya americana,2498263,2023,29186,29186,29186,29186,100.0
+redhea,Redhead,Aythya americana,2498263,2024,30307,30307,30307,30307,100.0
+redhea,Redhead,Aythya americana,2498263,2025,1238,1238,1238,1238,100.0

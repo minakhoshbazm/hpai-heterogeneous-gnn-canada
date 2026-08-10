@@ -1,0 +1,4 @@
+check,model_file,rows,unique_csds,months_count,positives,prevalence,status
+schema_key_integrity,wildbird_graphsage_knn3_corrected_test_predictions.csv,55594,5054,11,79,0.0014210166564737202,PASS
+schema_key_integrity,wildbird_lr_strict_test_predictions.csv,55594,5054,11,79,0.0014210166564737202,PASS
+schema_key_integrity,environment_with_lags_v1_strict_test_predictions.csv,55594,5054,11,79,0.0014210166564737202,PASS

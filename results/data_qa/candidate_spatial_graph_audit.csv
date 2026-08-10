@@ -1,0 +1,9 @@
+graph_name,total_edges,unique_active_nodes,isolated_nodes,num_connected_components,mean_degree,median_degree,min_degree,max_degree,non_border_edges_count,non_border_dist_mean_km,non_border_dist_median_km,non_border_dist_min_km,non_border_dist_max_km,too_dense_for_graphsage
+Shared-border Adjacency,10508,5054,0,13,4.16,3.0,1,75,0,N/A,N/A,N/A,N/A,No (Practical Density)
+Proximity Radius (25 km),20777,4683,371,676,8.22,5.0,0,47,14534,17.43,18.55,0.85,25.0,No (Practical Density)
+Proximity Radius (50 km),70427,4944,110,221,27.87,20.0,0,131,61551,33.65,35.33,0.85,50.0,No (Practical Density)
+Proximity Radius (100 km),229242,5038,16,45,90.72,69.0,0,374,219451,64.67,67.7,0.85,100.0,Yes (Too Dense - Over-smoothing Risk)
+Proximity Radius (200 km),663376,5054,0,2,262.52,218.0,1,750,653157,122.48,127.04,0.85,200.0,Yes (Too Dense - Over-smoothing Risk)
+K-Nearest-Neighbours (k=3),9655,5054,0,35,3.82,4.0,3,8,4359,24.34,17.21,0.85,268.73,No (Practical Density)
+K-Nearest-Neighbours (k=5),15416,5054,0,3,6.1,6.0,5,11,8500,29.21,21.03,0.85,293.62,No (Practical Density)
+K-Nearest-Neighbours (k=8),24260,5054,0,1,9.6,9.0,8,17,15965,35.12,25.31,0.85,335.22,No (Practical Density)

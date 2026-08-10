@@ -1,0 +1,3 @@
+comparator,transfer_gnn_pr_auc,baseline_pr_auc,observed_diff,ci_lower_95,ci_upper_95,win_rate,decision
+Monthly-Snapshot GraphSAGE (Rolling),0.072,0.0628,0.0092,-0.0057,0.0288,0.839,"comparable, not proven better"
+Wild-Bird Logistic Regression (Rolling),0.072,0.054,0.018,0.0014,0.0399,0.986,statistically better

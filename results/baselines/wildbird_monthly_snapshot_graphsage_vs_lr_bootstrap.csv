@@ -1,0 +1,2 @@
+comparator,snapshot_graphsage_pr_auc,lr_pr_auc,mean_pr_auc_diff,ci_lower_95,ci_upper_95,win_rate_pct,decision
+Final Retrained Wild-Bird Logistic Regression,0.0737927273284728,0.06788645437798914,0.009489825149834168,-0.01418508190935539,0.0434207367928513,75.3,"comparable, not proven better"
