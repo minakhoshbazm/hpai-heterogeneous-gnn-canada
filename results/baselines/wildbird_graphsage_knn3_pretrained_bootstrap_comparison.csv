@@ -1,0 +1,3 @@
+comparator,pretrained_ensemble_pr_auc,comparator_pr_auc,mean_pr_auc_diff,ci_lower_95,ci_upper_95,win_rate_pct,decision
+Corrected Wild-Bird kNN-3 GraphSAGE (No Pretraining),0.05134570950017252,0.059137862068021005,-0.006729662164556013,-0.016375902283340987,0.0005822934504683149,4.3,"comparable, not proven better"
+Wild-Bird Logistic Regression Baseline,0.05134570950017252,0.06697046775995433,-0.012207728167929881,-0.07846092992716085,0.030267590247566162,41.0,"comparable, not proven better"

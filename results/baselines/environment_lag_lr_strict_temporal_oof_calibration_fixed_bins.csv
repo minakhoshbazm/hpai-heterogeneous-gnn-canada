@@ -1,0 +1,21 @@
+bin_index,bin_type,bin_lower,bin_upper,count,mean_predicted_prob,observed_outbreak_rate,abs_error,model_variant
+1,fixed_width,0.0,0.1,25575,0.03775860307676285,0.00011730205278592375,0.03764130102397693,Uncalibrated LogisticRegression
+2,fixed_width,0.1,0.2,13188,0.1434783447100063,7.582650894752806e-05,0.1434025182010588,Uncalibrated LogisticRegression
+3,fixed_width,0.2,0.30000000000000004,6529,0.2433417693960353,0.0009189768724153775,0.24242279252361992,Uncalibrated LogisticRegression
+4,fixed_width,0.30000000000000004,0.4,3215,0.347474600673624,0.002488335925349922,0.3449862647482741,Uncalibrated LogisticRegression
+5,fixed_width,0.4,0.5,2207,0.44611297441249137,0.0018124150430448573,0.4443005593694465,Uncalibrated LogisticRegression
+6,fixed_width,0.5,0.6000000000000001,1553,0.5469909695620293,0.0025756600128783,0.544415309549151,Uncalibrated LogisticRegression
+7,fixed_width,0.6000000000000001,0.7000000000000001,1070,0.6464987007761015,0.008411214953271028,0.6380874858228305,Uncalibrated LogisticRegression
+8,fixed_width,0.7000000000000001,0.8,771,0.7475717262119416,0.007782101167315175,0.7397896250446264,Uncalibrated LogisticRegression
+9,fixed_width,0.8,0.9,562,0.8482332523214167,0.012455516014234875,0.8357777363071818,Uncalibrated LogisticRegression
+10,fixed_width,0.9,1.0,924,0.9621680820705494,0.03354978354978355,0.9286182985207658,Uncalibrated LogisticRegression
+1,fixed_width,0.0,0.1,55584,0.0006622138889603924,0.001367299942429476,0.0007050860534690836,Platt OOF-Calibrated LogisticRegression
+2,fixed_width,0.1,0.2,8,0.17853722421405654,0.125,0.053537224214056545,Platt OOF-Calibrated LogisticRegression
+3,fixed_width,0.2,0.30000000000000004,0,,,,Platt OOF-Calibrated LogisticRegression
+4,fixed_width,0.30000000000000004,0.4,0,,,,Platt OOF-Calibrated LogisticRegression
+5,fixed_width,0.4,0.5,2,0.4566243026302483,1.0,0.5433756973697517,Platt OOF-Calibrated LogisticRegression
+6,fixed_width,0.5,0.6000000000000001,0,,,,Platt OOF-Calibrated LogisticRegression
+7,fixed_width,0.6000000000000001,0.7000000000000001,0,,,,Platt OOF-Calibrated LogisticRegression
+8,fixed_width,0.7000000000000001,0.8,0,,,,Platt OOF-Calibrated LogisticRegression
+9,fixed_width,0.8,0.9,0,,,,Platt OOF-Calibrated LogisticRegression
+10,fixed_width,0.9,1.0,0,,,,Platt OOF-Calibrated LogisticRegression

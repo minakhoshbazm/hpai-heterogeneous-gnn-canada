@@ -72,6 +72,10 @@ Thumbs.db
 
 # Config local overrides
 configs/local_override.yaml
+.claude/settings.local.json
+
+# Temporary generated artifacts
+/tmp/
 
 # Added for repository hygiene
 scratch/

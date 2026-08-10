@@ -1,0 +1,7 @@
+Paired Comparison,Observed AP Diff,95% Confidence Interval,Bootstrap Win Rate,Statistical Conclusion
+Gated Hybrid vs Harmonized MLP,0.009639,"[-0.0080, +0.0383]",84.6%,Comparable (CI includes 0)
+Gated Hybrid vs Standalone GraphSAGE,-0.005192,"[-0.0202, +0.0095]",27.0%,Comparable (CI includes 0)
+Gated Hybrid vs Concatenation Hybrid,0.031963,"[+0.0023, +0.0597]",99.8%,Statistically Superior (CI > 0)
+Gated Hybrid vs Shuffled-Edge Hybrid,0.009952,"[-0.0110, +0.0450]",75.2%,Comparable (CI includes 0)
+Gated Hybrid vs Self-Loop Control,0.006355,"[-0.0223, +0.0469]",63.3%,Comparable (CI includes 0)
+Standalone GraphSAGE vs Harmonized MLP,0.014831,"[-0.0004, +0.0401]",96.6%,Comparable (CI includes 0)

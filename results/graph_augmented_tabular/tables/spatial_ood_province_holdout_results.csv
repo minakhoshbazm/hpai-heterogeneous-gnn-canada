@@ -1,0 +1,5 @@
+Held-Out Province,Test Year,Test Rows,Test Outbreaks,Prevalence,Spatial OOD AP,Spatial OOD ROC-AUC
+British Columbia,2025,8261,17,0.002058,0.063682,0.950574
+Alberta,2025,4653,21,0.004513,0.046018,0.916363
+Ontario,2025,6347,8,0.00126,0.031347,0.92768
+Quebec,2025,14102,8,0.000567,0.003165,0.731331

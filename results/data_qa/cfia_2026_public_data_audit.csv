@@ -1,0 +1,676 @@
+record_id,source_sheet,event_date,notification_date,province,location,host_species,production_type,category,host_type_official,year
+As of Jul 27 2026_2,As of Jul 27 2026,2022-04-04,2022-04-05,Alberta,Mountain View County,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_3,As of Jul 27 2026,2022-04-04,2022-04-06,Alberta,Mountain View County,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_4,As of Jul 27 2026,2022-04-06,2022-04-06,Alberta,Ponoka County,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_5,As of Jul 27 2026,2022-04-07,2022-04-07,Alberta,Kneehill County,Chicken,Chicken - Broiler breeder layer (hatching egg),Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_6,As of Jul 27 2026,2022-04-06,2022-04-08,Alberta,Paintearth County,"Chicken, Turkey","Turkey - Meat, Chicken - Table-egg layer, Chicken - Broiler",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_7,As of Jul 27 2026,2022-04-08,2022-04-10,Alberta,Wetaskiwin County,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_8,As of Jul 27 2026,2022-04-09,2022-04-11,Alberta,Camrose County ,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_9,As of Jul 27 2026,2022-04-08,2022-04-12,Alberta,Mountain View County,"Pheasant, Partridge",Other,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_10,As of Jul 27 2026,2022-04-13,2022-04-13,Alberta,Kneehill County,Chicken,"Chicken - Broiler breeder layer (hatching egg), Chicken - Broiler breeder pullet (hatching egg)",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_11,As of Jul 27 2026,2022-04-12,2022-04-13,Alberta,Warner County,"Chicken, Duck","Chicken - Table-egg layer, Duck - Meat",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_12,As of Jul 27 2026,2022-04-10,2022-04-12,Alberta,Mountain View County,"Turkey, Goose, Guinea Fowl, Peacock, Duck",Small holder / backyard,Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_13,As of Jul 27 2026,2022-04-13,2022-04-14,Alberta,Cardston County,"Chicken, Turkey, Duck, Goose","Chicken - Table-egg pullet, Chicken - Table-egg layer, Turkey - Meat",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_14,As of Jul 27 2026,2022-04-19,2022-04-20,Alberta,Kneehill County,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_15,As of Jul 27 2026,2022-04-19,2022-04-21,Alberta,Wetaskiwin County,Chicken,"Chicken - Broiler, Chicken - Table egg layer",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_16,As of Jul 27 2026,2022-04-15,2022-04-22,Alberta,Sturgeon County,"Goose, Duck, Rooster, Guinea Fowl",Small holder / backyard,Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_17,As of Jul 27 2026,2022-04-10,2022-04-12,Alberta,Rocky View County,"Chicken, Turkey, Peacock, Duck",Small holder / backyard,Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_18,As of Jul 27 2026,2022-04-22,2022-04-24,Alberta,Camrose County,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_19,As of Jul 27 2026,2022-04-23,2022-04-23,Alberta,Camrose County,Chicken,"Chicken - Table-egg layer, Chicken - Table-egg pullet",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_20,As of Jul 27 2026,2022-04-23,2022-04-25,Alberta,Vermilion River County,"Chicken, Guinea fowl","Small holder / backyard, Chicken - Table-egg layer",Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_21,As of Jul 27 2026,2022-04-24,2022-04-27,Alberta,Camrose County,Chicken,Small holder / backyard,Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_22,As of Jul 27 2026,2022-04-26,2022-04-27,Alberta,County of Two Hills,Chicken,Small holder / backyard,Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_23,As of Jul 27 2026,2022-04-24,2022-04-28,Alberta,Municipality of Wainright,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_24,As of Jul 27 2026,2022-04-27,2022-04-30,Alberta,Lethbridge County,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_25,As of Jul 27 2026,2022-04-21,2022-05-04,Alberta,Newell County,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_26,As of Jul 27 2026,2022-05-07,2022-05-09,Alberta,The County of Two Hills,"Chicken, Goose, Duck, Turkey",Small holder / backyard,Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_27,As of Jul 27 2026,2022-05-06,2022-05-11,Alberta,The County of Two Hills,"Chicken, Goose, Duck","Chicken - Table-egg layer, Chicken - Broiler, Duck - Meat",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_28,As of Jul 27 2026,2022-04-28,2022-05-10,Alberta,Foothills County,"Duck, Goose, Chicken",Small holder / backyard,Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_29,As of Jul 27 2026,2022-05-10,2022-05-10,Alberta,Municipal District of Provost,Chicken,Small holder / backyard,Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_30,As of Jul 27 2026,2022-05-17,2022-05-18,Alberta,Cypress County,"Chicken, Quail, Duck, Goose, Turkey",Small holder / backyard,Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_31,As of Jul 27 2026,2022-05-26,2022-05-27,Alberta,Municipality of Wainwright,"Chicken, Turkey",Small holder / backyard,Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_32,As of Jul 27 2026,2022-05-16,2022-05-31,Alberta,Clear Hills County,Chicken,Small holder / backyard,Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_33,As of Jul 27 2026,2022-07-12,2022-07-28,Alberta,Stettler County,"Chicken, Goose, Duck","Chicken - Table egg layer, Chicken - Table-egg pullet, Duck - Meat",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_34,As of Jul 27 2026,2022-08-08,2022-08-23,Alberta,Athabasca County,"Chicken, Goose, Turkey","Turkey - Meat, Chicken - Broiler, Goose - Meat",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_35,As of Jul 27 2026,2022-08-30,2022-08-30,Alberta,Sturgeon County,"Chicken, Turkey","Turkey - Meat, Chicken - Broiler",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_36,As of Jul 27 2026,2022-09-02,2022-09-03,Alberta,Strathcona County,"Chicken, Turkey","Turkey - Meat, Chicken - Broiler",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_37,As of Jul 27 2026,2022-09-03,2022-09-12,Alberta,Starland County,"Chicken, Turkey, Goose","Turkey - Meat, Chicken - Broiler, Goose - Meat",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_38,As of Jul 27 2026,2022-09-10,2022-09-11,Alberta,Municipal District of Willow Creek,"Turkey, Chicken, Goose","Turkey - Meat, Chicken - Broiler, Chicken - Table-egg layer",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_39,As of Jul 27 2026,2022-09-14,2022-09-14,Alberta,Wetaskiwin County,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_40,As of Jul 27 2026,2022-09-15,2022-09-15,Alberta,Municipal District of Wainwright,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_41,As of Jul 27 2026,2022-09-14,2022-09-16,Alberta,County of Warner,"Chicken, Turkey, Duck, Goose","Chicken - Broiler, Duck - Meat, Goose - Meat",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_42,As of Jul 27 2026,2022-09-17,2022-09-17,Alberta,Smoky Lake County,"Chicken, Duck, Goose",Chicken - Table-egg layer,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_43,As of Jul 27 2026,2022-09-16,2022-09-19,Alberta,Municipal District of Taber,Turkey,"Turkey - Meat, Turkey - Breeder (multiplier)",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_44,As of Jul 27 2026,2022-09-19,2022-09-20,Alberta,Athabasca County,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_45,As of Jul 27 2026,2022-09-20,2022-09-21,Alberta,Municipal District of Taber,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_46,As of Jul 27 2026,2022-09-23,2022-09-23,Alberta,Municipal District of Willow Creek ,Turkey,"Chicken - Broiler, Chicken - Table-egg layer, Turkey - Meat",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_47,As of Jul 27 2026,2022-09-18,2022-09-24,Alberta,Sturgeon County ,Chicken,Small holder / backyard,Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_48,As of Jul 27 2026,2022-09-22,2022-09-25,Alberta,Mountain View County,Chicken,"Small holder / backyard, Chicken - Table-egg layer, Other",Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_49,As of Jul 27 2026,2022-09-23,2022-09-26,Alberta,Camrose County,Quail,Other,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_50,As of Jul 27 2026,2022-09-22,2022-09-28,Alberta,Beaver County ,"Chicken, Turkey, Peacock","Chicken - Broiler, Turkey - Meat, Chicken - Table-egg layer",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_51,As of Jul 27 2026,2022-09-27,2022-10-03,Alberta,Sturgeon County,Chicken,"Small holder / backyard (Chicken - Table-egg layer, Chicken - Broiler)",Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_52,As of Jul 27 2026,2022-10-10,2022-10-12,Alberta,Wetaskiwin County ,"Chicken, Turkey, Duck, Goose, Quail, Pigeon","Small holder / backyard, Other",Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_53,As of Jul 27 2026,2022-10-10,2022-10-12,Alberta,Lacombe County,"Chicken, Turkey","Small holder / backyard (Chicken - Table-egg layer, Turkey - Meat)",Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_54,As of Jul 27 2026,2022-10-14,2022-10-17,Alberta,Rocky View County ,Chicken,Small holder / backyard (Chicken - Table-egg layer),Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_55,As of Jul 27 2026,2022-10-19,2022-10-22,Alberta,Red Deer County ,Chicken,Small holder / backyard (Chicken - Table-egg layer),Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_56,As of Jul 27 2026,2022-10-16,2022-10-24,Alberta,Mountain View County ,"Chicken, Turkey, Duck, Goose","Small holder / backyard (Chicken - Table-egg layer, Turkey - Meat, Other)",Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_57,As of Jul 27 2026,2022-10-19,2022-10-26,Alberta,Clear Hills County ,"Chicken, Turkey, Duck, Goose","Chicken - Table-egg layer, Turkey - Meat, Other",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_58,As of Jul 27 2026,2022-11-02,2022-11-03,Alberta,Lethbridge County,Chicken,Chicken - Broiler breeder parent/grandparent stock (hatching egg),Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_59,As of Jul 27 2026,2022-10-29,2022-11-02,Alberta,Minburn County,"Turkey, Chicken, Duck, Goose, Peacock, Pheasant, Partridge",Small holder / backyard (Chicken - Table-egg layer),Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_60,As of Jul 27 2026,2022-11-11,2022-11-14,Alberta,County of Forty Mile ,Chicken,"Chicken - Table-egg layer, Chicken - Table-egg pullet",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_61,As of Jul 27 2026,2022-11-16,2022-11-21,Alberta,Mountain View County ,"Chicken, Turkey","Small holder / backyard (Chicken - Table-egg layer, Turkey - Meat)",Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_62,As of Jul 27 2026,2023-04-19,2023-04-20,Alberta,Lacombe County ,"Chicken, Duck, Goose",Small holder / backyard,Non-Poultry,Non-Poultry,2023.0
+As of Jul 27 2026_63,As of Jul 27 2026,2023-09-07,2023-09-10,Alberta,Warner County,"Chicken, Turkey","Turkey - Meat, Chicken - Broiler,  Chicken - Table-egg layer",Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_64,As of Jul 27 2026,2023-09-20,2023-09-21,Alberta,Red Deer County ,"Chicken, Turkey","Small holder / backyard (Chicken - Table-egg layer, Turkey - Meat)",Non-Poultry,Non-Poultry,2023.0
+As of Jul 27 2026_65,As of Jul 27 2026,2023-09-20,2023-09-25,Alberta,Municipal District of Smoky River ,"Chicken, Turkey, Duck, Goose","Small holder / backyard (Turkey - Meat, Chicken - Table-egg layer, Duck -Layer, Goose - Layer)",Non-Poultry,Non-Poultry,2023.0
+As of Jul 27 2026_66,As of Jul 27 2026,2023-09-25,2023-09-26,Alberta,Strathcona County,"Chicken, Turkey","Turkey - Meat, Chicken - Broiler",Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_67,As of Jul 27 2026,2023-10-01,2023-10-02,Alberta,Cardston County ,"Chicken, Turkey","Table-egg layer, Table-egg pullet, Turkey-Meat",Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_68,As of Jul 27 2026,2023-09-30,2023-10-06,Alberta,Municipal District of Greenview,"Chicken, Turkey","Turkey - Meat, Chicken - Broiler, Chicken - Table-egg layer",Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_69,As of Jul 27 2026,2023-10-04,2023-10-10,Alberta,Parkland County,"Chicken, Turkey","Small holder / backyard (Chicken - Table-egg layer, Chicken - Broiler, Turkey - Meat)",Poultry/Non-Commercial,Poultry,2023.0
+As of Jul 27 2026_70,As of Jul 27 2026,2023-10-14,2023-10-17,Alberta,Stettler County,"Chicken, Duck","Small holder / backyard (Chicken - Table-egg layer, Duck - Layer)",Non-Poultry,Non-Poultry,2023.0
+As of Jul 27 2026_71,As of Jul 27 2026,2023-10-21,2023-10-22,Alberta,Athabasca County,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_72,As of Jul 27 2026,2023-11-04,2023-11-06,Alberta,Municipal District of Willow Creek,"Chicken, Turkey","Chicken - Table-egg layer, Chicken - Broiler, Turkey - Meat",Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_73,As of Jul 27 2026,2023-11-03,2023-11-09,Alberta,Sturgeon County,"Chicken, Duck","Small holder / backyard (Chicken - Table-egg layer, Duck, Goose)",Non-Poultry,Non-Poultry,2023.0
+As of Jul 27 2026_74,As of Jul 27 2026,2023-11-06,2023-11-12,Alberta,County of Vermilion River,"Chicken, Duck, Guinea Fowl","Small holder / backyard (Chicken - Table-egg layer, Duck, Guinea Fowl)",Non-Poultry,Non-Poultry,2023.0
+As of Jul 27 2026_75,As of Jul 27 2026,2023-11-07,2023-11-20,Alberta,Saint Paul County,Chicken,Small holder / backyard (Chicken - Table-egg layer),Non-Poultry,Non-Poultry,2023.0
+As of Jul 27 2026_76,As of Jul 27 2026,2023-11-21,2023-11-24,Alberta,Municipal District of Taber,"Chicken, Guinea fowl","Small holder / backyard (Chicken - Table-egg layer, Guinea fowl)",Poultry/Non-Commercial,Poultry,2023.0
+As of Jul 27 2026_77,As of Jul 27 2026,2023-11-22,2023-11-26,Alberta,Lac Ste. Anne County,"Chicken, Turkey, Duck, Goose, Guinea Fowl","Chicken - Table-egg layer, Layer breeder, Turkey – Meat, Breeder, Duck - Egg, Goose – Breeder, Guinea Fowl – Breeder",Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_78,As of Jul 27 2026,2023-11-25,2023-11-26,Alberta,Lethbridge County,Chicken,"Chicken - Broiler breeder layer, Pullet, Rooster",Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_79,As of Jul 27 2026,2023-12-03,2023-12-04,Alberta,Municipal District of Taber,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_80,As of Jul 27 2026,2023-12-05,2023-12-07,Alberta,Municipal District of Taber,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_81,As of Jul 27 2026,2023-12-14,2023-12-18,Alberta,Cypress County,Chicken,Small holder / backyard (Chicken - Table-egg layer),Non-Poultry,Non-Poultry,2023.0
+As of Jul 27 2026_82,As of Jul 27 2026,2024-01-01,2024-02-09,Alberta,Vermilion River County,"Chicken, Turkey, Duck, Peafowl","Small holder / backyard (Chicken - Table-egg layer, Turkey - Meat, Duck - Meat, Peafowl)",Poultry/Non-Commercial,Poultry,2024.0
+As of Jul 27 2026_83,As of Jul 27 2026,2024-02-16,2024-02-19,Alberta,Mountain View County,"Pheasant, Partridge, Chicken","Pheasant, partridge, Chicken - Table-egg layer",Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_84,As of Jul 27 2026,2024-11-05,2024-11-07,Alberta,County of Lamont,"Chicken, Duck","Small holder / backyard (Chicken - Table-egg layer, Duck - Meat)",Non-Poultry,Non-Poultry,2024.0
+As of Jul 27 2026_85,As of Jul 27 2026,2024-11-10,2024-11-11,Alberta,Camrose County,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_86,As of Jul 27 2026,2024-11-08,2024-11-12,Alberta,Special Area No. 3,Chicken,Small holder / backyard (Chicken - Table-egg layer),Poultry/Non-Commercial,Poultry,2024.0
+As of Jul 27 2026_87,As of Jul 27 2026,2024-11-15,2024-11-23,Alberta,Sturgeon County,Backyard Mixed Breed,Small holder / backyard,Non-Poultry,Non-Poultry,2024.0
+As of Jul 27 2026_88,As of Jul 27 2026,2025-05-07,2025-05-09,Alberta,Leduc County,Backyard Mixed Breed,Small holder / backyard,Non-Poultry,Non-Poultry,2025.0
+As of Jul 27 2026_89,As of Jul 27 2026,2025-09-05,2025-09-06,Alberta,Strathcona County,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_90,As of Jul 27 2026,2025-09-03,2025-09-08,Alberta,Beaver County,"Turkey, Chicken, Goose","Turkey - Meat, Chicken - Table-egg layer, Geese",Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_91,As of Jul 27 2026,2025-09-08,2025-09-09,Alberta,Minburn County No. 27,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_92,As of Jul 27 2026,2025-09-06,2025-09-12,Alberta,Sturgeon County,Duck,Duck- Balut eggs,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_93,As of Jul 27 2026,2025-09-29,2025-10-01,Alberta,County of Warner No. 5,Chicken,Chicken - Table egg layer,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_94,As of Jul 27 2026,2025-10-02,2025-10-03,Alberta,Parkland County,Small holder / backyard,Small holder / backyard,Non-Poultry,Non-Poultry,2025.0
+As of Jul 27 2026_95,As of Jul 27 2026,2025-10-05,2025-10-06,Alberta,County of Warner No. 5,"Chicken, Turkey","Chicken - Table-egg layer, Chicken- Broiler, Turkey - Meat",Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_96,As of Jul 27 2026,2025-10-09,2025-10-14,Alberta,Rocky View County,"Chicken, Turkey, Duck, Goose, Pheasant, Emu, Peacock",Exhibition farm,Poultry/Non-Commercial,Poultry,2025.0
+As of Jul 27 2026_97,As of Jul 27 2026,2025-10-25,2025-10-26,Alberta,Strathcona County,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_98,As of Jul 27 2026,2025-10-25,2025-10-27,Alberta,Leduc County,"Turkey, Chicken","Turkey - Meat, Chicken - Table-egg layer, Chicken - Broiler",Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_99,As of Jul 27 2026,2025-10-28,2025-10-29,Alberta,County of Wetaskiwin No. 10,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_100,As of Jul 27 2026,2025-10-29,2025-10-29,Alberta,Sturgeon County,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_101,As of Jul 27 2026,2025-10-27,2025-10-28,Alberta,Ponoka County,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_102,As of Jul 27 2026,2025-10-24,2025-10-28,Alberta,Municipal district of Bonnyville No. 87,Small holder / backyard,Small holder / backyard,Non-Poultry,Non-Poultry,2025.0
+As of Jul 27 2026_103,As of Jul 27 2026,2025-10-23,2025-10-31,Alberta,Strathcona County,"Chicken- layer, pullets, rooster, Ducks, Turkey-meat",Small holder / backyard (Mixed Breed),Non-Poultry,Non-Poultry,2025.0
+As of Jul 27 2026_104,As of Jul 27 2026,2025-11-02,2025-11-03,Alberta,County of Wetaskiwin No. 10,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_105,As of Jul 27 2026,2025-11-01,2025-11-06,Alberta,Ponoka County,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_106,As of Jul 27 2026,2025-11-15,2025-11-15,Alberta,Lethbridge County,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_107,As of Jul 27 2026,2025-11-16,2025-11-18,Alberta,Strathcona County,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_108,As of Jul 27 2026,2025-11-18,2025-11-20,Alberta,Sturgeon County,"Chicken, Chukar, Patridge, Pheasant",Small holder / backyard,Non-Poultry,Non-Poultry,2025.0
+As of Jul 27 2026_109,As of Jul 27 2026,2025-11-19,2025-11-20,Alberta,Municipal District of Taber,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_110,As of Jul 27 2026,2025-11-15,2025-11-21,Alberta,Grande Prairie County No. 1,"Chicken, Duck, Goose, Turkey",Small holder / backyard,Poultry/Non-Commercial,Poultry,2025.0
+As of Jul 27 2026_111,As of Jul 27 2026,2025-11-25,2025-11-27,Alberta,Barrhead County No. 11,"Chicken, Duck",Small holder / backyard,Non-Poultry,Non-Poultry,2025.0
+As of Jul 27 2026_112,As of Jul 27 2026,2025-12-01,2025-12-05,Alberta,Newell County No. 4,Chicken,Small holder / backyard (Chicken - Table-egg layer),Poultry/Non-Commercial,Poultry,2025.0
+As of Jul 27 2026_113,As of Jul 27 2026,2025-12-07,2025-12-08,Alberta,Foothills County,"Duck, Goose",Small holder / backyard,Non-Poultry,Non-Poultry,2025.0
+As of Jul 27 2026_114,As of Jul 27 2026,2026-05-09,2026-05-09,Alberta,Strathcona County,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2026.0
+As of Jul 27 2026_115,As of Jul 27 2026,2026-05-08,2026-05-09,Alberta,Special Areas No. 4,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2026.0
+As of Jul 27 2026_116,As of Jul 27 2026,2026-05-14,2026-05-15,Alberta,Starland County,"Duck, Chicken","Duck - Meat, Chicken - Table-egg layer",Poultry/Commercial,Poultry,2026.0
+As of Jul 27 2026_117,As of Jul 27 2026,2022-04-07,2022-04-12,British Columbia,Regional District of North Okanagan,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_118,As of Jul 27 2026,2022-04-19,2022-04-22,British Columbia,City of Kelowna,"Chicken, Duck",Small holder / backyard,Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_119,As of Jul 27 2026,2022-04-21,2022-04-24,British Columbia,Regional District of Central Kootenay,"Chicken, Duck, Goose",Small holder / backyard,Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_120,As of Jul 27 2026,2022-04-28,2022-05-02,British Columbia,City of Richmond,"Chicken, Duck, Guinea fowl",Small holder / backyard,Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_121,As of Jul 27 2026,2022-04-05,2022-04-28,British Columbia,Regional District of Central Okanagan,"Chicken, Duck",Small holder / backyard,Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_122,As of Jul 27 2026,2022-04-28,2022-05-01,British Columbia,Regional District of Central Okanagan,Chicken,Small holder / backyard,Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_123,As of Jul 27 2026,2022-04-27,2022-05-02,British Columbia,Regional District of North Okanagan,"Chicken, Pigeon, Guinea fowl, Duck, Peacock",Small holder / backyard,Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_124,As of Jul 27 2026,2022-04-27,2022-05-09,British Columbia,Regional District of Comox Valley,"Chicken, Goose, Duck",Small holder / backyard,Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_125,As of Jul 27 2026,2022-05-12,2022-05-14,British Columbia,City of Abbotsford,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_126,As of Jul 27 2026,2022-05-13,2022-05-14,British Columbia,City of Richmond,Other Wild Captive (Raptors),Other,Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_127,As of Jul 27 2026,2022-05-18,2022-05-18,British Columbia,City of Abbotsford,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_128,As of Jul 27 2026,2022-05-12,2022-05-19,British Columbia,Regional District of Okanagan-Similkameen,"Chicken, Duck, Cockatoo in house, Macaw in house","Small holder / backyard (Chicken - Table-egg layer, Duck - Egg, Exotic / Exhibition)",Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_129,As of Jul 27 2026,2022-05-04,2022-05-27,British Columbia,Regional District of Peace River,Chicken,Small holder / backyard,Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_130,As of Jul 27 2026,2022-05-30,2022-05-31,British Columbia,District Municipality of Sechelt,Chicken,Small holder / backyard,Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_131,As of Jul 27 2026,2022-05-31,2022-06-02,British Columbia,Town of Summerland,"Chicken, Quail",Small holder / backyard (Chicken - Table-egg layer),Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_132,As of Jul 27 2026,2022-06-07,2022-06-08,British Columbia,Langley Township,"Chicken, Turkey","Turkey - Meat, Chicken - Broiler",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_133,As of Jul 27 2026,2022-06-08,2022-06-10,British Columbia,Regional District of Nanaimo,"Chicken, Duck, Turkey",Small holder / backyard,Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_134,As of Jul 27 2026,2022-06-14,2022-06-17,British Columbia,Langley Township,Chicken,Small holder / backyard,Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_135,As of Jul 27 2026,2022-09-05,2022-09-12,British Columbia,City of Chilliwack,Chicken,"Chicken - Table-egg layer, Chicken - Broiler",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_136,As of Jul 27 2026,2022-09-08,2022-09-14,British Columbia,Regional District of Cariboo,"Chicken, Duck","Small holder / backyard (Chicken - Table-egg layer, Other)",Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_137,As of Jul 27 2026,2022-08-31,2022-09-17,British Columbia,Township of Spallumcheen,"Chicken, Turkey, Duck, Pheasant, Peacock",Exotic / Exhibition,Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_138,As of Jul 27 2026,2022-09-23,2022-09-25,British Columbia,District Municipality of North Cowichan ,Chicken,Small holder / backyard (Chicken - Table-egg layer),Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_139,As of Jul 27 2026,2022-09-13,2022-10-03,British Columbia,Capital Regional District ,"Chicken, Quail, Turkey, Duck","Small holder / backyard (Chicken - Table egg layer, Turkey - Meat, Other)",Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_140,As of Jul 27 2026,2022-09-27,2022-10-04,British Columbia,Cowichan Valley Regional District ,"Chicken, Turkey, Duck","Small holder / backyard (Chicken - Table-egg layer, Turkey - Meat)",Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_141,As of Jul 27 2026,2022-10-07,2022-10-09,British Columbia,District Municipality of Saanich,"Chicken, Turkey, Duck","Small holder / backyard (Chicken - Table egg layer, Turkey - Breeder, Chicken - Broiler)",Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_142,As of Jul 27 2026,2022-10-08,2022-10-11,British Columbia,Langley Township ,"Chicken, Duck, Goose","Small holder / backyard (Chicken - Table-egg layer, Other)",Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_143,As of Jul 27 2026,2022-10-11,2022-10-15,British Columbia,Langley Township,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_144,As of Jul 27 2026,2022-10-19,2022-10-19,British Columbia,Langley Township ,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_145,As of Jul 27 2026,2022-11-03,2022-11-07,British Columbia,Regional District of Bulkley,"Chicken, Guinea fowl",Small holder / backyard,Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_146,As of Jul 27 2026,2022-11-15,2022-11-16,British Columbia,City of Abbotsford,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_147,As of Jul 27 2026,2022-11-16,2022-11-16,British Columbia,City of Abbotsford,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_148,As of Jul 27 2026,2022-11-15,2022-11-17,British Columbia,City of Abbotsford,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_149,As of Jul 27 2026,2022-11-14,2022-11-18,British Columbia,City of Abbotsford,Duck,Duck - Egg,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_150,As of Jul 27 2026,2022-11-19,2022-11-19,British Columbia,City of Abbotsford,Chicken,Chicken - Broiler breeder pullet (hatching egg),Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_151,As of Jul 27 2026,2022-11-16,2022-11-19,British Columbia,City of Abbotsford,Chicken,"Chicken - Broiler breeder pullet (hatching egg), Chicken - Broiler breeder layer (hatching egg)",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_152,As of Jul 27 2026,2022-11-18,2022-11-19,British Columbia,City of Chilliwack ,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_153,As of Jul 27 2026,2022-11-19,2022-11-21,British Columbia,City of Abbotsford ,Duck,Duck - Egg,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_154,As of Jul 27 2026,2022-11-21,2022-11-21,British Columbia,City of Chilliwack ,Duck,Duck - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_155,As of Jul 27 2026,2022-11-21,2022-11-21,British Columbia,District of Kent ,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_156,As of Jul 27 2026,2022-11-21,2022-11-22,British Columbia,City of Abbotsford ,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_157,As of Jul 27 2026,2022-11-20,2022-11-22,British Columbia,City of Chilliwack ,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_158,As of Jul 27 2026,2022-11-21,2022-11-21,British Columbia,City of Abbotsford ,Chicken,"Chicken - Broiler breeder layer (hatching egg), Chicken - Broiler breeder pullet (hatching egg)",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_159,As of Jul 27 2026,2022-11-20,2022-11-22,British Columbia,City of Abbotsford ,Duck,Duck - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_160,As of Jul 27 2026,2022-11-23,2022-11-23,British Columbia,City of Chilliwack ,Chicken,Chicken - Broiler breeder layer (hatching egg),Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_161,As of Jul 27 2026,2022-11-23,2022-11-23,British Columbia,City of Abbotsford ,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_162,As of Jul 27 2026,2022-11-24,2022-11-24,British Columbia,City of Chilliwack ,Duck,"Duck - Meat, Duck - Egg",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_163,As of Jul 27 2026,2022-11-24,2022-11-25,British Columbia,City of Abbotsford ,Chicken,"Chicken - Broiler breeder layer (hatching egg), Chicken - Broiler breeder pullet (hatching egg)",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_164,As of Jul 27 2026,2022-11-24,2022-11-25,British Columbia,City of Abbotsford ,"Chicken, Turkey","Chicken - Table-egg layer, Chicken - Broiler breeder pullet (hatching egg), Turkey - Meat",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_165,As of Jul 27 2026,2022-11-25,2022-11-25,British Columbia,City of Abbotsford ,Chicken,"Chicken - Broiler breeder pullet (hatching egg), Chicken - Broiler breeder layer (hatching egg)",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_166,As of Jul 27 2026,2022-11-17,2022-11-24,British Columbia,City of Chilliwack ,Duck,Duck - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_167,As of Jul 27 2026,2022-11-25,2022-11-26,British Columbia,City of Abbotsford ,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_168,As of Jul 27 2026,2022-11-26,2022-11-26,British Columbia,City of Abbotsford ,Chicken,"Chicken - Broiler breeder pullet (hatching egg), Chicken - Broiler breeder layer (hatching egg), Other",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_169,As of Jul 27 2026,2022-11-25,2022-11-27,British Columbia,City of Chilliwack ,"Chicken, Duck","Duck - Meat, Chicken - Broiler, Duck - Egg",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_170,As of Jul 27 2026,2022-11-25,2022-11-26,British Columbia,City of Chilliwack ,"Chicken, Turkey","Turkey - Meat, Chicken - Broiler, Chicken - Broiler breeder pullet (hatching egg)",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_171,As of Jul 27 2026,2022-11-22,2022-11-24,British Columbia,City of Chilliwack ,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_172,As of Jul 27 2026,2022-11-22,2022-11-24,British Columbia,City of Abbotsford ,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_173,As of Jul 27 2026,2022-11-25,2022-11-27,British Columbia,City of Abbotsford ,Chicken,"Chicken - Table-egg layer, Chicken - Broiler breeder pullet (hatching egg)",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_174,As of Jul 27 2026,2022-11-25,2022-11-26,British Columbia,City of Chilliwack ,Duck,Duck - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_175,As of Jul 27 2026,2022-11-28,2022-11-29,British Columbia,City of Abbotsford ,Duck,"Duck - Meat, Duck - Egg",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_176,As of Jul 27 2026,2022-11-28,2022-11-30,British Columbia,City of Chilliwack ,"Duck, Broiler","Chicken - Broiler, Duck - Meat",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_177,As of Jul 27 2026,2022-11-30,2022-11-30,British Columbia,City of Abbotsford ,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_178,As of Jul 27 2026,2022-12-01,2022-12-01,British Columbia,City of Abbotsford ,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_179,As of Jul 27 2026,2022-12-01,2022-12-01,British Columbia,City of Abbotsford ,Chicken,"Chicken - Broiler breeder pullet (hatching egg), Chicken - Table-egg layer",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_180,As of Jul 27 2026,2022-11-28,2022-11-29,British Columbia,City of Abbotsford ,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_181,As of Jul 27 2026,2022-11-29,2022-12-03,British Columbia,City of Abbotsford ,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_182,As of Jul 27 2026,2022-12-01,2022-12-04,British Columbia,City of Abbotsford ,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_183,As of Jul 27 2026,2022-12-03,2022-12-04,British Columbia,City of Abbotsford ,Chicken,"Chicken - Table-egg layer, Chicken - Broiler breeder pullet (hatching egg)",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_184,As of Jul 27 2026,2022-12-04,2022-12-04,British Columbia,City of Abbotsford ,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_185,As of Jul 27 2026,2022-12-05,2022-12-05,British Columbia,City of Abbotsford ,"Turkey, Chicken","Turkey - Meat, Chicken - Table-egg layer",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_186,As of Jul 27 2026,2022-12-05,2022-12-05,British Columbia,Langley Township ,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_187,As of Jul 27 2026,2022-12-05,2022-12-06,British Columbia,City of Abbotsford ,Chicken,"Chicken - Broiler, Chicken - Broiler breeder layer (hatching egg)",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_188,As of Jul 27 2026,2022-12-02,2022-12-02,British Columbia,Langley Township ,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_189,As of Jul 27 2026,2022-12-03,2022-12-04,British Columbia,City of Abbotsford ,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_190,As of Jul 27 2026,2022-12-05,2022-12-06,British Columbia,City of Abbotsford ,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_191,As of Jul 27 2026,2022-12-07,2022-12-07,British Columbia,City of Chilliwack ,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_192,As of Jul 27 2026,2022-12-07,2022-12-08,British Columbia,City of Abbotsford ,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_193,As of Jul 27 2026,2022-12-08,2022-12-08,British Columbia,City of Abbotsford ,Chicken,"Chicken - Table-egg layer, Chicken - Broiler",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_194,As of Jul 27 2026,2022-12-04,2022-12-05,British Columbia,Langley Township ,Chicken,"Chicken - Broiler, Chicken - Table-egg layer",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_195,As of Jul 27 2026,2022-12-08,2022-12-09,British Columbia,City of Chilliwack ,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_196,As of Jul 27 2026,2022-12-10,2022-12-10,British Columbia,City of Abbotsford ,Chicken,"Chicken - Table-egg layer, Chicken - Broiler breeder pullet (hatching egg)",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_197,As of Jul 27 2026,2022-12-05,2022-12-12,British Columbia,City of Abbotsford ,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_198,As of Jul 27 2026,2022-12-10,2022-12-11,British Columbia,City of Abbotsford ,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_199,As of Jul 27 2026,2022-12-11,2022-12-11,British Columbia,City of Abbotsford ,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_200,As of Jul 27 2026,2022-12-12,2022-12-13,British Columbia,City of Abbotsford ,"Chicken, Turkey","Chicken - Table-egg layer, Turkey - Meat",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_201,As of Jul 27 2026,2022-12-11,2022-12-13,British Columbia,Langley Township ,"Chicken, Turkey","Chicken - Broiler, Turkey - Meat",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_202,As of Jul 27 2026,2022-12-13,2022-12-14,British Columbia,City of Chilliwack ,"Chicken, Duck","Chicken - Broiler, Duck-Hatchery",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_203,As of Jul 27 2026,2022-12-17,2022-12-18,British Columbia,City of Abbotsford ,"Chicken, Turkey","Chicken - Broiler, Turkey - Meat",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_204,As of Jul 27 2026,2022-12-19,2022-12-19,British Columbia,Langley Township ,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_205,As of Jul 27 2026,2022-12-20,2022-12-20,British Columbia,Langley Township ,Chicken,"Chicken - Broiler breeder layer (hatching egg), Chicken - Broiler breeder pullet (hatching egg)",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_206,As of Jul 27 2026,2022-12-21,2022-12-22,British Columbia,City of Abbotsford ,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_207,As of Jul 27 2026,2022-12-14,2022-12-19,British Columbia,City of Delta,Chicken,Small holder / backyard (Chicken - Table-egg layer),Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_208,As of Jul 27 2026,2022-12-21,2022-12-22,British Columbia,City of Abbotsford ,"Chicken, Turkey","Turkey - Meat, Chicken - Table-egg layer, Chicken - Broiler breeder pullet (hatching egg)",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_209,As of Jul 27 2026,2022-12-24,2022-12-27,British Columbia,City of Chilliwack ,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_210,As of Jul 27 2026,2022-12-26,2022-12-27,British Columbia,City of Chilliwack ,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_211,As of Jul 27 2026,2022-12-17,2022-12-19,British Columbia,City of Summerland,"Chicken, Guinea Fowl",Small holder / backyard,Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_212,As of Jul 27 2026,2022-12-30,2022-12-30,British Columbia,District of Tofino ,Chicken,Small holder / backyard (Chicken - Table-egg layer),Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_213,As of Jul 27 2026,2023-01-01,2023-01-03,British Columbia,Alberni-Clayoquot Regional District,Chicken,Small holder / backyard (Chicken - Table-egg layer),Poultry/Non-Commercial,Poultry,2023.0
+As of Jul 27 2026_214,As of Jul 27 2026,2023-01-05,2023-01-06,British Columbia,City of Chilliwack ,Chicken,"Chicken - Table-egg layer, Chicken - Broiler",Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_215,As of Jul 27 2026,2023-01-10,2023-01-11,British Columbia,City of Chilliwack ,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_216,As of Jul 27 2026,2023-01-13,2023-01-13,British Columbia,City of Abbotsford ,Duck,Duck - Meat,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_217,As of Jul 27 2026,2023-01-13,2023-01-13,British Columbia,City of Chilliwack ,Chicken,"Chicken - Broiler breeder layer (hatching egg), Chicken - Broiler breeder pullet (hatching egg)",Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_218,As of Jul 27 2026,2023-01-17,2023-01-17,British Columbia,City of Chilliwack ,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_219,As of Jul 27 2026,2023-01-21,2023-01-21,British Columbia,City of Chilliwack ,Chicken,"Chicken - Table-egg layer, Chicken - Broiler",Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_220,As of Jul 27 2026,2023-04-24,2023-04-28,British Columbia,City of Chilliwack,Pigeon,Pigeon - Meat,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_221,As of Jul 27 2026,2023-10-18,2023-10-20,British Columbia,City of Chilliwack,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_222,As of Jul 27 2026,2023-10-19,2023-10-23,British Columbia,City of Chilliwack,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_223,As of Jul 27 2026,2023-10-22,2023-10-24,British Columbia,City of Abbotsford,Chicken,"Chicken - Broiler breeder, Chicken - Broiler",Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_224,As of Jul 27 2026,2023-10-26,2023-10-26,British Columbia,City of Chilliwack,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_225,As of Jul 27 2026,2023-11-01,2023-11-02,British Columbia,City of Chilliwack,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_226,As of Jul 27 2026,2023-11-02,2023-11-04,British Columbia,City of Abbotsford,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_227,As of Jul 27 2026,2023-11-03,2023-11-04,British Columbia,Langley Township,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_228,As of Jul 27 2026,2023-11-05,2023-11-05,British Columbia,District of Kent,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_229,As of Jul 27 2026,2023-11-04,2023-11-05,British Columbia,Fraser Valley Regional District,Chicken,Chicken - Broiler breeder,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_230,As of Jul 27 2026,2023-11-06,2023-11-06,British Columbia,City of Chilliwack,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_231,As of Jul 27 2026,2023-11-05,2023-11-06,British Columbia,City of Chilliwack,"Chicken, Duck","Chicken - Broiler, Duck - Egg",Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_232,As of Jul 27 2026,2023-11-05,2023-11-06,British Columbia,City of Abbotsford,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_233,As of Jul 27 2026,2023-11-05,2023-11-06,British Columbia,City of Chilliwack,Duck,Duck - Meat,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_234,As of Jul 27 2026,2023-11-04,2023-11-06,British Columbia,Regional District of Mount Waddington,Chicken,Small holder / backyard (Chicken - Table-egg layer),Non-Poultry,Non-Poultry,2023.0
+As of Jul 27 2026_235,As of Jul 27 2026,2023-11-07,2023-11-07,British Columbia,City of Chilliwack,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_236,As of Jul 27 2026,2023-10-27,2023-11-07,British Columbia,Thompson-Nicola Regional District,Chicken,Small holder / backyard (Chicken - Table-egg layer),Non-Poultry,Non-Poultry,2023.0
+As of Jul 27 2026_237,As of Jul 27 2026,2023-10-20,2023-11-06,British Columbia,Town of Qualicum Beach,"Chicken, Turkey, Duck","Small holder / backyard (Chicken - Table-egg layer, Turkey, Duck, Goose)",Poultry/Non-Commercial,Poultry,2023.0
+As of Jul 27 2026_238,As of Jul 27 2026,2023-11-07,2023-11-08,British Columbia,Langley Township,Chicken,"Chicken - Broiler breeder layer, Pullet, Rooster",Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_239,As of Jul 27 2026,2023-11-07,2023-11-08,British Columbia,City of Chilliwack,Chicken,"Chicken - Broiler breeder layer, Rooster",Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_240,As of Jul 27 2026,2023-11-08,2023-11-08,British Columbia,City of Abbotsford,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_241,As of Jul 27 2026,2023-11-06,2023-11-08,British Columbia,City of Abbotsford,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_242,As of Jul 27 2026,2023-11-08,2023-11-08,British Columbia,Fraser Valley Regional District,Chicken,Chicken - Broiler breeder layer,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_243,As of Jul 27 2026,2023-11-09,2023-11-10,British Columbia,City of Chilliwack,Chicken,"Chicken - Broiler breeder layer, Pullet, Rooster",Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_244,As of Jul 27 2026,2023-11-09,2023-11-10,British Columbia,Langley Township,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_245,As of Jul 27 2026,2023-11-09,2023-11-10,British Columbia,City of Chilliwack,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_246,As of Jul 27 2026,2023-11-10,2023-11-10,British Columbia,City of Chilliwack,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_247,As of Jul 27 2026,2023-11-09,2023-11-11,British Columbia,City of Abbotsford,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_248,As of Jul 27 2026,2023-11-11,2023-11-12,British Columbia,City of Chilliwack,Chicken,Chicken - Broiler breeder pullet,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_249,As of Jul 27 2026,2023-11-12,2023-11-13,British Columbia,City of Chilliwack,Chicken,"Chicken - Broiler, Chicken - Table-egg layer",Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_250,As of Jul 27 2026,2023-11-12,2023-11-13,British Columbia,City of Chilliwack,Duck,Duck - Meat,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_251,As of Jul 27 2026,2023-11-13,2023-11-14,British Columbia,City of Abbotsford,Chicken,"Chicken - Broiler breeder layer, Rooster",Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_252,As of Jul 27 2026,2023-11-15,2023-11-15,British Columbia,Langley Township,"Chicken, Turkey","Chicken - Broiler, Turkey - Meat",Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_253,As of Jul 27 2026,2023-11-15,2023-11-16,British Columbia,City of Surrey,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_254,As of Jul 27 2026,2023-11-13,2023-11-16,British Columbia,City of Chilliwack,Chicken,"Chicken - Table-egg layer breeder, Pullet",Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_255,As of Jul 27 2026,2023-11-16,2023-11-16,British Columbia,City of Chilliwack,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_256,As of Jul 27 2026,2023-11-16,2023-11-17,British Columbia,City of Chilliwack,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_257,As of Jul 27 2026,2023-11-16,2023-11-18,British Columbia,City of Abbotsford,Chicken,"Chicken - Broiler, Broiler breeder pullet/layer/rooster",Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_258,As of Jul 27 2026,2023-11-18,2023-11-18,British Columbia,City of Chilliwack,Chicken,Chicken - Broiler breeder pullet,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_259,As of Jul 27 2026,2023-11-20,2023-11-20,British Columbia,City of Chilliwack,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_260,As of Jul 27 2026,2023-11-20,2023-11-21,British Columbia,City of Abbotsford,Duck,Duck - Balut,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_261,As of Jul 27 2026,2023-11-21,2023-11-21,British Columbia,City of Chilliwack,"Chicken, Duck","Chickens - Broiler, Duck - Egg, Meat",Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_262,As of Jul 27 2026,2023-11-20,2023-11-21,British Columbia,City of Chilliwack,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_263,As of Jul 27 2026,2023-11-19,2023-11-22,British Columbia,City of Abbotsford,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_264,As of Jul 27 2026,2023-11-23,2023-11-23,British Columbia,City of Abbotsford,Chicken,Chicken - Broiler breeder pullet/layer/rooster,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_265,As of Jul 27 2026,2023-11-23,2023-11-23,British Columbia,Langley Township,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_266,As of Jul 27 2026,2023-11-23,2023-11-24,British Columbia,City of Chilliwack,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_267,As of Jul 27 2026,2023-11-23,2023-11-24,British Columbia,City of Chilliwack,Chicken,"Chicken - Broiler breeder, Pullet, Rooster",Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_268,As of Jul 27 2026,2023-11-24,2023-11-25,British Columbia,City of Chilliwack,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_269,As of Jul 27 2026,2023-11-30,2023-12-01,British Columbia,Langley Township,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_270,As of Jul 27 2026,2023-12-03,2023-12-03,British Columbia,City of Chilliwack,"Chicken, Turkey","Chicken - Broiler breeder layer, Pullet, Rooster, Chicken - Broiler, Turkey - Meat",Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_271,As of Jul 27 2026,2023-12-08,2023-12-09,British Columbia,City of Abbotsford,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_272,As of Jul 27 2026,2023-11-26,2023-12-09,British Columbia,Regional District of Central Okanagan,"Chicken, Duck, Goose, Guinea Fowl","Small holder / backyard (Chicken - Table-egg layer, layer breeder, Duck – breeder, layer, Goose, Guinea Fowl)",Non-Poultry,Non-Poultry,2023.0
+As of Jul 27 2026_273,As of Jul 27 2026,2023-12-09,2023-12-11,British Columbia,Regional District of North Okanagan,Chicken,Small holder / backyard (Chicken - Table-egg layer),Poultry/Non-Commercial,Poultry,2023.0
+As of Jul 27 2026_274,As of Jul 27 2026,2023-12-25,2023-12-25,British Columbia,City of Chilliwack,"Chicken, silkies, duck","Chicken - Broiler, silkies, Duck – Breeder, Meat",Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_275,As of Jul 27 2026,2024-10-19,2024-10-21,British Columbia,City of Chilliwack,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_276,As of Jul 27 2026,2024-10-17,2024-10-21,British Columbia,City of Chilliwack,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_277,As of Jul 27 2026,2024-10-19,2024-10-21,British Columbia,City of Abbotsford,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_278,As of Jul 27 2026,2024-10-25,2024-10-25,British Columbia,City of Chilliwack,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_279,As of Jul 27 2026,2024-10-27,2024-10-27,British Columbia,City of Abbotsford,Chicken,Chicken - Broiler breeder,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_280,As of Jul 27 2026,2024-10-27,2024-10-28,British Columbia,City of Abbotsford,"Duck, Chicken","Duck - Egg, Chicken - Table-egg layer",Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_281,As of Jul 27 2026,2024-10-29,2024-10-30,British Columbia,City of Chilliwack,"Duck, Chicken","Duck - Meat, Duck - Egg, Chicken - Broiler",Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_282,As of Jul 27 2026,2024-10-29,2024-10-30,British Columbia,City of Chilliwack,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_283,As of Jul 27 2026,2024-10-29,2024-10-31,British Columbia,City of Abbotsford,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_284,As of Jul 27 2026,2024-10-27,2024-10-28,British Columbia,Regional District of Qathet,"Chicken, Turkey, Goose","Small holder / backyard (Chicken - Table-egg layer, Turkey - Meat, Goose)",Poultry/Non-Commercial,Poultry,2024.0
+As of Jul 27 2026_285,As of Jul 27 2026,2024-10-30,2024-10-31,British Columbia,City of Abbotsford,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_286,As of Jul 27 2026,2024-10-31,2024-11-01,British Columbia,City of Abbotsford,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_287,As of Jul 27 2026,2024-10-31,2024-11-01,British Columbia,City of Abbotsford,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_288,As of Jul 27 2026,2024-10-27,2024-11-01,British Columbia,Regional District of Strathcona,"Chicken, Duck","Small holder / backyard (Chicken - Table-egg layer, Duck - other)",Non-Poultry,Non-Poultry,2024.0
+As of Jul 27 2026_289,As of Jul 27 2026,2024-11-03,2024-11-03,British Columbia,City of Abbotsford,Chicken,"Chicken - Table-egg layer, Chicken - Broiler Breeder",Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_290,As of Jul 27 2026,2024-11-06,2024-11-07,British Columbia,City of Abbotsford,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_291,As of Jul 27 2026,2024-11-07,2024-11-08,British Columbia,City of Abbotsford,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_292,As of Jul 27 2026,2024-11-06,2024-11-07,British Columbia,City of Abbotsford,"Chicken, Turkey","Chicken - Table-egg layer, Turkey - Meat",Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_293,As of Jul 27 2026,2024-11-07,2024-11-08,British Columbia,City of Abbotsford,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_294,As of Jul 27 2026,2024-11-08,2024-11-08,British Columbia,City of Abbotsford,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_295,As of Jul 27 2026,2024-11-08,2024-11-08,British Columbia,City of Abbotsford,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_296,As of Jul 27 2026,2024-11-07,2024-11-08,British Columbia,City of Abbotsford,"Chicken, Turkey","Turkey - Meat, Chicken - Table-egg layer",Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_297,As of Jul 27 2026,2024-11-07,2024-11-09,British Columbia,City of Chilliwack,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_298,As of Jul 27 2026,2024-11-09,2024-11-10,British Columbia,City of Abbotsford,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_299,As of Jul 27 2026,2024-11-11,2024-11-12,British Columbia,City of Abbotsford,Duck,Duck - Meat,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_300,As of Jul 27 2026,2024-11-10,2024-11-12,British Columbia,City of Abbotsford,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_301,As of Jul 27 2026,2024-11-12,2024-11-12,British Columbia,City of Abbotsford,Chicken,"Chicken - Broiler Breeder Layer, Pullets",Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_302,As of Jul 27 2026,2024-11-11,2024-11-12,British Columbia,Fraser Valley Regional District,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_303,As of Jul 27 2026,2024-11-13,2024-11-14,British Columbia,City of Abbotsford,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_304,As of Jul 27 2026,2024-11-13,2024-11-14,British Columbia,City of Abbotsford,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_305,As of Jul 27 2026,2024-11-13,2024-11-15,British Columbia,City of Chilliwack,Duck,Duck - Meat,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_306,As of Jul 27 2026,2024-11-09,2024-11-14,British Columbia,Regional District of Central Kootenay,"Chicken, Duck","Small holder / backyard (Chicken - Table-egg layer, Duck-Meat)",Non-Poultry,Non-Poultry,2024.0
+As of Jul 27 2026_307,As of Jul 27 2026,2024-11-15,2024-11-15,British Columbia,City of Abbotsford,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_308,As of Jul 27 2026,2024-11-14,2024-11-15,British Columbia,City of Abbotsford,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_309,As of Jul 27 2026,2024-11-15,2024-11-15,British Columbia,City of Abbotsford,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_310,As of Jul 27 2026,2024-11-15,2024-11-16,British Columbia,City of Abbotsford,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_311,As of Jul 27 2026,2024-11-16,2024-11-16,British Columbia,City of Chilliwack,"Chicken, Duck","Chicken - Broiler, Duck-Hatchery",Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_312,As of Jul 27 2026,2024-11-16,2024-11-17,British Columbia,City of Abbotsford,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_313,As of Jul 27 2026,2024-11-16,2024-11-17,British Columbia,City of Abbotsford,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_314,As of Jul 27 2026,2024-11-16,2024-11-17,British Columbia,City of Chilliwack,Chicken,Chicken - Broiler Breeder,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_315,As of Jul 27 2026,2024-11-17,2024-11-17,British Columbia,City of Abbotsford,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_316,As of Jul 27 2026,2024-11-19,2024-11-19,British Columbia,City of Abbotsford,"Chicken, Turkey","Chicken - Table-egg layer, Turkey - Meat",Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_317,As of Jul 27 2026,2024-11-18,2024-11-19,British Columbia,City of Chilliwack,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_318,As of Jul 27 2026,2024-11-19,2024-11-19,British Columbia,City of Abbotsford,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_319,As of Jul 27 2026,2024-11-20,2024-11-20,British Columbia,City of Chilliwack,Duck,Duck - Egg,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_320,As of Jul 27 2026,2024-11-19,2024-11-20,British Columbia,City of Chilliwack,"Chicken, Duck","Duck - Meat, Duck - Egg, Chicken - Broiler",Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_321,As of Jul 27 2026,2024-11-20,2024-11-21,British Columbia,City of Abbotsford,Duck,Duck - Meat,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_322,As of Jul 27 2026,2024-11-21,2024-11-21,British Columbia,City of Abbotsford,Chicken,"Chicken - Table-egg layer, Turkey - Meat",Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_323,As of Jul 27 2026,2024-11-22,2024-11-21,British Columbia,City of Chilliwack,Chicken,"Small holder (Chicken - Table-egg layer, Chicken-Broiler)",Non-Poultry,Non-Poultry,2024.0
+As of Jul 27 2026_324,As of Jul 27 2026,2024-11-16,2024-11-18,British Columbia,District Municipality of Saanich,"Chicken, Duck","Small holder (Chicken - Table-egg layer, Duck-breeder)",Poultry/Non-Commercial,Poultry,2024.0
+As of Jul 27 2026_325,As of Jul 27 2026,2024-11-20,2024-11-22,British Columbia,City of Abbotsford,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_326,As of Jul 27 2026,2024-11-21,2024-11-22,British Columbia,City of Abbotsford,Chicken,"Chicken - Broiler Breeder Layer, Chicken - Broiler Breeder Pullet",Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_327,As of Jul 27 2026,2024-11-22,2024-11-22,British Columbia,City of Abbotsford,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_328,As of Jul 27 2026,2024-11-24,2024-11-24,British Columbia,City of Abbotsford,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_329,As of Jul 27 2026,2024-11-25,2024-11-27,British Columbia,City of Abbotsford,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_330,As of Jul 27 2026,2024-11-27,2024-11-27,British Columbia,City of Abbotsford,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_331,As of Jul 27 2026,2024-11-27,2024-11-27,British Columbia,City of Abbotsford,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_332,As of Jul 27 2026,2024-11-28,2024-11-29,British Columbia,City of Abbotsford,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_333,As of Jul 27 2026,2024-11-30,2024-11-30,British Columbia,City of Abbotsford,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_334,As of Jul 27 2026,2024-11-27,2024-11-30,British Columbia,City of Abbotsford,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_335,As of Jul 27 2026,2024-11-30,2024-12-01,British Columbia,City of Abbotsford,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_336,As of Jul 27 2026,2024-12-02,2024-12-03,British Columbia,City of Abbotsford,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_337,As of Jul 27 2026,2024-12-03,2024-12-03,British Columbia,City of Abbotsford,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_338,As of Jul 27 2026,2024-12-03,2024-12-04,British Columbia,Fraser Valley Regional District,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_339,As of Jul 27 2026,2024-12-03,2024-12-04,British Columbia,City of Abbotsford,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_340,As of Jul 27 2026,2024-12-05,2024-12-05,British Columbia,City of Chilliwack,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_341,As of Jul 27 2026,2024-12-07,2024-12-07,British Columbia,City of Abbotsford,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_342,As of Jul 27 2026,2024-12-07,2024-12-08,British Columbia,City of Chilliwack,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_343,As of Jul 27 2026,2024-12-08,2024-12-08,British Columbia,Langley Township,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_344,As of Jul 27 2026,2024-12-10,2024-12-10,British Columbia,City of Chilliwack,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_345,As of Jul 27 2026,2024-12-10,2024-12-10,British Columbia,City of Chilliwack,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_346,As of Jul 27 2026,2024-12-11,2024-12-12,British Columbia,City of Chilliwack,Duck,Duck - Meat,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_347,As of Jul 27 2026,2024-12-16,2024-12-17,British Columbia,City of Chilliwack,Chicken,Chicken - Broiler Breeder,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_348,As of Jul 27 2026,2024-12-23,2024-12-23,British Columbia,City of Chilliwack,Chicken,"Chicken - Table-egg layer, Chicken - Broiler breeder",Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_349,As of Jul 27 2026,2024-12-11,2024-12-28,British Columbia,Regional District of Central Kootany,Ostrich,Ostrich,Poultry/Non-Commercial,Poultry,2024.0
+As of Jul 27 2026_350,As of Jul 27 2026,2024-12-30,2024-12-31,British Columbia,City of Abbotsford,Duck,Duck - Meat,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_351,As of Jul 27 2026,2024-12-31,2024-12-31,British Columbia,City of Abbotsford,"Chicken, Duck, Quail, Partridge","Chicken - Table-egg layer, Duck - Breeder, Quail, Partridge",Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_352,As of Jul 27 2026,2025-01-03,2025-01-04,British Columbia,City of Abbotsford,Chicken,Chicken - Broiler breeder,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_353,As of Jul 27 2026,2025-01-04,2025-01-05,British Columbia,City of Abbotsford,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_354,As of Jul 27 2026,2025-01-07,2025-01-10,British Columbia,City of Abbotsford,Chicken,Chicken - Taiwanese Broiler,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_355,As of Jul 27 2026,2025-01-09,2025-01-10,British Columbia,City of Abbotsford,Chicken,"Chicken - Broiler breeder, Chicken - Broiler",Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_356,As of Jul 27 2026,2025-10-12,2025-10-13,British Columbia,City of Abbotsford,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_357,As of Jul 27 2026,2025-10-24,2025-10-22,British Columbia,City of Chilliwack,Duck,Duck - Meat,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_358,As of Jul 27 2026,2025-10-23,2025-10-24,British Columbia,City of Abbotsford,Duck,"Duck - Meat, Duck - Breeder",Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_359,As of Jul 27 2026,2025-10-23,2025-10-24,British Columbia,City of Chilliwack,"Duck, Chicken","Duck - Meat, Duck - Breeder, Pullets, Chicken -Broiler",Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_360,As of Jul 27 2026,2025-10-23,2025-10-24,British Columbia,City of Chilliwack,Chicken,Chicken - Broiler Breeder,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_361,As of Jul 27 2026,2025-10-23,2025-10-24,British Columbia,City of Chilliwack,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_362,As of Jul 27 2026,2025-10-25,2025-10-25,British Columbia,City of Abbotsford,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_363,As of Jul 27 2026,2025-10-25,2025-10-26,British Columbia,City of Chilliwack,Chicken,Chicken - Broiler breeder,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_364,As of Jul 27 2026,2025-10-23,2025-10-27,British Columbia,City of Chilliwack,Chicken,Chicken - Broiler breeder,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_365,As of Jul 27 2026,2025-10-27,2025-10-28,British Columbia,City of Abbotsford,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_366,As of Jul 27 2026,2025-10-27,2025-10-28,British Columbia,Langley Township,Chicken,"Chicken - Table-egg layer, Chicken - Broiler",Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_367,As of Jul 27 2026,2025-10-28,2025-10-29,British Columbia,City of Chilliwack,Chicken,Chicken - Layer,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_368,As of Jul 27 2026,2025-10-25,2025-10-29,British Columbia,District of Summerland,Small holder / backyard,Small holder / backyard,Non-Poultry,Non-Poultry,2025.0
+As of Jul 27 2026_369,As of Jul 27 2026,2025-10-30,2025-10-30,British Columbia,City of Abbotsford,"Chicken, Turkey","Chicken - Table-egg layer, Turkey - Meat",Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_370,As of Jul 27 2026,2025-10-27,2025-10-30,British Columbia,City of Salmon Arm,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_371,As of Jul 27 2026,2025-11-03,2025-11-04,British Columbia,Langley Township,Chicken,Chicken - Broiler Breeder,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_372,As of Jul 27 2026,2025-11-01,2025-11-04,British Columbia,City of Pitt Meadows,Small holder / backyard,Small holder / backyard,Poultry/Non-Commercial,Poultry,2025.0
+As of Jul 27 2026_373,As of Jul 27 2026,2025-11-03,2025-11-04,British Columbia,City of Chilliwack,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_374,As of Jul 27 2026,2025-11-04,2025-11-06,British Columbia,City of Chilliwack,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_375,As of Jul 27 2026,2025-11-01,2025-11-05,British Columbia,Regional District of Nanimo,"Duck, Goose",Small holder / backyard,Non-Poultry,Non-Poultry,2025.0
+As of Jul 27 2026_376,As of Jul 27 2026,2025-11-07,2025-11-07,British Columbia,City of Chilliwack,Chicken,"Chicken - Broiler Breeder, pullets",Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_377,As of Jul 27 2026,2025-11-08,2025-11-08,British Columbia,City of Richmond,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_378,As of Jul 27 2026,2025-11-08,2025-11-10,British Columbia,City of Abbotsford,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_379,As of Jul 27 2026,2025-11-10,2025-11-11,British Columbia,City of Abbotsford,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_380,As of Jul 27 2026,2025-11-09,2025-11-10,British Columbia,City of Chilliwack,Chicken,Small holder / backyard (Chicken - Table-egg layer),Non-Poultry,Non-Poultry,2025.0
+As of Jul 27 2026_381,As of Jul 27 2026,2025-11-13,2025-11-13,British Columbia,City of Abbotsford,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_382,As of Jul 27 2026,2025-11-01,2025-11-12,British Columbia,District of Summerland,Chicken- Layers/rooster; Ducks and geese,Small holder / backyard (Mixed Breed),Non-Poultry,Non-Poultry,2025.0
+As of Jul 27 2026_383,As of Jul 27 2026,2025-11-08,2025-11-26,British Columbia,Cariboo Regional District,"Chicken, Duck, Goose, Turkey, Guinea",Small holder / backyard,Poultry/Non-Commercial,Poultry,2025.0
+As of Jul 27 2026_384,As of Jul 27 2026,2025-11-24,2025-11-27,British Columbia,Langley Township,"Chicken, Duck, Goose, Guinea fowl",Small holder / backyard,Poultry/Non-Commercial,Poultry,2025.0
+As of Jul 27 2026_385,As of Jul 27 2026,2025-11-26,2025-11-27,British Columbia,Thompson-Nicola Regional District,"Chicken, Duck, Goose, Guinea, Turkey",Small holder / backyard,Non-Poultry,Non-Poultry,2025.0
+As of Jul 27 2026_386,As of Jul 27 2026,2025-11-21,2025-11-29,British Columbia,Langley Township,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_387,As of Jul 27 2026,2025-11-26,2025-11-29,British Columbia,Langley Township,"Chicken, Turkey, Duck, Goose, Quail",Small holder / backyard,Poultry/Non-Commercial,Poultry,2025.0
+As of Jul 27 2026_388,As of Jul 27 2026,2025-12-03,2025-12-04,British Columbia,City of Abbotsford,Chicken,Chicken - Broiler breeders/rooster/pullet,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_389,As of Jul 27 2026,2025-12-07,2025-12-10,British Columbia,Regional District of Comox Valley,Turkey,Small holder / backyard (Turkey - Meat),Poultry/Non-Commercial,Poultry,2025.0
+As of Jul 27 2026_390,As of Jul 27 2026,2025-12-03,2025-12-04,British Columbia,City of Salmon Arm,"Chicken, Duck, Emu",Small holder / backyard,Non-Poultry,Non-Poultry,2025.0
+As of Jul 27 2026_391,As of Jul 27 2026,2025-12-12,2025-12-16,British Columbia,City of Abbotsford,Duck,Duck - Meat,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_392,As of Jul 27 2026,2025-12-16,2025-12-17,British Columbia,City of Abbotsford,"Duck, Chicken","Chicken - Table-egg layer, Duck - Breeder, Duck - Meat",Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_393,As of Jul 27 2026,2025-12-23,2026-01-08,British Columbia,Capital Regional District,Chicken,Small holder / backyard,Non-Poultry,Non-Poultry,2025.0
+As of Jul 27 2026_394,As of Jul 27 2026,2026-02-21,2026-02-21,British Columbia,Langley Township,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2026.0
+As of Jul 27 2026_395,As of Jul 27 2026,2026-02-20,2026-02-23,British Columbia,Langley Township,Chicken- layers/roosters; Duck-breeder; Pigeon,Small holder / backyard,Poultry/Non-Commercial,Poultry,2026.0
+As of Jul 27 2026_396,As of Jul 27 2026,2022-04-20,2022-04-21,Manitoba,Rural Municipality of Whitemouth,Chicken,Chicken - Broiler breeder layer (hatching egg),Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_397,As of Jul 27 2026,2022-06-07,2022-06-13,Manitoba,Rural Municipality of Harrison Park,Chicken,Small holder / backyard,Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_398,As of Jul 27 2026,2022-05-27,2022-06-16,Manitoba,Rural Municipality of Louise,"Chicken, Guinea fowl, Duck, Peacock",Small holder / backyard,Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_399,As of Jul 27 2026,2022-09-09,2022-09-13,Manitoba,Rural Municipality of Cartier,"Chicken, Turkey, Duck, Goose","Goose - Meat, Chicken - Table-egg layer, Duck - Meat",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_400,As of Jul 27 2026,2022-09-14,2022-09-15,Manitoba,Rural Municipality of Cartier,"Goose, Turkey, Chicken, Quail","Goose - Meat, Chicken - Table-egg layer, Turkey - Meat",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_401,As of Jul 27 2026,2022-09-16,2022-09-18,Manitoba,Rural Municipality of Bifrost - Riverton,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_402,As of Jul 27 2026,2022-09-18,2022-09-20,Manitoba,Rural Municipality of Ste. Anne,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_403,As of Jul 27 2026,2022-09-24,2022-09-24,Manitoba,Rural Municipality of Bifrost-Riverton,Turkey,Turkey - Breeder (multiplier),Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_404,As of Jul 27 2026,2022-09-24,2022-09-25,Manitoba,Rural Municipality of Ste. Anne,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_405,As of Jul 27 2026,2022-09-23,2022-09-26,Manitoba,Rural Municipality of Rockwood ,"Goose, Guinea fowl, Chicken, Peafowl, Duck","Small holder / backyard (Chicken - Table-egg layer, Other)",Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_406,As of Jul 27 2026,2022-09-27,2022-09-28,Manitoba,Rural Municipality of Bifrost – Riverton ,Turkey,Turkey - Breeder (multiplier),Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_407,As of Jul 27 2026,2022-09-29,2022-09-29,Manitoba,Rural Municipality of Bifrost – Riverton ,Turkey,Turkey - Breeder (multiplier),Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_408,As of Jul 27 2026,2022-09-30,2022-09-30,Manitoba,Rural Municipality of Ste. Anne,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_409,As of Jul 27 2026,2022-10-03,2022-10-05,Manitoba,Rural Municipality of Ste. Anne ,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_410,As of Jul 27 2026,2022-10-04,2022-10-04,Manitoba,Rural Municipality of Ste. Anne ,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_411,As of Jul 27 2026,2022-10-04,2022-10-04,Manitoba,Rural Municipality of De Salaberry ,Turkey,"Turkey - Meat, Chicken - Broiler breeder layer (hatching egg)",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_412,As of Jul 27 2026,2022-10-03,2022-10-06,Manitoba,Rural Municipality of Ste. Anne ,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_413,As of Jul 27 2026,2022-10-05,2022-10-05,Manitoba,Rural Municipality of Bifrost - Riverton ,Turkey,Turkey - Breeder (multiplier),Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_414,As of Jul 27 2026,2022-10-21,2022-10-22,Manitoba,Rural Municipality of Cartier ,"Chicken, Turkey, Duck","Turkey - Meat, Chicken - Table-egg layer, Chicken - Broiler",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_415,As of Jul 27 2026,2022-10-24,2022-10-25,Manitoba,Rural Municipality of Ritchot ,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_416,As of Jul 27 2026,2022-11-08,2022-11-15,Manitoba,Rural Municipality of Woodlands,"Chicken, Duck",Small holder / backyard,Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_417,As of Jul 27 2026,2023-11-06,2023-11-08,Manitoba,Municipality of Rhineland,"Chicken, Turkey","Chicken - Broiler, Turkey - Meat",Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_418,As of Jul 27 2026,2023-11-11,2023-11-24,Manitoba,Rural Municipality of West St. Paul,Duck,Duck - Pet,Non-Poultry,Non-Poultry,2023.0
+As of Jul 27 2026_419,As of Jul 27 2026,2024-11-25,2024-11-26,Manitoba,Rural Municipality of Portage la Prairie,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_420,As of Jul 27 2026,2025-04-28,2025-05-02,Manitoba,Rural municipality of Wallace,"Duck, Turkey","Duck - Meat, Turkey - Meat",Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_421,As of Jul 27 2026,2025-04-25,2025-05-01,Manitoba,Rural Municipality of Boissevain-Morton,Backyard Mixed Breed,Small holder / backyard,Poultry/Non-Commercial,Poultry,2025.0
+As of Jul 27 2026_422,As of Jul 27 2026,2025-10-06,2025-10-08,Manitoba,Rural municipality of Ste. Rose,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_423,As of Jul 27 2026,2025-10-09,2025-10-10,Manitoba,Rural Municipality of Bifrost – Riverton,Turkey,Turkey - Breeder (multiplier),Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_424,As of Jul 27 2026,2025-10-12,2025-10-15,Manitoba,Rural municipality of Hanover,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_425,As of Jul 27 2026,2025-10-19,2025-10-20,Manitoba,Rural Municipality of Hanover,"Turkey, Chicken","Turkey - Meat, Chicken - Broiler",Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_426,As of Jul 27 2026,2025-10-24,2025-10-24,Manitoba,Rural Municipality of Hanover,Chicken,Chicken - Broiler breeder,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_427,As of Jul 27 2026,2025-12-01,2025-12-01,Manitoba,Rural Municipality of De Salaberry,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_428,As of Jul 27 2026,2022-04-16,2022-04-22,New Brunswick,Albert County,"Chicken, Guinea Fowl",Small holder / backyard,Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_429,As of Jul 27 2026,2022-12-31,2023-01-09,New Brunswick,Kent County ,"Chicken, Goose, Duck",Small holder / backyard,Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_430,As of Jul 27 2026,2021-12-09,2021-12-16,Newfoundland and Labrador,City of St. John's,"Turkey, Chicken, Duck, Goose, Emu, Peafowl, Guinea Fowl",Petting zoo,Non-Poultry,Non-Poultry,2021.0
+As of Jul 27 2026_431,As of Jul 27 2026,2021-12-31,2022-01-07,Newfoundland and Labrador,Town of Conception,"Chicken, Duck",Small holder / backyard,Non-Poultry,Non-Poultry,2021.0
+As of Jul 27 2026_432,As of Jul 27 2026,2025-01-15,2025-01-24,Newfoundland and Labrador,Gander Bay,Chicken,Small holder / backyard (Chicken - Table-egg layer),Poultry/Non-Commercial,Poultry,2025.0
+As of Jul 27 2026_433,As of Jul 27 2026,2025-03-08,2025-03-11,Newfoundland and Labrador,Conception Bay South,Goose,Small holder / backyard,Non-Poultry,Non-Poultry,2025.0
+As of Jul 27 2026_434,As of Jul 27 2026,2022-01-23,2022-01-27,Nova Scotia,Bay South,"Chicken, Guinea Fowl, Goose",Small holder / backyard,Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_435,As of Jul 27 2026,2022-01-28,2022-01-30,Nova Scotia,Kings County,"Chicken, Turkey","Chicken - Broiler, Turkey - Meat",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_436,As of Jul 27 2026,2022-02-02,2022-02-05,Nova Scotia,Hants County,"Duck, Chicken, Turkey, Guinea Fowl, Goose, Pheasant, Emu, Swan, Parrot, Fiche, Dove, Pigeon, Quail, Pea fowl, Partridge, Barn owl","Exhibition farm, abattoir and meat shop on-site which sells poultry products",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_437,As of Jul 27 2026,2022-03-09,2022-03-11,Nova Scotia,border of Halifax,"Chicken, Duck",Small holder / backyard,Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_438,As of Jul 27 2026,2023-01-16,2023-02-08,Nova Scotia,Lunenburg County,Chicken,Small holder / backyard,Non-Poultry,Non-Poultry,2023.0
+As of Jul 27 2026_439,As of Jul 27 2026,2023-02-25,2023-02-27,Nova Scotia,Yarmouth County,"Chicken, Duck, Goose, Guinea Fowl",Small holder / backyard,Poultry/Non-Commercial,Poultry,2023.0
+As of Jul 27 2026_440,As of Jul 27 2026,2024-01-01,2024-01-04,Nova Scotia,Lunenburg County,"Chicken, Turkey, Goose, Duck, Pheasant and Peacock",Small holder / backyard,Non-Poultry,Non-Poultry,2024.0
+As of Jul 27 2026_441,As of Jul 27 2026,2024-01-29,2024-01-31,Nova Scotia,Lunenburg County,"Chicken, Duck, Goose, Guinea fowl",Small holder / backyard,Poultry/Non-Commercial,Poultry,2024.0
+As of Jul 27 2026_442,As of Jul 27 2026,2025-02-27,2025-03-03,Nova Scotia,Shelburne County,"Turkey, Chicken, Duck","Small holder / backyard (Turkey, Chickens (layers, roosters, ornamental), Duck)",Poultry/Non-Commercial,Poultry,2025.0
+As of Jul 27 2026_443,As of Jul 27 2026,2025-03-14,2025-03-19,Nova Scotia,Lunenburg County,"Chicken, Duck, Goose",Small holder / backyard,Poultry/Non-Commercial,Poultry,2025.0
+As of Jul 27 2026_444,As of Jul 27 2026,2026-01-21,2026-01-27,Nova Scotia,Yarmouth County,"Duck, Chicken, Goose, Dove, Peafowl, Pheasant, Parrot",Small holder / backyard,Non-Poultry,Non-Poultry,2026.0
+As of Jul 27 2026_445,As of Jul 27 2026,2026-02-10,2026-02-14,Nova Scotia,Pictou County,"Chicken, Guinea fowl",Small holder / backyard,Non-Poultry,Non-Poultry,2026.0
+As of Jul 27 2026_446,As of Jul 27 2026,2026-02-14,2026-02-18,Nova Scotia,Lunenburg County,"Chicken, Guinea fowl, Duck",Small holder / backyard,Non-Poultry,Non-Poultry,2026.0
+As of Jul 27 2026_447,As of Jul 27 2026,2022-03-25,2022-03-25,Ontario,Township of Guelph/Eramosa,Turkey,Turkey - Breeder ,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_448,As of Jul 27 2026,2022-03-24,2022-03-25,Ontario,Township of Zorra,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_449,As of Jul 27 2026,2022-03-25,2022-03-25,Ontario,Township of Woolwich,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_450,As of Jul 27 2026,2022-03-25,2022-03-28,Ontario,Township of Chippewas of Nawash Unceded First Nation,"Chicken, Goose, Duck",Small holder / backyard,Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_451,As of Jul 27 2026,2022-03-29,2022-03-30,Ontario,Township of Selwyn,"Chicken, Duck, Guinea Fowl",Small holder / backyard,Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_452,As of Jul 27 2026,2022-03-29,2022-04-02,Ontario,Township of Centre Wellington,"Duck, Goose, Guinea Fowl",Duck - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_453,As of Jul 27 2026,2022-04-02,2022-04-04,Ontario,Township of South Glengarry,Chicken,Chicken - Table egg parent/grandparent stock,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_454,As of Jul 27 2026,2022-03-31,2022-04-05,Ontario,City of Markham,"Duck, Goose",Duck - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_455,As of Jul 27 2026,2022-03-31,2022-04-05,Ontario,Prince Edward County,"Chicken, Duck, Goose, Guinea Fowl",Small holder / backyard,Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_456,As of Jul 27 2026,2022-04-04,2022-04-05,Ontario,Municipality of Chatham-Kent,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_457,As of Jul 27 2026,2022-04-03,2022-04-05,Ontario,City of Markham,Duck,Duck - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_458,As of Jul 27 2026,2022-04-06,2022-04-06,Ontario,Township of South Glengarry,Chicken,Chicken - Table egg parent/grandparent stock,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_459,As of Jul 27 2026,2022-04-03,2022-04-09,Ontario,Township of West Grey,Chicken,Chicken - Broiler breeder layer (hatching egg),Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_460,As of Jul 27 2026,2022-04-11,2022-04-11,Ontario,City of Markham,Duck,"Duck - Meat, Duck - Egg",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_461,As of Jul 27 2026,2022-04-12,2022-04-14,Ontario,City of Markham,Duck,Duck - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_462,As of Jul 27 2026,2022-04-08,2022-04-12,Ontario,Township of South Glengarry,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_463,As of Jul 27 2026,2022-04-19,2022-04-20,Ontario,Regional Municipality of York,Duck,"Duck - Meat, Duck - Egg",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_464,As of Jul 27 2026,2022-04-20,2022-04-21,Ontario,Peterborough County,Duck,Small holder / backyard,Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_465,As of Jul 27 2026,2022-04-24,2022-04-25,Ontario,Huron County,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_466,As of Jul 27 2026,2022-04-21,2022-04-29,Ontario,Regional Municipality of York,Duck,Duck - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_467,As of Jul 27 2026,2022-04-27,2022-05-02,Ontario,Wellington County,"Chicken, Pheasant, Duck",Small holder / backyard,Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_468,As of Jul 27 2026,2022-05-01,2022-05-02,Ontario,Regional Municipality of Halton,"Chicken, Duck, Goose",Small holder / backyard,Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_469,As of Jul 27 2026,2022-05-03,2022-05-04,Ontario,Regional Municipality of York,Duck,Duck - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_470,As of Jul 27 2026,2022-05-01,2022-05-06,Ontario,Regional Municipality of York,Duck,Duck - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_471,As of Jul 27 2026,2022-05-07,2022-05-09,Ontario,Regional Municipality of York,Duck,Duck - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_472,As of Jul 27 2026,2022-05-13,2022-05-16,Ontario,Regional Municipality of York,"Duck, Pigeon","Duck - Meat, Small holder / backyard, Other",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_473,As of Jul 27 2026,2022-09-11,2022-09-16,Ontario,Township of Zorra,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_474,As of Jul 27 2026,2022-09-15,2022-09-16,Ontario,City of Owen Sound,"Goose, Duck, Swan, Pheasant, Peafowl",Other,Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_475,As of Jul 27 2026,2022-09-14,2022-09-18,Ontario,Brant County,"Duck, Goose, Chicken",Small holder / backyard,Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_476,As of Jul 27 2026,2022-09-19,2022-09-20,Ontario,Township of Grimsby,"Duck, Gull, Goose, Chicken","Small holder / backyard, Other",Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_477,As of Jul 27 2026,2022-09-19,2022-09-27,Ontario,City of Clarence-Rockland ,"Duck, Goose, Swan, Pheasant, Turkey, Pigeon, Chicken, Guinea Fowl",Other,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_478,As of Jul 27 2026,2022-09-25,2022-10-04,Ontario,Township of West Lincoln,"Chicken, Goose, Duck, Pigeon",Small holder / backyard,Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_479,As of Jul 27 2026,2022-09-29,2022-10-06,Ontario,Township of Alfred and Plantagenet ,"Chicken, Duck, Goose",Small holder / backyard,Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_480,As of Jul 27 2026,2022-10-08,2022-10-06,Ontario,Township of East Hawkesbury,"Chicken, Duck, Goose, Pigeon, Dove, Pheasant",Small holder / backyard,Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_481,As of Jul 27 2026,2022-10-05,2022-10-06,Ontario,Township of Alfred and Plantagenet,"Chicken, Duck, Goose, Pigeon",Small holder / backyard,Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_482,As of Jul 27 2026,2022-10-15,2022-10-18,Ontario,Township of Wellesley ,"Chicken, Turkey, Duck",Duck - Commercial,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_483,As of Jul 27 2026,2022-10-03,2022-10-26,Ontario,City of Ottawa,"Chicken, Duck",Small holder / backyard,Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_484,As of Jul 27 2026,2022-11-18,2022-11-18,Ontario,Municipality of Adelaide Metcalfe ,Turkey,Turkey - Breeder (multiplier),Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_485,As of Jul 27 2026,2022-11-21,2022-11-21,Ontario,Municipality of Adelaide Metcalfe ,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_486,As of Jul 27 2026,2022-11-26,2022-11-26,Ontario,Municipality of North Middlesex ,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_487,As of Jul 27 2026,2022-12-12,2022-12-13,Ontario,Municipality of Lambton Shores ,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_488,As of Jul 27 2026,2022-12-17,2022-12-17,Ontario,Municipality of Lambton Shores ,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_489,As of Jul 27 2026,2022-12-20,2022-12-20,Ontario,Municipality of Lambton Shores ,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_490,As of Jul 27 2026,2023-03-09,2023-03-09,Ontario,Municipality of Chatham-Kent ,Chicken,Small holder / backyard,Poultry/Non-Commercial,Poultry,2023.0
+As of Jul 27 2026_491,As of Jul 27 2026,2023-03-10,2023-03-13,Ontario,Township of West Lincoln ,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_492,As of Jul 27 2026,2023-04-04,2023-04-05,Ontario,Municipality of Middlesex Centre ,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_493,As of Jul 27 2026,2023-04-18,2023-04-19,Ontario,Norfolk County ,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_494,As of Jul 27 2026,2023-10-14,2023-10-18,Ontario,City of Kawartha Lakes,"Chicken, Duck","Small holder / backyard (Duck, Chicken - Table-egg layer)",Non-Poultry,Non-Poultry,2023.0
+As of Jul 27 2026_495,As of Jul 27 2026,2024-01-24,2024-01-30,Ontario,Town of Amherstburg,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_496,As of Jul 27 2026,2024-12-13,2024-12-14,Ontario,Town of Strathroy,Turkey,Turkey - Breeder ,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_497,As of Jul 27 2026,2024-12-18,2024-12-18,Ontario,Oxford County,Turkey,Turkey - Breeder,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_498,As of Jul 27 2026,2024-12-19,2024-12-20,Ontario,Oxford County,Turkey,Turkey - Breeder,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_499,As of Jul 27 2026,2024-12-20,2024-12-20,Ontario,Oxford County,Turkey,Turkey - Breeder,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_500,As of Jul 27 2026,2024-12-20,2024-12-20,Ontario,Town of Strathroy,Turkey,Turkey - Breeder,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_501,As of Jul 27 2026,2024-12-25,2024-12-26,Ontario,Oxford County,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_502,As of Jul 27 2026,2025-01-02,2025-01-02,Ontario,Municipality of North Middlesex,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_503,As of Jul 27 2026,2025-01-07,2025-01-10,Ontario,Wellington County,"Chicken, Duck","Duck - Meat, Chicken - Broiler",Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_504,As of Jul 27 2026,2025-02-10,2025-02-18,Ontario,Wellington County,Backyard Mixed Breed,"Small holder / backyard (chickens, ducks, geese, peacocks, turkey)",Non-Poultry,Non-Poultry,2025.0
+As of Jul 27 2026_505,As of Jul 27 2026,2025-02-26,2025-02-27,Ontario,Municipality of Middlesex Centre,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_506,As of Jul 27 2026,2025-03-12,2025-03-12,Ontario,Lambton County,Chicken,Chicken - Broiler Breeder,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_507,As of Jul 27 2026,2025-03-21,2025-03-23,Ontario,Lambton County,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_508,As of Jul 27 2026,2025-10-04,2025-10-08,Ontario,Wellington County,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_509,As of Jul 27 2026,2025-11-14,2025-11-14,Ontario,Municipality of Strathroy-Caradoc,Turkey,Turkey - Breeder,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_510,As of Jul 27 2026,2025-11-21,2025-11-21,Ontario,Municipality of Strathroy-Caradoc,Turkey,Turkey - Breeder,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_511,As of Jul 27 2026,2025-11-26,2025-11-26,Ontario,Municipality of Strathroy-Caradoc,Turkey,Turkey - Breeder,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_512,As of Jul 27 2026,2025-11-26,2025-11-27,Ontario,Municipality of Strathroy-Caradoc,Turkey,Turkey - Breeder,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_513,As of Jul 27 2026,2025-11-29,2025-11-29,Ontario,Municipality of Strathroy-Caradoc,Turkey,Turkey - Breeder,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_514,As of Jul 27 2026,2025-12-13,2025-12-14,Ontario,Municipality of North Perth,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_515,As of Jul 27 2026,2025-12-18,2025-12-19,Ontario,Municipality of North Perth,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_516,As of Jul 27 2026,2025-12-19,2025-12-21,Ontario,Municipality of North Perth,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_517,As of Jul 27 2026,2025-12-26,2025-12-28,Ontario,Municipality of North Perth,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_518,As of Jul 27 2026,2026-02-16,2026-02-19,Ontario,Town of Amherstberg,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2026.0
+As of Jul 27 2026_519,As of Jul 27 2026,2025-05-05,2025-05-13,Prince Edward Island,Kings County,"Layer, duck, goose",Small holder / backyard,Poultry/Non-Commercial,Poultry,2025.0
+As of Jul 27 2026_520,As of Jul 27 2026,2022-04-09,2022-04-10,Quebec,La Val-Saint-François Regional County Municipality,Duck,Duck - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_521,As of Jul 27 2026,2022-04-08,2022-04-12,Quebec,Le Haut-Saint-François Regional County Municipality,Backyard Mixed Breed,Small holder / backyard,Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_522,As of Jul 27 2026,2022-04-09,2022-04-12,Quebec,Brome-Missisquoi Regional County Municipality,Duck,"Duck - Meat, Duck - Egg",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_523,As of Jul 27 2026,2022-04-16,2022-04-16,Quebec,Les Sources Regional County Municipality,Duck,Duck - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_524,As of Jul 27 2026,2022-04-21,2022-04-21,Quebec,Les Sources Regional County Municipality,Duck,Duck - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_525,As of Jul 27 2026,2022-04-30,2022-05-02,Quebec,Le Haut-Saint-Laurent Regional County Municipality,Chicken,Small holder / backyard (Chicken - Table-egg layer),Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_526,As of Jul 27 2026,2022-05-03,2022-05-04,Quebec,La Rivière-du-Nord Regional County Municipality,Backyard Mixed Breed,Small holder / backyard,Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_527,As of Jul 27 2026,2022-06-25,2022-06-27,Quebec,La Jacques-Cartier Regional County Municipality,Turkey,Turkey - Breeder (multiplier),Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_528,As of Jul 27 2026,2022-07-02,2022-07-02,Quebec,La Jacques-Cartier Regional County Municipality,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_529,As of Jul 27 2026,2022-07-07,2022-07-09,Quebec,La Jacques-Cartier Regional County Municipality,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_530,As of Jul 27 2026,2022-07-19,2022-07-20,Quebec,La Jacques-Cartier Regional County Municipality,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_531,As of Jul 27 2026,2022-07-30,2022-07-30,Quebec,La Jacques-Cartier Regional County Municipality,Turkey,Turkey - Breeder (multiplier),Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_532,As of Jul 27 2026,2022-09-30,2022-10-05,Quebec,St-Jacques le Mineur,Backyard Mixed Breed,"Exotic / Exhibition, Small holder / backyard",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_533,As of Jul 27 2026,2022-10-12,2022-10-06,Quebec,Roussillon,Backyard Mixed Breed,Small holder / backyard,Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_534,As of Jul 27 2026,2022-08-14,2022-10-14,Quebec,Drummond ,Backyard Mixed Breed,Small holder / backyard,Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_535,As of Jul 27 2026,2022-10-12,2022-10-16,Quebec,La Haute - Yamaska ,Chicken,"Chicken - Broiler, Chicken - Table-egg layer",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_536,As of Jul 27 2026,2022-10-13,2022-10-16,Quebec,La Haute - Yamaska ,"Chicken, Turkey","Turkey - Meat, Chicken - Broiler",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_537,As of Jul 27 2026,2022-10-21,2022-10-21,Quebec,L'Érable,Chicken,Chicken - Table-egg layer and pullet,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_538,As of Jul 27 2026,2022-10-27,2022-10-27,Quebec,Rouville Regional County Municipality,"Chicken, Turkey","Chicken - Broiler, Turkey - Meat",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_539,As of Jul 27 2026,2022-10-31,2022-10-31,Quebec,Rouville Regional County Municipality,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_540,As of Jul 27 2026,2022-10-30,2022-11-02,Quebec,Nouvelle-Beauce Regional County Municipality,Backyard Mixed Breed,Small holder / backyard,Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_541,As of Jul 27 2026,2022-11-04,2022-11-04,Quebec,Rouville Regional County Municipality,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_542,As of Jul 27 2026,2022-12-02,2022-12-06,Quebec,Drummond Regional County Municipality,"Chicken, Duck",Small holder / backyard,Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_543,As of Jul 27 2026,2023-01-28,2023-01-30,Quebec,Le Haut-Saint-Laurent Regional County Municipality,Duck,Duck - Meat,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_544,As of Jul 27 2026,2023-01-24,2023-01-30,Quebec,Beauharnois-Salaberry Regional County Municipality,Duck,Duck - Meat,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_545,As of Jul 27 2026,2023-01-30,2023-02-01,Quebec,Beauharnois-Salaberry Regional County Municipality,Duck,Duck - Meat,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_546,As of Jul 27 2026,2023-01-30,2023-02-01,Quebec,Le Haut-Saint-Laurent Regional County Municipality,Duck,Duck - Meat,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_547,As of Jul 27 2026,2023-01-30,2023-02-01,Quebec,Beauharnois-Salaberry regional county municipality,Duck,Duck - Meat,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_548,As of Jul 27 2026,2023-02-06,2023-02-06,Quebec,Beauharnois-Salaberry Regional County Municipality,Duck,Duck - Meat,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_549,As of Jul 27 2026,2023-02-06,2023-02-06,Quebec,Le Haut-Saint-Laurent Regional County Municipality ,Duck,Duck - Meat,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_550,As of Jul 27 2026,2023-02-09,2023-02-09,Quebec,Beauharnois-Salaberry Regional County Municipality,Duck,Duck - Meat,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_551,As of Jul 27 2026,2023-03-24,2023-03-26,Quebec,Rouville Regional County Municipality,Duck,Duck - Meat,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_552,As of Jul 27 2026,2023-04-02,2023-04-03,Quebec,Rouville Regional County Municipality,Chicken,"Chicken - Broiler breeder layer (hatching egg), Chicken - Broiler breeder pullet (hatching egg)",Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_553,As of Jul 27 2026,2023-04-02,2023-04-03,Quebec,Rouville Regional County Municipality,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_554,As of Jul 27 2026,2023-04-04,2023-04-04,Quebec,Rouville Regional County Municipality,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_555,As of Jul 27 2026,2023-04-08,2023-04-08,Quebec,Sherbrooke ,Chicken,Small holder / backyard,Poultry/Non-Commercial,Poultry,2023.0
+As of Jul 27 2026_556,As of Jul 27 2026,2023-04-11,2023-04-11,Quebec,Les Maskoutains Regional County Municipality,Duck,Duck - Egg,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_557,As of Jul 27 2026,2023-04-15,2023-04-15,Quebec,Les Maskoutains Regional County Municipality,Duck,Duck - Meat,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_558,As of Jul 27 2026,2023-04-17,2023-04-18,Quebec,Les Maskoutains Regional County Municipality,Duck,Duck - Meat,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_559,As of Jul 27 2026,2023-04-17,2023-04-18,Quebec,La Vallée-du-Richelieu Regional County Municipality,Duck,Duck - Meat,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_560,As of Jul 27 2026,2023-04-19,2023-04-19,Quebec,Les Maskoutains Regional County Municipality,"Duck, Turkey","Duck - Meat, Turkey - Meat",Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_561,As of Jul 27 2026,2023-04-19,2023-04-19,Quebec,Les Maskoutains Regional County Municipality,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_562,As of Jul 27 2026,2023-04-20,2023-04-21,Quebec,La Vallée-du-Richelieu Regional County Municipality,Duck,Duck - Meat,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_563,As of Jul 27 2026,2023-04-21,2023-04-21,Quebec,Les Maskoutains Regional County Municipality,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_564,As of Jul 27 2026,2023-04-21,2023-04-22,Quebec,Les Maskoutains Regional County Municipality,Chicken,"Chicken - Broiler breeder layer (hatching egg), Chicken - Broiler breeder pullet (hatching egg)",Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_565,As of Jul 27 2026,2023-04-26,2023-04-28,Quebec,Les Maskoutains Regional County Municipality ,Chicken,Chicken - Layer,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_566,As of Jul 27 2026,2023-05-05,2023-05-06,Quebec,Les Maskoutains Regional County Municipality ,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_567,As of Jul 27 2026,2023-10-23,2023-10-24,Quebec,Arthabaska Regional County,Duck,Duck - Meat,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_568,As of Jul 27 2026,2023-11-14,2023-11-14,Quebec,Rouville Regional County Municipality,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_569,As of Jul 27 2026,2023-11-18,2023-11-19,Quebec,Rouville Regional County Municipality,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_570,As of Jul 27 2026,2023-12-04,2023-12-04,Quebec,Les Maskoutains Regional County Municipality,"Chicken, Turkey","Chicken - Broiler, Turkey - Meat",Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_571,As of Jul 27 2026,2023-12-30,2024-01-02,Quebec,Papineau Regional County Municipality,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_572,As of Jul 27 2026,2024-02-08,2024-02-09,Quebec,Drummond Regional County Municipality,Duck,Duck - Egg,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_573,As of Jul 27 2026,2024-04-01,2024-04-10,Quebec,Haut-Saint-François Regional County Municipality,Chicken and Duck,"Small holder / backyard (Chicken - Broiler, Chicken - Table-egg layer, Duck - Pet)",Non-Poultry,Non-Poultry,2024.0
+As of Jul 27 2026_574,As of Jul 27 2026,2024-11-16,2024-11-14,Quebec,Les Maskoutains Regional County Municipality,Duck,Duck - Meat,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_575,As of Jul 27 2026,2024-11-17,2024-11-18,Quebec,La Vallée-du-Richelieu Regional County Municipality,Duck,Duck - Meat,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_576,As of Jul 27 2026,2024-11-19,2024-11-20,Quebec,Lotbinière Regional County Municipality,Duck,Duck - Meat,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_577,As of Jul 27 2026,2024-11-25,2024-11-26,Quebec,Les Maskoutains Regional County Municipality,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_578,As of Jul 27 2026,2025-01-27,2025-01-29,Quebec,Matawinie Regional County Municipality,"Chicken, Turkey","Chicken - Broiler, Turkey - Meat",Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_579,As of Jul 27 2026,2025-09-11,2025-09-14,Quebec,Brome-Missisquoi Regional County Municipality,"Duck, Turkey","Duck - Egg, Turkey - Breeder, Turkey - Meat",Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_580,As of Jul 27 2026,2025-09-29,2025-10-06,Quebec,D’Autray Regional County Municipality,"Chicken, Duck, Goose",Small holder / backyard mixed flock,Non-Poultry,Non-Poultry,2025.0
+As of Jul 27 2026_581,As of Jul 27 2026,2025-10-10,2025-10-11,Quebec,Matawinie Regional County Municipality,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_582,As of Jul 27 2026,2025-10-09,2025-10-14,Quebec,Charlevoix-Est Regional County Municipality,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_583,As of Jul 27 2026,2025-10-27,2025-10-29,Quebec,Rouville Regional County Municipality ,"Duck, Goose, Squab, Chicken, Peacock","Small holder / backyard (duck, goose, squab, chicken, peacock)",Non-Poultry,Non-Poultry,2025.0
+As of Jul 27 2026_584,As of Jul 27 2026,2025-10-23,2025-11-02,Quebec,Le Haut-Richelieu Regional County Municipality ,"Swan, peacock, crane, goose, duck, dove, partridge, hen",Mixed Breed,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_585,As of Jul 27 2026,2025-11-16,2025-11-17,Quebec,Municipalité régionale de comté de La Vallée-de-l'Or,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_586,As of Jul 27 2026,2025-12-10,2025-12-12,Quebec,La Haute-Yamaska Regional County Municipality,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_587,As of Jul 27 2026,2025-12-12,2025-12-23,Quebec,Pierre-De Saurel Regional County Municipality,"Swan, Peacock, Goose, Duck, Pheasant",Small holder / backyard,Non-Poultry,Non-Poultry,2025.0
+As of Jul 27 2026_588,As of Jul 27 2026,2026-01-08,2026-01-14,Quebec,Arthabaska Regional County Municipality ,"Pigeon, Duck, Quail, Chicken",Small holder / backyard,Poultry/Non-Commercial,Poultry,2026.0
+As of Jul 27 2026_589,As of Jul 27 2026,2026-01-08,2026-01-14,Quebec,Les-Jardins-de-Napierville Regional County Municipality,Backyard Mixed Breed,"Exotic / Exhibition, Small holder / backyard",Poultry/Commercial,Poultry,2026.0
+As of Jul 27 2026_590,As of Jul 27 2026,2022-04-12,2022-04-14,Saskatchewan,Rural Municipality of Moose Creek No. 63,"Chicken, Guinea fowl, Duck","Chicken - Broiler, Chicken - Table-egg layer",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_591,As of Jul 27 2026,2022-04-15,2022-04-16,Saskatchewan,Rural Municipality of Loreburn No. 254,Chicken,"Chicken - Broiler breeder pullet (hatching egg), Chicken - Table-egg pullet",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_592,As of Jul 27 2026,2022-04-19,2022-04-22,Saskatchewan,Rural Municipality of Loreburn No. 254,"Chicken, Duck",Small holder / backyard,Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_593,As of Jul 27 2026,2022-04-17,2022-04-23,Saskatchewan,Rural Municipality of Morse No. 165,"Chicken, Duck","Duck - Meat, Chicken - Table-egg layer, Chicken - Broiler",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_594,As of Jul 27 2026,2022-04-21,2022-04-24,Saskatchewan,Rural Municipality of Carmichael No. 109,"Chicken, Duck","Chicken - Table-egg layer, Duck - Meat, Goose - Meat",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_595,As of Jul 27 2026,2022-04-24,2022-04-25,Saskatchewan,Rural Municipality of Montrose No. 315,Chicken,"Chicken - Broiler breeder layer (hatching egg), Chicken - Broiler breeder pullet (hatching egg)",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_596,As of Jul 27 2026,2022-04-24,2022-04-25,Saskatchewan,Rural Municipality of Kingsley No. 124,"Chicken, Guinea fowl, Turkey",Small holder / backyard,Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_597,As of Jul 27 2026,2022-04-30,2022-05-02,Saskatchewan,Rural Municipality of Baildon No. 131,"Chicken, Duck","Duck - Meat, Chicken - Table-egg layer",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_598,As of Jul 27 2026,2022-05-01,2022-05-11,Saskatchewan,Rural Municipality of Aberdeen No. 373,"Chicken, Duck, Turkey",Small holder / backyard,Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_599,As of Jul 27 2026,2022-05-05,2022-05-11,Saskatchewan,Rural Municipality of Golden West No. 95,"Chicken, Guinea fowl, Duck, Turkey",Small holder / backyard,Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_600,As of Jul 27 2026,2022-05-10,2022-05-13,Saskatchewan,Rural Municipality of Moose Jaw No. 161,"Chicken, Turkey, Duck",Small holder / backyard,Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_601,As of Jul 27 2026,2022-05-09,2022-05-12,Saskatchewan,Rural Municipality of Cymri No. 36,Chicken,Small holder / backyard,Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_602,As of Jul 27 2026,2022-05-12,2022-05-20,Saskatchewan,Rural Municipality of Indian Head No. 156,Chicken,"Small holder / backyard (Chicken - Table-egg layer, Chicken - Broiler)",Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_603,As of Jul 27 2026,2022-09-08,2022-09-09,Saskatchewan,Rural Municipality of Laird No. 404,"Chicken, Turkey","Turkey - Meat, Chicken - Broiler, Chicken - Table-egg layer",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_604,As of Jul 27 2026,2022-09-11,2022-09-12,Saskatchewan,Rural Municipality of Cut Knife No. 439,"Chicken, Turkey","Turkey - Meat, Chicken - Table-egg layer, Goose - Meat",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_605,As of Jul 27 2026,2022-09-12,2022-09-16,Saskatchewan,Rural Municipality of Shellbrook No. 493,"Chicken, Turkey","Small holder / backyard (Chicken - Table-egg layer, Turkey - Meat)",Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_606,As of Jul 27 2026,2022-09-17,2022-09-19,Saskatchewan,Rural Municipality of Laird No. 404,Chicken,"Chicken - Broiler breeder layer (hatching egg), Chicken - Broiler breeder pullet (hatching egg)",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_607,As of Jul 27 2026,2022-09-20,2022-09-22,Saskatchewan,Rural Municipality of Britannia No. 502,"Chicken, Turkey","Turkey - Meat, Chicken - Broiler, Chicken - Table-egg layer",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_608,As of Jul 27 2026,2022-09-24,2022-09-27,Saskatchewan,Rural Municipality of Weyburn No. 67 ,"Chicken, Guinea fowl, Pheasant, Duck",Small holder / backyard,Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_609,As of Jul 27 2026,2022-09-20,2022-09-28,Saskatchewan,Rural Municipality of Spiritwood No. 496 ,"Chicken, Turkey","Small holder / backyard (Chicken - Table-egg layer, Chicken - Broiler)",Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_610,As of Jul 27 2026,2022-09-13,2022-09-23,Saskatchewan,Rural Municipality of Buckland No. 491,"Chicken, Guinea Fowl",Other,Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_611,As of Jul 27 2026,2022-09-28,2022-09-29,Saskatchewan,Rural Municipality of Redburn No. 130,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_612,As of Jul 27 2026,2022-10-04,2022-10-04,Saskatchewan,Rural Municipality of Lumsden No. 189 ,Chicken,"Chicken - Broiler breeder pullet (hatching egg), Chicken - Broiler breeder layer (hatching egg)",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_613,As of Jul 27 2026,2022-10-03,2022-10-04,Saskatchewan,Rural Municipality of Monet No. 257,"Chicken, Goose, Duck","Chicken - Table-egg layer, Goose - Egg, Duck - Egg",Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_614,As of Jul 27 2026,2022-10-07,2022-10-11,Saskatchewan,Rural Municipality of Hazel Dell No. 335,"Chicken, Duck","Small holder / backyard (Chicken - Table-egg layer, Other)",Non-Poultry,Non-Poultry,2022.0
+As of Jul 27 2026_615,As of Jul 27 2026,2022-10-08,2022-10-11,Saskatchewan,Rural Municipality of Fish Creek No. 402,Chicken,Small holder / backyard (Chicken - Table-egg layer),Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_616,As of Jul 27 2026,2022-10-18,2022-10-18,Saskatchewan,Rural Municipality of Hoodoo No. 401 ,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_617,As of Jul 27 2026,2022-10-14,2022-10-17,Saskatchewan,Rural Municipality of Beaver River No. 622,"Chicken, Turkey, Quail, Guinea fowl, Peafowl","Small holder / backyard (Chicken - Table-egg layer, Other)",Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_618,As of Jul 27 2026,2022-10-25,2022-10-27,Saskatchewan,Rural Municipality of Hoodoo No. 401 ,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_619,As of Jul 27 2026,2022-10-22,2022-10-27,Saskatchewan,Rural Municipality of Fertile Belt No. 183 ,"Chicken, Turkey, Duck, Goose","Small holder / backyard (Chicken - Table-egg layer, Turkey - Meat)",Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_620,As of Jul 27 2026,2022-11-04,2022-11-07,Saskatchewan,Rural Municipality of Francis No. 127,"Chicken, Guineafowl","Small holder / backyard (Chicken - Table-egg layer, Other)",Poultry/Non-Commercial,Poultry,2022.0
+As of Jul 27 2026_621,As of Jul 27 2026,2022-11-12,2022-11-14,Saskatchewan,Rural Municipality of Humboldt No. 370 ,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2022.0
+As of Jul 27 2026_622,As of Jul 27 2026,2023-09-19,2023-09-20,Saskatchewan,Rural Municipality of Maple Creek No. 111 ,"Chicken, Turkey","Chicken - Broiler, Turkey - Meat, Chicken - Table-egg layer",Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_623,As of Jul 27 2026,2023-10-29,2023-10-30,Saskatchewan,Rural Municipality of Laird No. 404,"Chicken, Turkey","Chicken - Table-egg layer, Chicken - Broiler, Turkey - Meat",Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_624,As of Jul 27 2026,2023-10-30,2023-10-31,Saskatchewan,Rural Municipality of Fertile Valley No. 285,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_625,As of Jul 27 2026,2023-10-31,2023-10-31,Saskatchewan,Rural Municipality of Huron No. 223,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_626,As of Jul 27 2026,2023-10-30,2023-10-30,Saskatchewan,Rural Municipality of Aberdeen No. 373,"Chicken, Goose, Duck","Chicken - Table-egg layer, Duck, Goose",Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_627,As of Jul 27 2026,2023-11-02,2023-11-04,Saskatchewan,Rural Municipality of Rosthern No. 403,"Chicken, Turkey","Chicken - Broiler, Turkey - Meat",Poultry/Commercial,Poultry,2023.0
+As of Jul 27 2026_628,As of Jul 27 2026,2023-11-04,2023-11-10,Saskatchewan,Rural Municipality of Prince Albert No 461,Chicken,Small holder / backyard (Chicken - Table-egg layer),Non-Poultry,Non-Poultry,2023.0
+As of Jul 27 2026_629,As of Jul 27 2026,2023-11-04,2023-11-09,Saskatchewan,Rural Municipality of Bayne No. 371,"Chicken, Pheasant, Peacock","Small holder / backyard (Chicken - Table-egg layer, Pheasant, Peacock)",Poultry/Non-Commercial,Poultry,2023.0
+As of Jul 27 2026_630,As of Jul 27 2026,2023-11-10,2023-11-15,Saskatchewan,Rural Municipality of Meadow Lake No. 588,Chicken,Small holder / backyard (Chicken - Table-egg layer),Poultry/Non-Commercial,Poultry,2023.0
+As of Jul 27 2026_631,As of Jul 27 2026,2023-10-30,2023-11-15,Saskatchewan,Rural Municipality of Willow Bunch No. 42,"Chicken, Duck","Small holder / backyard (Chicken - Table-egg layer, Duck)",Non-Poultry,Non-Poultry,2023.0
+As of Jul 27 2026_632,As of Jul 27 2026,2023-11-15,2023-11-16,Saskatchewan,Rural Municipality of Meadow Lake No. 588,"Chicken, Duck","Small holder / backyard (Chicken - Table-egg layer, Rooster, Duck - layer)",Non-Poultry,Non-Poultry,2023.0
+As of Jul 27 2026_633,As of Jul 27 2026,2024-01-10,2024-01-12,Saskatchewan,Rural Municipality of Leask No. 464,"Chicken, Guinea fowl","Small holder / backyard (Chicken - Table-egg layer, Guinea fowl)",Poultry/Non-Commercial,Poultry,2024.0
+As of Jul 27 2026_634,As of Jul 27 2026,2024-10-24,2024-10-25,Saskatchewan,Rural Municipality of Willner No. 253,Chicken,Chicken - Broiler Breeder,Poultry/Commercial,Poultry,2024.0
+As of Jul 27 2026_635,As of Jul 27 2026,2024-11-20,2024-12-12,Saskatchewan,Rural Municipality of Round Hill No. 467,Chicken,Small holder / backyard (Chicken - Table-egg layer),Non-Poultry,Non-Poultry,2024.0
+As of Jul 27 2026_636,As of Jul 27 2026,2025-04-21,2025-04-23,Saskatchewan,Rural municipality of Indian Head No. 156,Chicken,Small holder / backyard (Chicken - Table-egg layer),Poultry/Non-Commercial,Poultry,2025.0
+As of Jul 27 2026_637,As of Jul 27 2026,2025-04-28,2025-05-01,Saskatchewan,Rural municipality of Colonsay No. 342,"Duck, Chicken",Small holder / backyard mixed flock,Poultry/Non-Commercial,Poultry,2025.0
+As of Jul 27 2026_638,As of Jul 27 2026,2025-04-27,2025-05-02,Saskatchewan,Rural municipality of Lipton No. 217,Chicken,Small holder / backyard,Non-Poultry,Non-Poultry,2025.0
+As of Jul 27 2026_639,As of Jul 27 2026,2025-09-30,2025-10-01,Saskatchewan,Rural Municipality of Humboldt No. 370 ,Chicken,Chicken - Table-egg layer,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_640,As of Jul 27 2026,2025-10-07,2025-10-10,Saskatchewan,Rural municipality of Invergordon No. 430,"Chicken, Turkey, Guinea","Small holder / backyard (Chickens, Turkeys, Guinea)",Non-Poultry,Non-Poultry,2025.0
+As of Jul 27 2026_641,As of Jul 27 2026,2025-10-15,2025-10-15,Saskatchewan,Rural municipality of Bayne No. 371,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_642,As of Jul 27 2026,2025-10-22,2025-10-23,Saskatchewan,Rural municipality of Laird No. 404,"Chicken, Turkey","Turkey - Meat, Chicken - Table-egg layer",Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_643,As of Jul 27 2026,2025-10-24,2025-10-25,Saskatchewan,Rural Municipality of Hoodoo No. 401,Turkey,Turkey - Meat,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_644,As of Jul 27 2026,2025-10-27,2025-10-29,Saskatchewan,Municipal district of Preeceville No. 334,Chicken,Small holder / backyard (Chicken - Table-egg layer),Non-Poultry,Non-Poultry,2025.0
+As of Jul 27 2026_645,As of Jul 27 2026,2025-11-11,2025-11-12,Saskatchewan,Rural municipality of Corman Park No. 344,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_646,As of Jul 27 2026,2025-11-09,2025-11-12,Saskatchewan,Rural municipality of Fish Creek No. 402,Chicken,Small holder / backyard (Chicken - Table-egg layer),Poultry/Non-Commercial,Poultry,2025.0
+As of Jul 27 2026_647,As of Jul 27 2026,2025-10-14,2025-11-10,Saskatchewan,Rural municipality of Ituna Bon Accord No. 246,"Chicken, Guinea",Small holder / backyard,Non-Poultry,Non-Poultry,2025.0
+As of Jul 27 2026_648,As of Jul 27 2026,2025-11-30,2025-12-02,Saskatchewan,Rural Municipality of Vanscoy No. 345,Chicken,Chicken - Broiler,Poultry/Commercial,Poultry,2025.0
+As of Jul 27 2026_649,As of Jul 27 2026,2025-11-19,2025-12-12,Saskatchewan,Rural Municipality of Barrier Valley No.397,"Chicken, Duck, Guinea fowl, Peacock",Small holder / backyard,Poultry/Non-Commercial,Poultry,2025.0
+As of Jul 27 2026_650,As of Jul 27 2026,2026-04-09,2026-04-13,Saskatchewan,Rural Municipality of Monet No. 257,"Chicken, Duck","Chicken - Table-egg layer, Chicken - Broiler, Duck - Egg",Poultry/Commercial,Poultry,2026.0
+As of Jul 27 2026_651,As of Jul 27 2026,2026-04-08,2026-04-09,Saskatchewan,Rural Municipality of Stonehenge No. 73,Chicken,Small holder / backyard,Poultry/Non-Commercial,Poultry,2026.0
+As of Jul 27 2026_652,As of Jul 27 2026,2026-04-15,2026-04-16,Saskatchewan,Rural Municipality of Buffalo No. 409,"Turkey, Chicken","Turkey - Meat, Chicken - Table-egg layer",Poultry/Commercial,Poultry,2026.0
+As of Jul 27 2026_653,As of Jul 27 2026,2026-04-22,2026-04-24,Saskatchewan,Rural Municipality of Blucher No. 343,Chicken,Small holder / backyard (Chicken - Table-egg layer),Poultry/Non-Commercial,Poultry,2026.0
+As of Jul 27 2026_654,As of Jul 27 2026,2026-04-26,2026-04-29,Saskatchewan,Rural Municipality of Lakeview No. 337,Pheasant,Small holder / backyard,Poultry/Non-Commercial,Poultry,2026.0
+As of Jul 27 2026_655,As of Jul 27 2026,2026-05-04,2026-05-07,Saskatchewan,Rural municipality of Caledonia No. 099,Chicken,Small holder / backyard (Table-egg layer),Poultry/Non-Commercial,Poultry,2026.0
+As of Jul 27 2026_656,As of Jul 27 2026,2026-05-13,2026-05-14,Saskatchewan,Rural Municipality of Usborne No. 310,Chicken,Small holder / backyard (Table-egg layer),Non-Poultry,Non-Poultry,2026.0
+Dictionary_2,Dictionary,,,,,,,,Outbreak (Infected Premises),
+Dictionary_3,Dictionary,,,,,,,,WOAH Event and Outbreak Reference,
+Dictionary_4,Dictionary,,,,,,,,WOAH poultry definition,
+Dictionary_5,Dictionary,,,,,,,,Approx Latitude and Longitude,
+Dictionary_6,Dictionary,,,,,,,,Location name,
+Dictionary_7,Dictionary,,,,,,,,Species and production type,
+Dictionary_8,Dictionary,,,,,,,,Commercial,
+Dictionary_9,Dictionary,,,,,,,,Susceptible birds on site,
+Dictionary_10,Dictionary,,,,,,,,Number of Dead birds,
+Dictionary_11,Dictionary,,,,,,,,Number of Cases ,
+Dictionary_12,Dictionary,,,,,,,,Number of Bird destroyed,
+Dictionary_13,Dictionary,,,,,,,,Date of first clinical signs,
+Dictionary_14,Dictionary,,,,,,,,CFIA Notification date,
+Dictionary_15,Dictionary,,,,,,,,Depopulation Date Milestone,
+Dictionary_16,Dictionary,,,,,,,,Disposal date Milestone,
+Dictionary_17,Dictionary,,,,,,,,Primary decontamination Milestone,
+Dictionary_18,Dictionary,,,,,,,,Control zones,
+Dictionary_19,Dictionary,,,,,,,,Cleaning & Disinfection completion,
+Dictionary_20,Dictionary,,,,,,,,Date of Restriction Removal on Infected Premises,
+Dictionary_21,Dictionary,,,,,,,,"Clade, Lineage and Cluster",

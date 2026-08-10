@@ -1,0 +1,2 @@
+model,pr_auc,roc_auc,precision_50,recall_50,precision_100,recall_100,precision_200,recall_200,feature_count
+LogisticRegression (Strict Env + Lag 50-feat),0.06536855532973877,0.915754323440922,0.1,0.06329113924050633,0.07,0.08860759493670886,0.065,0.16455696202531644,50

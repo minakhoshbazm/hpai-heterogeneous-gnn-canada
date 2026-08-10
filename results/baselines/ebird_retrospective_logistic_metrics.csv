@@ -1,0 +1,2 @@
+model,pr_auc,roc_auc,precision_50,recall_50,precision_100,recall_100,precision_200,recall_200
+retrospective eBird sensitivity LogisticRegression,0.060773372898295916,0.9006807374446636,0.1,0.06329113924050633,0.09,0.11392405063291139,0.055,0.13924050632911392

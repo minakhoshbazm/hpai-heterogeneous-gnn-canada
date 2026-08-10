@@ -1,0 +1,4 @@
+model,pr_auc,roc_auc,precision_at_50,recall_at_50
+Wild-Bird Logistic Regression,0.06697046775995433,0.9167094763987838,0.08,0.050632913
+Corrected Wild-Bird kNN-3 GraphSAGE (No Pretraining),0.059137862068021005,0.9280610668572868,0.16,0.101265825
+Wild-Bird kNN-3 GraphSAGE (With Pretraining),0.05134570950017252,0.9330588038128593,0.16,0.101265825

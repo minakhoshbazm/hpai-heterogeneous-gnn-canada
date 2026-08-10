@@ -1,0 +1,4 @@
+Paired Comparison,Observed AP Diff,95% Confidence Interval,Bootstrap Win Rate,Statistical Decision
+Graph-Augmented LightGBM vs Tabular-Only LightGBM,0.000304,"[+0.0001, +0.0007]",99.9%,Statistically Superior (CI > 0)
+Graph-Augmented LightGBM vs Shuffled-Edge LightGBM,0.000246,"[+0.0000, +0.0005]",98.8%,Statistically Superior (CI > 0)
+Graph-Augmented LightGBM vs Self-Loop LightGBM,0.000314,"[+0.0001, +0.0006]",100.0%,Statistically Superior (CI > 0)

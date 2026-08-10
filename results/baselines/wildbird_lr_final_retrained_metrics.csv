@@ -1,0 +1,2 @@
+model,pr_auc,roc_auc,precision_at_50,recall_at_50,precision_at_100,recall_at_100,precision_at_200,recall_at_200
+Final Retrained Wild-Bird Logistic Regression,0.06788645437798914,0.9124515326568141,0.1,0.06329113924050633,0.08,0.10126582278481013,0.065,0.16455696202531644

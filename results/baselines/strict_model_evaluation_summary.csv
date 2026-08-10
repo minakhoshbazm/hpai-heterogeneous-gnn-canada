@@ -1,0 +1,5 @@
+model_name,feature_count,pr_auc,roc_auc,precision_50,recall_50,precision_100,recall_100,precision_200,recall_200,notes
+Strict Env + Lag Logistic Regression,50,0.0653685553297387,0.915754323440922,0.1,0.0632911392405063,0.07,0.0886075949367088,0.065,0.1645569620253164,Primary National Benchmark (Best overall valid PR-AUC)
+Strict Early-Stopping GraphSAGE (Mean),50,0.0541339614692674,0.9091656149495462,0.1333333333333333,0.0843881856540084,0.0933333333333333,0.1181434599156118,0.0783333333333333,0.1983122362869198,Secondary model (Multiseed Mean +/- Std: PR-AUC 0.0541 +/- 0.0020)
+Strict Environment-Only Logistic Regression,43,0.0457191385449859,0.9004094001279161,0.06,0.0379746835443038,0.04,0.050632911392405,0.035,0.0886075949367088,Baseline environment model without outbreak history (43 verified features)
+Time-Persistence Baseline,0,0.0404832579805899,0.7311169178816992,0.2,0.1265822784810126,0.1,0.1265822784810126,0.075,0.189873417721519,"Strong top-50 precision (0.20), lower overall PR-AUC ranking"

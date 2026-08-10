@@ -1,0 +1,2 @@
+model_name,val_pr_auc_seed_11,val_pr_auc_seed_22,val_pr_auc_seed_33,mean_val_pr_auc,std_val_pr_auc,optimal_epochs
+Biologically Informed Relational GNN (RGCN),0.26042587280077845,0.26852666266541775,0.2514929495240725,0.26014849499675624,0.006956749704664903,7
