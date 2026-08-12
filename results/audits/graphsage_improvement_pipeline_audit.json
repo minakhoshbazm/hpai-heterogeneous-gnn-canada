@@ -1,0 +1,169 @@
+{
+  "dataset": "data\\processed\\modeling\\model_table_v1_environment_with_lags_wildbird.csv",
+  "dataset_sha256": "1aa259c8fdd20ac3ee1cf0395c62afcab22433392a84e23636fdaa747b9ab8fe",
+  "graph": "data\\processed\\graph\\csd_graph_knn_3_v1.csv",
+  "graph_sha256": "d3c94eec949f95928aa2205fe096bcaef656c862abf8587004e578e7db48fca0",
+  "rows": 237538,
+  "columns": 76,
+  "numeric_feature_count": 62,
+  "numeric_feature_names": [
+    "dw_water_mean",
+    "dw_water_p95",
+    "dw_flooded_vegetation_mean",
+    "dw_crops_mean",
+    "dw_grass_mean",
+    "dw_trees_mean",
+    "dw_built_mean",
+    "dw_bare_mean",
+    "dw_seasonal_pond_proxy",
+    "dw_image_count",
+    "dw_missing_flag",
+    "dw_missing_flag_original",
+    "dw_missing_flag_final",
+    "climate_tmean_c",
+    "climate_tmin_c",
+    "climate_tmax_c",
+    "climate_precip_mm",
+    "climate_missing_flag",
+    "climate_fallback_distance_km",
+    "ccs_broilers_roasters_cornish_production_kg",
+    "ccs_broilers_roasters_cornish_farms_reporting",
+    "ccs_turkey_production_kg",
+    "ccs_turkey_farms_reporting",
+    "glw2020_chicken_density_mean",
+    "glw2020_chicken_density_max",
+    "glw2020_chicken_density_p95",
+    "glw2015_duck_density_mean",
+    "glw2015_duck_density_max",
+    "glw2015_duck_density_p95",
+    "csd_area_km2",
+    "all_road_length_km",
+    "all_road_density_km_per_km2",
+    "major_road_length_km",
+    "major_road_density_km_per_km2",
+    "highway_length_km",
+    "highway_density_km_per_km2",
+    "distance_to_nearest_major_road_km",
+    "distance_to_nearest_highway_km",
+    "major_road_proportion",
+    "highway_proportion",
+    "glw2020_chicken_valid_pixel_count",
+    "glw2015_duck_valid_pixel_count",
+    "outbreak_current_month",
+    "same_csd_outbreak_current_month",
+    "same_csd_outbreak_prev_1_month",
+    "same_csd_outbreak_count_past_3_months",
+    "same_csd_outbreak_count_past_6_months",
+    "same_csd_outbreak_count_past_12_months",
+    "province_outbreak_count_current_month",
+    "province_outbreak_count_past_3_months",
+    "wildbird_hpai_count_ccs_current_month",
+    "wildbird_hpai_count_ccs_prev_1_month",
+    "wildbird_hpai_count_ccs_past_3_months",
+    "wildbird_hpai_count_ccs_past_6_months",
+    "wildbird_hpai_present_ccs_current_month",
+    "wildbird_hpai_present_ccs_prev_1_month",
+    "wildbird_hpai_waterfowl_count_ccs_current_month",
+    "wildbird_hpai_waterfowl_count_ccs_past_3_months",
+    "wildbird_hpai_raptor_count_ccs_current_month",
+    "wildbird_hpai_raptor_count_ccs_past_3_months",
+    "wildbird_hpai_goose_count_ccs_current_month",
+    "wildbird_hpai_duck_count_ccs_current_month"
+  ],
+  "suspicious_feature_names": [],
+  "target": "outbreak_next_month",
+  "split_policy": {
+    "train": {
+      "years": [
+        2022,
+        2023
+      ]
+    },
+    "validation": {
+      "years": [
+        2024
+      ]
+    },
+    "locked_test": {
+      "years": [
+        2025
+      ]
+    }
+  },
+  "split_counts": {
+    "train": {
+      "rows": 121296,
+      "csds": 5054,
+      "positives": 262,
+      "negatives": 121034,
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "validation": {
+      "rows": 60648,
+      "csds": 5054,
+      "positives": 40,
+      "negatives": 60608,
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "locked_test": {
+      "rows": 55594,
+      "csds": 5054,
+      "positives": 79,
+      "negatives": 55515,
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    }
+  },
+  "graph_edges": 9655,
+  "graph_source_columns": [
+    "source_csd_uid",
+    "target_csd_uid"
+  ],
+  "baseline_reference_files": [
+    "results/baselines/graphsage_v1_early_stopping_strict_multiseed_metrics.csv",
+    "results/baselines/graphsage_v1_early_stopping_strict_test_predictions.csv"
+  ],
+  "audit_status": "PASS_WITH_REVIEW",
+  "notes": [
+    "This audit does not use 2025 labels for fitting or model selection.",
+    "Verify scaler fitting and exact baseline hyperparameters from the training script before Group A.",
+    "Do not start Groups B-I until suspicious features and baseline artifact lineage are reviewed."
+  ]
+}

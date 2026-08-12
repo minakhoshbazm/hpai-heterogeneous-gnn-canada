@@ -1,0 +1,9 @@
+{
+  "seed_mean_test_pr_auc": 0.07120395027394884,
+  "seed_sd_test_pr_auc": 0.006867123797243026,
+  "ensemble_test_pr_auc": 0.07461918190958629,
+  "ensemble_test_roc_auc": 0.9144384514619723,
+  "ensemble_test_macro_precision_at_10": 0.06363636363636363,
+  "ensemble_test_macro_recall_at_50": 0.1960079261514668,
+  "ensemble_test_brier_score": 0.06316973561171305
+}
