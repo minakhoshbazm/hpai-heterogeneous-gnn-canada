@@ -1,39 +1,107 @@
-# HPAI Heterogeneous GNN Canada
+# Spatial Graph Learning for Predicting Avian Influenza Outbreak Risk in Canadian Poultry
 
-A Heterogeneous Spatiotemporal Graph Neural Network Integrating Wild Bird Migrations for Avian Influenza Risk in Canada.
+This repository provides the official source code for **Spatial Graph Learning for Predicting Avian Influenza Outbreak Risk in Canadian Poultry**.
 
-This repository implements a machine learning pipeline using heterogeneous spatiotemporal graph neural networks to predict one-month-ahead Highly Pathogenic Avian Influenza (HPAI) poultry outbreak risk across Canadian regions.
+The framework implements a spatiotemporal Graph Neural Network based on **GraphSAGE** to forecast one-month-ahead poultry Highly Pathogenic Avian Influenza (HPAI) outbreak risk across 5,054 Canadian Census Subdivisions (CSDs). The pipeline incorporates 62 standardized predictors spanning domestic poultry host demographics, satellite-derived land cover and surface hydrology, meteorological reanalysis, road transportation infrastructure, and wild-bird H5N1 biosurveillance.
 
-## Project Overview
+---
 
-* **Goal:** Build an automated, reproducible ML pipeline for poultry HPAI outbreak prediction in Canada.
-* **Target:** Binary prediction: Will at least one poultry HPAI outbreak occur in region $r$ during month $t+1$, using only data available up to month $t$?
-* **Spatial Resolution:** Canadian Census Divisions (CD) or Census Agricultural Regions (CAR) as the primary unit, with provinces as a fallback.
-* **Temporal Resolution:** Monthly prediction steps.
+## Repository Structure
 
-## Graph Concept
+```text
+├── src/
+│   └── hpai_gnn/
+│       ├── data/          # Feature engineering, boundary processing, and dataset assembly
+│       ├── models/        # GraphSAGE architectures, GNN variants, and tabular baselines
+│       ├── graph/         # Spatial proximity graph construction (kNN-3, contiguity, radius)
+│       ├── training/      # Training loops, loss functions, and optimization routines
+│       └── evaluation/    # Metric computation (AP, ROC-AUC, PR curves, Brier score)
+├── scripts/               # Model execution, evaluation benchmarks, and figure generation
+│   ├── run_graphsage_stage2_pipeline.py  # Primary GraphSAGE training pipeline
+│   ├── evaluate_table3_1to5.py           # Controlled 1:5 pseudo-absence test benchmark
+│   ├── run_stage5_bootstrap.py           # 1,000-iteration bootstrap confidence intervals
+│   ├── train_eval_flyway_dynamic_graphsage.py # Seasonal flyway dynamic graph ablation
+│   └── plot_*.py                         # Reproduction scripts for all manuscript figures
+├── configs/               # Hyperparameter and environment configurations
+├── pyproject.toml         # Package setup and build specification
+├── requirements.txt       # Core Python dependencies
+├── LICENSE                # MIT License
+└── README.md
+```
 
-The model leverages a staged multi-layer heterogeneous spatiotemporal graph containing several layers:
-1. **Region Layer:** Spatial nodes (Census Divisions/CARs) representing geographic units. Features include land cover, environmental anomalies, and road density.
-2. **Species Layer:** Nodes representing key migratory waterfowl and avian influenza reservoir species (e.g., Mallard, Canada Goose).
-3. **Region-Species Edges:** Captures species abundance and migration intensity per region per month.
-4. **Transport Layer:** Road networks integrated via node features or region-region spatial connectivity edges.
+---
 
-## Staged Roadmap
+## Methodology & Architecture
 
-* **Stage 1 (Tabular Baselines):** Logistic Regression, Random Forest, XGBoost/LightGBM.
-* **Stage 2 (Spatial Graph Baselines):** Homogeneous region GNNs (GCN, GraphSAGE, GAT).
-* **Stage 3 (Heterogeneous Graph):** Region-species bipartite graphs using R-GCN, HeteroGraphSAGE, or HeteroGAT.
-* **Stage 4 (Temporal Model):** Combining heterogeneous spatial embeddings with GRU/LSTM/Attention encoders.
-* **Stage 5 (Advanced Model):** Heterogeneous Graph Transformers, multi-task learning (predicting both poultry outbreaks and wild bird detections), and transfer learning.
+1. **Spatial Proximity Graph:** Connects 5,054 Canadian CSD centroids using a symmetrized $k$-nearest neighbors ($k\text{NN}-3$) formulation under geodesic distances (9,655 undirected edges; mean degree 3.82, maximum degree 8), guaranteeing continuous nationwide connectivity across island and coastal agricultural regions.
+2. **Spatiotemporal Feature Manifest:** 62 standardized features across 7 functional domains:
+   * Host poultry demographics (12 features)
+   * Land cover & surface hydrology (13 features; Dynamic World 10-m)
+   * Weather & climate conditions (6 features; ERA5-Land reanalysis)
+   * Road transportation infrastructure (10 features; National Road Network)
+   * Geographic extent & urbanization (2 features)
+   * Historical poultry outbreak lags (7 features; CFIA declarations)
+   * Wild-bird HPAI biosurveillance (12 features; CWHC detections)
+3. **Prospective Forward-Time Evaluation:**
+   * **Development/Training:** January 2022 – December 2023 (121,296 CSD-months)
+   * **Prospective Validation:** January 2024 – December 2024 (60,648 CSD-months)
+   * **Locked Prospective Test Benchmark:** January 2025 – November 2025 (55,594 CSD-months; evaluated over 50 Monte Carlo resamples at 1:5 case-to-pseudo-absence ratio)
 
-## Workflow
+---
 
-* **Local Machine:** Planning, lightweight preprocessing, package management, and running local smoke tests.
-* **Google Earth Engine (GEE):** Scale extraction of dynamic environmental covariates (NDVI, NDWI, Dynamic World land cover, surface water).
-* **Compute Canada (Alliance Canada):** GPU cluster environment for large-scale data ingestion, heterogeneous graph construction, hyperparameter optimization, and temporal GNN model training.
+## Installation
 
-## Current Project Status
+### Prerequisites
+* Python $\ge$ 3.10
+* PyTorch $\ge$ 2.0
+* PyTorch Geometric (PyG) $\ge$ 2.3
 
-> [!NOTE]
-> This project is currently in the **Scaffold & Configuration** phase. All package directories, configuration templates, basic cluster Slurm templates, and documentation are set up. No real-world datasets have been downloaded, and no model training has started yet.
+### Environment Setup
+
+```bash
+# Clone repository
+git clone https://github.com/minakhoshbazm/hpai-heterogeneous-gnn-canada.git
+cd hpai-heterogeneous-gnn-canada
+
+# Create and activate virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: .\venv\Scripts\Activate.ps1
+
+# Install package and dependencies
+pip install -r requirements.txt
+pip install -e .
+```
+
+---
+
+## Quickstart & Replication
+
+### 1. Train Primary GraphSAGE Model
+Train the canonical 2-layer GraphSAGE architecture with mean neighborhood aggregation and unweighted cross-entropy loss:
+```bash
+python scripts/run_graphsage_stage2_pipeline.py
+```
+
+### 2. Benchmark Against Baselines
+Evaluate GraphSAGE against matched MLP, Random Forest, XGBoost, and Logistic Regression on the locked prospective test set:
+```bash
+python scripts/evaluate_table3_1to5.py
+```
+
+### 3. Run Bootstrap Resampling & Significance Tests
+Compute non-parametric 1,000-iteration bootstrap distributions and confidence intervals:
+```bash
+python scripts/run_stage5_bootstrap.py
+```
+
+### 4. Generate Publication Figures
+Generate vector figures reproducing the manuscript results:
+```bash
+python scripts/generate_all_flawless_paper_figures.py
+```
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
