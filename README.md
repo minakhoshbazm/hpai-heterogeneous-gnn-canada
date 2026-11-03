@@ -94,11 +94,6 @@ Compute non-parametric 1,000-iteration bootstrap distributions and confidence in
 python scripts/run_stage5_bootstrap.py
 ```
 
-### 4. Generate Publication Figures
-Generate vector figures reproducing the manuscript results:
-```bash
-python scripts/generate_all_flawless_paper_figures.py
-```
 
 ---
 
