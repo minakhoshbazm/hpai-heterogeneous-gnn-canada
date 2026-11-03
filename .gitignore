@@ -81,3 +81,44 @@ configs/local_override.yaml
 # Added for repository hygiene
 scratch/
 inspect_poultry.py
+
+
+# Manuscript, LaTeX, and Document artifacts
+*.pdf
+results/manuscript*/
+results/final_manuscript/
+results/manuscript_latex/
+results/manuscript_draft/
+results/evaluation_audit/
+results/model_risk_maps/
+results/graphsage_stage*/
+results/*.tex
+*.review/
+AUTOMATED_MANUSCRIPT_REVIEW*
+MANUSCRIPT_REVIEW_CONTROL.md
+manuscript-brainstormer.md
+diff_rev.txt
+journal_comparison_table.html
+page*.txt
+test_*.png
+test_*.py
+test_*.png
+run_codex_step.py
+run_manuscript_review*.py
+run_reviewer*.py
+
+# Text-editing and patch scripts
+scripts/patch_*.py
+scripts/revise_*.py
+scripts/update_*.py
+scripts/clean_bib.py
+scripts/audit_abbreviations.py
+scripts/audit_claims.py
+scripts/fix_remaining_abbrevs.py
+scripts/move_spatial_graph_into_proposed.py
+scripts/standardize_supplementary_references.py
+scripts/apply_presubmission_cleanup.py
+scripts/apply_text_revisions_manuscript_elsevier.py
+scripts/compact_s1_layout.py
+scripts/test_geo.py
+scripts/test_simplify.py
